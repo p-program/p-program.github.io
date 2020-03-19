@@ -9,164 +9,100 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-19T08:31:22Z</updated>
+  <updated>2020-03-19T16:00:44Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
   <entry>
-    <title>Markdown Syntax Guide</title>
+    <title>Superhero in China🇨🇳</title>
     <author>
       <name></name>
       <uri></uri>
     </author>
-    <id>https://p-program.github.io/markdown-syntax/</id>
-    <updated>2019-03-11T00:00:00Z</updated>
-    <published>2019-03-11T00:00:00Z</published>
-    <content type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-&lt;h2&gt;Headings&lt;/h2&gt;
-&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
-&lt;h1&gt;H1&lt;/h1&gt;
-&lt;h2&gt;H2&lt;/h2&gt;
-&lt;h3&gt;H3&lt;/h3&gt;
-&lt;h4&gt;H4&lt;/h4&gt;
-&lt;h5&gt;H5&lt;/h5&gt;
-&lt;h6&gt;H6&lt;/h6&gt;
-&lt;h2&gt;Paragraph&lt;/h2&gt;
-&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
-
-
-&lt;figure&gt;
-&lt;img
-class=&#34;mb-2 leading-none shadow-xl&#34;
-src=&#34;/image/&#34;
-alt=&#34;Markdown Syntax Guide&#34;&gt;
-&lt;figcaption class=&#34;text-sm text-right text-raven-500&#34;&gt;
-&lt;p&gt;Markdown Syntax Guide &lt;a href=&#34;http://www.example.com/&#34;&gt;Markdown&lt;/a&gt;&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
-&lt;h2&gt;Blockquotes&lt;/h2&gt;
-&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
-&lt;h4&gt;Blockquote without attribution&lt;/h4&gt;
+    <id>https://p-program.github.io/fengqingyang/</id>
+    <updated>2020-03-19T15:50:20Z</updated>
+    <published>2020-03-19T15:50:20Z</published>
+    <content type="html">&lt;p&gt;Hello,everyone,I am Zeusro who was born and live in China. This is my fist post in Hacker News.&lt;/p&gt;
+&lt;p&gt;I have a question for you guys:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;p&gt;What we talk about when we talk about Superheroes ?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;p&gt;You might ask me back:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Don&#39;t communicate by sharing memory, share memory by communicating.&lt;/p&gt;
-— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;What a silly question! Have you not heard about Marvel Universe ?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;Tables&lt;/h2&gt;
-&lt;p&gt;Tables aren&#39;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th&gt;Age&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Bob&lt;/td&gt;
-&lt;td&gt;27&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Alice&lt;/td&gt;
-&lt;td&gt;23&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h4&gt;Inline Markdown within tables&lt;/h4&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Inline   &lt;/th&gt;
-&lt;th&gt;Markdown   &lt;/th&gt;
-&lt;th&gt;In   &lt;/th&gt;
-&lt;th&gt;Table&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;~~strikethrough~~   &lt;/td&gt;
-&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Code Blocks&lt;/h2&gt;
-&lt;h4&gt;Code block with backticks&lt;/h4&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
+&lt;p&gt;Well, I watched the whole &lt;The Avengers&gt; , and I felt so sad when seeing Tony died.&lt;/p&gt;
+&lt;p&gt;But you know,Tony wasn&#39;t born in China.He is an American superhero, not Chinese superhero.&lt;/p&gt;
+&lt;p&gt;So, let me introduce one of our Chinese superheroes —— 风清扬.&lt;/p&gt;
+&lt;p&gt;Before that, I have to say that 李小龙(Bruce Jun Fan Lee) is not a superhero. He was just a  person who fights better than normal Chinese people. I respect him from my heart.&lt;/p&gt;
+&lt;p&gt;Superheroes should be a special symbol which do not exist in this real world.But their legend inspire us to fight against this world.&lt;/p&gt;
+&lt;p&gt;风清扬 (FengQingYang) only shows up in the chapter 10 of a Chinese novel named &amp;lt;笑傲江湖&amp;gt;（The Smiling, Proud Wanderer）. It was written by Louis 金庸（Cha Leung-yung）. He is someone like Stan Lee for some Chinese people.&lt;/p&gt;
+&lt;p&gt;I would try to make some simple translation, with some live codes and imagination, to show you who 风清扬 is.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大丈夫行事，爱怎样便怎，行云流水，任意所至，甚么武林规矩，门派教条，全都是放他妈的狗臭屁!&lt;/p&gt;
+&lt;p&gt;Big man do what they want,go where they want to go.All guidelines are bullshit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#include &amp;lt;stdio.h&amp;gt;
+
+void func1 () {
+	func2();
+}
+
+void func2 () {
+	printf(&amp;quot;hello&amp;quot;);
+}
+
+int main() {
+	func1();
+	return 0;
+}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h4&gt;Code block indented with four spaces&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
+&lt;blockquote&gt;
+&lt;p&gt;单以武学而论，这些魔教长老们也不能说真正已窥上乘武学之门。他们不懂 得，招数是死的，发招之人却是活的。死招数破 得再妙，遇上了活招数，免不了缚手缚脚，只有 任人屠戮。这个‘活’字，你要牢牢记住了。学招 时要活学，使招时要活使。倘若拘泥不化，便练 熟了几千万手绝招，遇上了真正高手，终究还是 给人家破得干干净净。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;五岳剑派中各有无数蠢才，以为将师父传下来的剑招学得精熟，自然而然便成 高手，哼哼，熟读唐诗三百首，不会作诗也会吟!熟读了人家诗句，做几首打油诗是可以的， 但若不能自出机抒，能成大诗人么?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;These people who call themselves best engineers in this world. They sell you design patterns，Autopilot, OOP,Java-Coding-Guidelines, AI, machine learning. But they are not actually the best players in this world.They do not realize the code is dead，but we are alive. So when they face new problems，they actually do not know what to do. If you get stuck in the dead concept, you will never become a truth hacker. (&lt;strong&gt;warning: I do not translate as the book says&lt;/strong&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#define TRUE FALSE
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h4&gt;Code block with Hugo&#39;s internal highlight shortcode&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ printf &amp;#34;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=\&amp;#34;1.0\&amp;#34; encoding=\&amp;#34;utf-8\&amp;#34; standalone=\&amp;#34;yes\&amp;#34;?&amp;gt;&lt;/span&gt;&amp;#34; | safeHTML }}
-&lt;span class=&#34;cp&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;List Types&lt;/h2&gt;
-&lt;h4&gt;Ordered List&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;First item&lt;/li&gt;
-&lt;li&gt;Second item&lt;/li&gt;
-&lt;li&gt;Third item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4&gt;Unordered List&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;Another item&lt;/li&gt;
-&lt;li&gt;And another item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Nested list&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;First Sub-item&lt;/li&gt;
-&lt;li&gt;Second Sub-item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
-&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
-&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
-&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; &#43; Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;&#43;&lt;kbd&gt;ALT&lt;/kbd&gt;&#43;&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
-&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</content>
+&lt;blockquote&gt;
+&lt;p&gt;活学活使，只是第一步。要做 到出手无招，那才真是踏入了高手的境界。你说 ‘各招浑成，敌人便无法可破’，这句话还只说对 了一小半。不是‘浑成’，而是根本无招。你的剑 招使得再浑成，只要有迹可寻，敌人便有隙可 乘。但如你根本并无招式，敌人如何来破你的招 式?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No code,no bug.The truth swordsman writes no code，no one can destroy him.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;https://github.com/kelseyhightower/nocode&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一切须当顺其自然。行乎其不得不行，止 乎其不得不止，倘若串不成一起，也就罢了，总 之不可有半点勉强。&lt;/p&gt;
+&lt;p&gt;Code whatever you like,if you feel tired , just close the computer and go to bed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;独孤九剑，有进无退! 招招都是进攻，攻敌之不得不守，自己当然不用守了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;protected function getCacheAdvertList($keyList)
+    {
+        $advertList = [];
+        //len(keyList)&amp;gt;100，it will read Redis for over 100 times 
+        foreach ($keyList as $ruleName =&amp;gt; $key) {
+            $advert = RedisCacheUtil::get($key);
+            $advertList[$ruleName] = $advert !== false ? $advert : [];
+            $advertList[$ruleName] = $this-&amp;gt;formatAdvert($advertList[$ruleName]);
+        }
+
+        return $advertList;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你倒也不可妄自菲薄，独孤大 侠是绝顶聪明之人，学他的剑法，要旨是在一个 ‘悟’字，决不在死记硬记。等到通晓了这九剑的 剑意，则无所施而不可，便是将全部变化尽数忘 记，也不相干，临敌之际，更是忘记得越干净彻 底，越不受原来剑法的拘束。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Feel free even you forget the API. Thinking is the most important thing  while Learning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As a matter of fact, 风清扬 taught 令狐冲 (LingHuChong) how to became a truth swordsman in the chapter 10th.&lt;/p&gt;
+&lt;p&gt;But as for me, he is my Gandalf who teach me how to write the code.&lt;/p&gt;
+&lt;p&gt;He is the different kind of super hero. He belongs to China, without no doubt.&lt;/p&gt;
+&lt;p&gt;So,we have our own Chinese Superheroes, you don&#39;t know because you do not learn our Chinese culture.&lt;/p&gt;</content>
   </entry>
 </feed>
