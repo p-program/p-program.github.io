@@ -9,7 +9,7 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-20T07:05:40Z</updated>
+  <updated>2020-03-20T07:22:50Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
   <entry>
@@ -220,6 +220,9 @@ Thread.sleep(30000)；
         return null;
     }
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Use Java 8 till the world ends&lt;/h2&gt;
+&lt;p&gt;2032：I still use Java 8.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image/post/HowToDoInJava/java-release.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;More code lines,more money&lt;/h2&gt;
 &lt;p&gt;The 40-year-old Kobe Bryant still wakes up before the sun to go to the gym at 4 a.m.&lt;/p&gt;
 &lt;p&gt;One day he asked IT engineers around him：&amp;quot;Have you ever seen LA at 4 a.m. ?&amp;quot;&lt;/p&gt;
@@ -360,6 +363,7 @@ s.add(4);
 &lt;li&gt;https://blog.csdn.net/u011928958/article/details/74999256&lt;/li&gt;
 &lt;li&gt;https://www.jianshu.com/p/bbf8c28101e9&lt;/li&gt;
 &lt;li&gt;https://zhuanlan.zhihu.com/p/29010605&lt;/li&gt;
+&lt;li&gt;https://en.wikipedia.org/wiki/Java_version_history&lt;/li&gt;
 &lt;/ol&gt;</content>
   </entry>
   <entry>
