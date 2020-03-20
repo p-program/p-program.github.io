@@ -9,9 +9,358 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-20T04:07:05Z</updated>
+  <updated>2020-03-20T07:00:31Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
+  <entry>
+    <title>How To Do In Java</title>
+    <author>
+      <name>p-program</name>
+      <uri>https://example.com/</uri>
+    </author>
+    <id>https://p-program.github.io/howtodoinjava/</id>
+    <updated>2020-03-20T05:53:29Z</updated>
+    <published>2020-03-20T05:53:29Z</published>
+    <content type="html">&lt;p&gt;The point is to break the rule everyday.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/java.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;Write once,run nowwhere&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/write-once.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;Use maven rather than gradle, install tons of dependencies even you just wanna hello world&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-xml&#34;&gt;&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-context --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-context&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.4.RELEASE&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-core --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-core&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.4.RELEASE&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-beans --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-beans&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.4.RELEASE&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-web --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-web&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.4.RELEASE&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-webmvc&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.4.RELEASE&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-test --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-test&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.4.RELEASE&amp;lt;/version&amp;gt;
+    &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-aop --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-aop&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.4.RELEASE&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&amp;lt;!-- https://mvnrepository.com/artifact/org.springframework/spring --&amp;gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;5.2.3.RELEASE&amp;lt;/version&amp;gt;
+    &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;
+&amp;lt;/dependency&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;JVM optimization&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/jvm-memory.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;/acs/user/monitoragent/jre/bin/java -server 
+-Xmx128m 
+-Xms128m 
+-Xmn70m 
+-XX:SurvivorRatio=10 
+-XX:PermSize=25m 
+-XX:MaxPermSize=30m 
+-XX:&#43;DisableExplicitGC 
+-XX:&#43;UseConcMarkSweepGC 
+-XX:&#43;CMSParallelRemarkEnabled 
+-XX:&#43;UseCMSCompactAtFullCollection 
+-XX:&#43;CMSClassUnloadingEnabled 
+-XX:LargePageSizeInBytes=128m 
+-XX:&#43;UseFastAccessorMethods 
+-XX:&#43;UseCMSInitiatingOccupancyOnly 
+-XX:CMSInitiatingOccupancyFraction=70 
+-XX:&#43;UseParNewGC 
+-verbose:gc 
+-Xloggc:/acs/monitor/system/monitoragent/logs/gc.log 
+-XX:&#43;PrintGCDetails 
+-XX:&#43;PrintGCDateStamps 
+-Duser.timezone=GMT&#43;8 
+-Djava.endorsed.dirs= 
+-classpath /acs/user/monitoragent/lib:/acs/user/monitoragent/lib/aliyun-openservices-sls-v0.3-inner-0.1.0.jar:/acs/user/monitoragent/lib/aliyun-openservices-with-mqs.1.0.12.jar:/acs/user/monitoragent/lib/commons-beanutils-1.8.3.jar:/acs/user/monitoragent/lib/commons-codec-1.4.jar:/acs/user/monitoragent/lib/commons-collections-3.2.1.jar:/acs/user/monitoragent/lib/commons-digester-1.8.jar:/acs/user/monitoragent/lib/commons-httpclient-3.1.jar:/acs/user/monitoragent/lib/commons-lang-2.6.jar:/acs/user/monitoragent/lib/commons-lang3-3.1.jar:/acs/user/monitoragent/lib/commons-logging-1.0.4.jar:/acs/user/monitoragent/lib/commons-validator-1.4.0.jar:/acs/user/monitoragent/lib/diamond-client-3.6.7.jar:/acs/user/monitoragent/lib/diamond-utils-3.1.3.jar:/acs/user/monitoragent/lib/ezmorph-1.0.6.jar:/acs/user/monitoragent/lib/fastjson-1.2.41.jar:/acs/user/monitoragent/lib/hamcrest-core-1.1.jar:/acs/user/monitoragent/lib/httpclient-4.2.1.jar:/acs/user/monitoragent/lib/httpcore-4.2.1.jar:/acs/user/monitoragent/lib/jackson-core-lgpl-1.9.6.jar:/acs/user/monitoragent/lib/jackson-mapper-lgpl-1.9.6.jar:/acs/user/monitoragent/lib/jdom-1.1.jar:/acs/user/monitoragent/lib/json-lib-2.4-jdk15.jar:/acs/user/monitoragent/lib/junit-4.10.jar:/acs/user/monitoragent/lib/log4j-1.2.17.jar:/acs/user/monitoragent/lib/mysql-connector-java-5.1.25.jar:/acs/user/monitoragent/lib/netty-all-4.0.36.Final.jar:/acs/user/monitoragent/lib/nginx.agent.jar:/acs/user/monitoragent/lib/ons-api-1.1.5.jar:/acs/user/monitoragent/lib/ons-client-1.1.5.jar:/acs/user/monitoragent/lib/protobuf-java-2.4.1.jar:/acs/user/monitoragent/lib/rocketmq-client-3.6.4.jar:/acs/user/monitoragent/lib/rocketmq-common-3.6.4.jar:/acs/user/monitoragent/lib/rocketmq-remoting-3.6.4.jar:/acs/user/monitoragent/lib/slf4j-api-1.7.5.jar:/acs/user/monitoragent/lib/slf4j-log4j12-1.7.5.jar:/acs/user/monitoragent/lib/test.junit-4.8.1.jar:/acs/user/monitoragent/lib/test.junit.hamcrest-1.1.jar: -Dagent.home=/acs/user/monitoragent com.alibaba.ace.nginx.agent.Startup /acs/user/monitoragent/conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More options, more KPI, more salary jobs!&lt;/p&gt;
+&lt;h2&gt;Object boxing and unboxing&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;  public static void f() {
+        String[] a = new String[2];
+        Object[] b = a;
+        a[0] = &amp;quot;hi&amp;quot;;
+        b[1] = Integer.valueOf(42);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Return in finally&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;    static String a() {
+        try {
+            throw new RuntimeException(&amp;quot;a&amp;quot;);
+        } catch (RuntimeException e) {
+            return &amp;quot;d&amp;quot;;
+        } catch (Exception e) {
+            return &amp;quot;b&amp;quot;;
+        } finally {
+            return &amp;quot;c&amp;quot;;
+        }
+//        return &amp;quot;d&amp;quot;;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/jvm.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;Use ==&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;        String s1 = new String(&amp;quot;cccc&amp;quot;);
+        String s2 = new String(&amp;quot;cccc&amp;quot;);
+        if(s1==s2){
+            goto hell;
+        }
+
+        Integer a =127;
+        Integer b = 127;
+        System.out.println(a==b);//true
+
+        Integer a1 = 128;
+        Integer b1 = 128;
+        System.out.println(a1==b1);//false
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Use / as much as you can&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;import java.util.Scanner;
+public class Exercise1 {
+       public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        System.out.print(&amp;quot;Input an integer number: &amp;quot;);
+        int n = in.nextInt();  		
+        if (n &amp;lt;= 0) {
+            System.out.print(&amp;quot;Input a correct number.&amp;quot;);
+        }
+		int x = 0;
+        while (n != 1) {
+            if (n % 5 == 0) {
+                n /= 5;
+            } else if (n % 3 == 0) {
+                n /= 3;
+            } else if (n % 2 == 0) {
+                n /= 2;
+            } else {
+                System.out.print(&amp;quot;It is not an ugly number.&amp;quot;);
+				x = 1;
+				break;
+            }
+        }
+        if (x==0)
+		System.out.print(&amp;quot;It is an ugly number.&amp;quot;);
+		System.out.print(&amp;quot;\n&amp;quot;);
+	    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/java-number-exercise-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;Object.toString is awsome!&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;String[] words = { “Hello”, “World” };
+System.out.println(words); //[Ljava.lang.String;@45ee12a7
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Save file twice for guarantee&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;Savefile(fileName);
+Savefile(fileName);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Sleep for further optimization&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;// After our customers pay the last bill,then we will comment this.
+Thread.sleep(30000)；
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;NullPointerException is your best friend&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;{
+    Integer n = null;
+    if (n == 0) {
+        System.out.println(&amp;quot;n == 0&amp;quot;);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Dreaming about generics&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class Vector&amp;lt;E&amp;gt; {
+	private E e = new E(); // you&#39;re dreaming
+    private E[] e = new E[10]; // you&#39;re dreaming
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Try, Try, Try&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;    public byte[] download(String url) {
+        HttpGet httpGet = new HttpGet(url);
+        try (CloseableHttpResponse response = client.execute(httpGet)) {
+            if (404 == response.getStatusLine().getStatusCode()) {
+                return null;
+            }
+            try (InputStream inputStream = response.getEntity().getContent()) {
+                return readInputStream(inputStream);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            httpGet = null;
+        }
+        return null;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;More code lines,more money&lt;/h2&gt;
+&lt;p&gt;The 40-year-old Kobe Bryant still wakes up before the sun to go to the gym at 4 a.m.&lt;/p&gt;
+&lt;p&gt;One day he asked IT engineers around him：&amp;quot;Have you ever seen LA at 4 a.m. ?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Go senior backend engineer : NO!&lt;/p&gt;
+&lt;p&gt;C# senior backend engineer : NO!&lt;/p&gt;
+&lt;p&gt;Kotlin senior backend engineer : NO!&lt;/p&gt;
+&lt;p&gt;Java senior backend engineer : YES!I am still busy on generating get and set.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;import java.util.Arrays;
+
+public class DataExample {
+  private final String name;
+  private int age;
+  private double score;
+  private String[] tags;
+  
+  public DataExample(String name) {
+    this.name = name;
+  }
+  
+  public String getName() {
+    return this.name;
+  }
+  
+  void setAge(int age) {
+    this.age = age;
+  }
+  
+  public int getAge() {
+    return this.age;
+  }
+  
+  public void setScore(double score) {
+    this.score = score;
+  }
+  
+  public double getScore() {
+    return this.score;
+  }
+  
+  public String[] getTags() {
+    return this.tags;
+  }
+  
+  public void setTags(String[] tags) {
+    this.tags = tags;
+  }
+  
+  @Override public String toString() {
+    return &amp;quot;DataExample(&amp;quot; &#43; this.getName() &#43; &amp;quot;, &amp;quot; &#43; this.getAge() &#43; &amp;quot;, &amp;quot; &#43; this.getScore() &#43; &amp;quot;, &amp;quot; &#43; Arrays.deepToString(this.getTags()) &#43; &amp;quot;)&amp;quot;;
+  }
+  
+  protected boolean canEqual(Object other) {
+    return other instanceof DataExample;
+  }
+  
+  @Override public boolean equals(Object o) {
+    if (o == this) return true;
+    if (!(o instanceof DataExample)) return false;
+    DataExample other = (DataExample) o;
+    if (!other.canEqual((Object)this)) return false;
+    if (this.getName() == null ? other.getName() != null : !this.getName().equals(other.getName())) return false;
+    if (this.getAge() != other.getAge()) return false;
+    if (Double.compare(this.getScore(), other.getScore()) != 0) return false;
+    if (!Arrays.deepEquals(this.getTags(), other.getTags())) return false;
+    return true;
+  }
+  
+  @Override public int hashCode() {
+    final int PRIME = 59;
+    int result = 1;
+    final long temp1 = Double.doubleToLongBits(this.getScore());
+    result = (result*PRIME) &#43; (this.getName() == null ? 43 : this.getName().hashCode());
+    result = (result*PRIME) &#43; this.getAge();
+    result = (result*PRIME) &#43; (int)(temp1 ^ (temp1 &amp;gt;&amp;gt;&amp;gt; 32));
+    result = (result*PRIME) &#43; Arrays.deepHashCode(this.getTags());
+    return result;
+  }
+  
+  public static class Exercise&amp;lt;T&amp;gt; {
+    private final String name;
+    private final T value;
+    
+    private Exercise(String name, T value) {
+      this.name = name;
+      this.value = value;
+    }
+    
+    public static &amp;lt;T&amp;gt; Exercise&amp;lt;T&amp;gt; of(String name, T value) {
+      return new Exercise&amp;lt;T&amp;gt;(name, value);
+    }
+    
+    public String getName() {
+      return this.name;
+    }
+    
+    public T getValue() {
+      return this.value;
+    }
+    
+    @Override public String toString() {
+      return &amp;quot;Exercise(name=&amp;quot; &#43; this.getName() &#43; &amp;quot;, value=&amp;quot; &#43; this.getValue() &#43; &amp;quot;)&amp;quot;;
+    }
+    
+    protected boolean canEqual(Object other) {
+      return other instanceof Exercise;
+    }
+    
+    @Override public boolean equals(Object o) {
+      if (o == this) return true;
+      if (!(o instanceof Exercise)) return false;
+      Exercise&amp;lt;?&amp;gt; other = (Exercise&amp;lt;?&amp;gt;) o;
+      if (!other.canEqual((Object)this)) return false;
+      if (this.getName() == null ? other.getValue() != null : !this.getName().equals(other.getName())) return false;
+      if (this.getValue() == null ? other.getValue() != null : !this.getValue().equals(other.getValue())) return false;
+      return true;
+    }
+    
+    @Override public int hashCode() {
+      final int PRIME = 59;
+      int result = 1;
+      result = (result*PRIME) &#43; (this.getName() == null ? 43 : this.getName().hashCode());
+      result = (result*PRIME) &#43; (this.getValue() == null ? 43 : this.getValue().hashCode());
+      return result;
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;Set&amp;lt;Integer&amp;gt; s = new HashSet&amp;lt;&amp;gt;();
+s.add(1);
+s.add(2);
+s.add(3);
+s.add(4);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Thanks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;https://www.w3resource.com/java-exercises/numbers/java-number-exercise-1.php&lt;/li&gt;
+&lt;li&gt;https://blog.csdn.net/qq_36785612/article/details/86499466&lt;/li&gt;
+&lt;li&gt;https://blog.csdn.net/u011928958/article/details/74999256&lt;/li&gt;
+&lt;li&gt;https://www.jianshu.com/p/bbf8c28101e9&lt;/li&gt;
+&lt;li&gt;https://zhuanlan.zhihu.com/p/29010605&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
   <entry>
     <title>Superhero in China🇨🇳</title>
     <author>
