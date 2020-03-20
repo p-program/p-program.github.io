@@ -9,7 +9,7 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-20T07:00:31Z</updated>
+  <updated>2020-03-20T07:05:40Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
   <entry>
@@ -128,6 +128,7 @@
 //        return &amp;quot;d&amp;quot;;
     }
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;JVM is great！&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/jvm.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;Use ==&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;        String s1 = new String(&amp;quot;cccc&amp;quot;);
