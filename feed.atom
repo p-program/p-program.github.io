@@ -9,7 +9,7 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-20T07:22:50Z</updated>
+  <updated>2020-03-20T07:27:54Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
   <entry>
@@ -181,8 +181,8 @@ public class Exercise1 {
 System.out.println(words); //[Ljava.lang.String;@45ee12a7
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Save file twice for guarantee&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;Savefile(fileName);
-Savefile(fileName);
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;saveFile(fileName);
+saveFile(fileName);
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Sleep for further optimization&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;// After our customers pay the last bill,then we will comment this.
