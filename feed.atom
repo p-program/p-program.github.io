@@ -9,7 +9,7 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-19T17:08:11Z</updated>
+  <updated>2020-03-20T04:03:31Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
   <entry>
@@ -33,9 +33,9 @@
 &lt;p&gt;Well, I watched the whole &lt;The Avengers&gt; , and I felt so sad when seeing Tony died.&lt;/p&gt;
 &lt;p&gt;But you know,Tony wasn&#39;t born in China.He is an American superhero, not Chinese superhero.&lt;/p&gt;
 &lt;p&gt;So, let me introduce one of our Chinese superheroes —— 风清扬.&lt;/p&gt;
-&lt;p&gt;Before that, I have to say that 李小龙(Bruce Jun Fan Lee) is not a superhero. He was just a  person who fights better than normal Chinese people. I respect him from my heart.&lt;/p&gt;
+&lt;p&gt;Before that, I have to say that 李小龙(Bruce Jun Fan Lee) is not a superhero. He was just a  person who fought better than normal Chinese people. I respect him from my heart.&lt;/p&gt;
 &lt;p&gt;Superheroes should be a special symbol which do not exist in this real world.But their legend inspire us to fight against this world.&lt;/p&gt;
-&lt;p&gt;风清扬 (FengQingYang) only shows up in the chapter 10 of a Chinese novel named &amp;lt;笑傲江湖&amp;gt;（The Smiling, Proud Wanderer）. It was written by Louis 金庸（Cha Leung-yung）. He is someone like Stan Lee for some Chinese people.&lt;/p&gt;
+&lt;p&gt;风清扬 (FengQingYang) only shows up in the chapter 10th of a Chinese novel named &amp;lt;笑傲江湖&amp;gt;（The Smiling, Proud Wanderer）. It was written by 金庸（Louis Cha Leung-yung）. 金庸 is someone like Stan Lee for some Chinese people.&lt;/p&gt;
 &lt;p&gt;I would try to make some simple translation, with some live codes and imagination, to show you who 风清扬 is.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;大丈夫行事，爱怎样便怎，行云流水，任意所至，甚么武林规矩，门派教条，全都是放他妈的狗臭屁!&lt;/p&gt;
@@ -65,30 +65,33 @@ int main() {
 &lt;p&gt;五岳剑派中各有无数蠢才，以为将师父传下来的剑招学得精熟，自然而然便成 高手，哼哼，熟读唐诗三百首，不会作诗也会吟!熟读了人家诗句，做几首打油诗是可以的， 但若不能自出机抒，能成大诗人么?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;These people who call themselves best engineers in this world. They sell you design patterns，Autopilot, OOP,Java-Coding-Guidelines, AI, machine learning. But they are not actually the best players in this world.They do not realize the code is dead，but we are alive. So when they face new problems，they actually do not know what to do. If you get stuck in the dead concept, you will never become a truth hacker. (&lt;strong&gt;warning: I do not translate as the book says&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;These people who call themselves best engineers in this world. They sell you design patterns，OOP, TDD, DDD, Java-Coding-Guidelines,virtual machine, AI, Autopilot, machine learning and so on. But they are not actually the best players in this world.They do not realize the code is dead，but we are alive. So when they face new problems，they actually do not know what to do. If you get stuck in the dead concept, you will never become a truth hacker. (&lt;strong&gt;warning: I do not translate as the book says&lt;/strong&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#define TRUE FALSE
 &lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;
-&lt;p&gt;活学活使，只是第一步。要做 到出手无招，那才真是踏入了高手的境界。你说 ‘各招浑成，敌人便无法可破’，这句话还只说对 了一小半。不是‘浑成’，而是根本无招。你的剑 招使得再浑成，只要有迹可寻，敌人便有隙可 乘。但如你根本并无招式，敌人如何来破你的招 式?&lt;/p&gt;
+&lt;p&gt;活学活使，只是第一步。要做 到出手无招，那才真是踏入了高手的境界。你说 ‘各招浑成，敌人便无法可破’，这句话还只说对 了一小半。不是‘浑成’，而是根本无招。你的剑 招使得再浑成，只要有迹可寻，敌人便有隙可 乘。但如你根本并无招式，敌人如何来破你的招式?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;No code,no bug.The truth swordsman writes no code，no one can destroy him.&lt;/p&gt;
+&lt;p&gt;No code,no bug.The truth swordsman writes no code，so no one can destroy him.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;https://github.com/kelseyhightower/nocode&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;一切须当顺其自然。行乎其不得不行，止 乎其不得不止，倘若串不成一起，也就罢了，总 之不可有半点勉强。&lt;/p&gt;
+&lt;p&gt;一切须当顺其自然。行乎其不得不行，止乎其不得不止，倘若串不成一起，也就罢了，总之不可有半点勉强。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Code whatever you like,if you feel tired , just close the computer and go to bed.&lt;/p&gt;
+&lt;p&gt;Code whatever you like.If you feel tired , just close the computer and go to bed.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;独孤九剑，有进无退! 招招都是进攻，攻敌之不得不守，自己当然不用守了。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The best ways to code is to code without any code review.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;protected function getCacheAdvertList($keyList)
     {
         $advertList = [];
-        //len(keyList)&amp;gt;100，it will read Redis for over 100 times 
+        //len(keyList)&amp;gt;100，it will read Redis for over 100 times
         foreach ($keyList as $ruleName =&amp;gt; $key) {
             $advert = RedisCacheUtil::get($key);
             $advertList[$ruleName] = $advert !== false ? $advert : [];
@@ -99,14 +102,14 @@ int main() {
     }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;
-&lt;p&gt;你倒也不可妄自菲薄，独孤大 侠是绝顶聪明之人，学他的剑法，要旨是在一个 ‘悟’字，决不在死记硬记。等到通晓了这九剑的 剑意，则无所施而不可，便是将全部变化尽数忘 记，也不相干，临敌之际，更是忘记得越干净彻 底，越不受原来剑法的拘束。&lt;/p&gt;
+&lt;p&gt;你倒也不可妄自菲薄，独孤大侠是绝顶聪明之人，学他的剑法，要旨是在一个 ‘悟’字，决不在死记硬记。等到通晓了这九剑的 剑意，则无所施而不可，便是将全部变化尽数忘 记，也不相干，临敌之际，更是忘记得越干净彻底，越不受原来剑法的拘束。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Feel free even you forget the API. Thinking is the most important thing  while learning.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;As a matter of fact, 风清扬 taught 令狐冲 (LingHuChong) how to became a truth swordsman in the chapter 10th.&lt;/p&gt;
+&lt;p&gt;As a matter of fact, 风清扬 taught 令狐冲 (LingHuChong) how to became a truth swordsman in the book.&lt;/p&gt;
 &lt;p&gt;But as for me, he is my Gandalf who teach me how to write the code.&lt;/p&gt;
 &lt;p&gt;He is the different kind of super hero. He belongs to China, without no doubt.&lt;/p&gt;
-&lt;p&gt;So,we have our own Chinese Superheroes, you don&#39;t know because you do not learn our Chinese culture.&lt;/p&gt;</content>
+&lt;p&gt;Yes, China does have our own superheroes.You know nothing because you do not learn our culture.&lt;/p&gt;</content>
   </entry>
 </feed>
