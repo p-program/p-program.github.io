@@ -9,7 +9,7 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-22T01:57:33Z</updated>
+  <updated>2020-03-22T02:03:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
   <entry>
@@ -106,7 +106,6 @@
     <updated>2020-03-20T05:53:29Z</updated>
     <published>2020-03-20T05:53:29Z</published>
     <content type="html">&lt;p&gt;The point is to break the rule everyday.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/java.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;Use Java 8 till the world ends&lt;/h2&gt;
 &lt;p&gt;2032：I still use Java 8.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/java-release.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
