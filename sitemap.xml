@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://p-program.github.io/howtodoinjava/</loc>
-    <lastmod>2020-03-20T05:53:29Z</lastmod>
+    <loc>https://p-program.github.io/post/</loc>
+    <lastmod>2020-03-21T12:56:37Z</lastmod>
   </url>
   <url>
-    <loc>https://p-program.github.io/post/</loc>
+    <loc>https://p-program.github.io/the-seed-of-robot/</loc>
+    <lastmod>2020-03-21T12:56:37Z</lastmod>
+  </url>
+  <url>
+    <loc>https://p-program.github.io/howtodoinjava/</loc>
     <lastmod>2020-03-20T05:53:29Z</lastmod>
   </url>
   <url>

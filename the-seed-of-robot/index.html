@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="robots" content="noodp,noydir">
+  <meta name="pinterest" content="nopin">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/image/brand/favicon.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/image/brand/icon-1-1.png">
+  <link rel="canonical" href="https://p-program.github.io/the-seed-of-robot/">
+  
+<link rel="preload" as="style" href="/app.css?v=1584840227" media="all">
+<link rel="stylesheet" href="/app.css?v=1584840227" media="all">
+<link rel="preload" as="style" href="/custom.css?v=1584840227" media="all">
+<link rel="stylesheet" href="/custom.css?v=1584840227" media="all">
+
+
+<title>The Seed Of Robot —— Intelligent API Gateway : P programming</title>
+
+<meta property="og:title" content="The Seed Of Robot —— Intelligent API Gateway">
+<meta property="og:site_name" content="P programming">
+<meta property="og:url" content="https://p-program.github.io/the-seed-of-robot/">
+<link rel="image_src" href="https://p-program.github.io/clock.jpg">
+<meta property="og:image" content="https://p-program.github.io/clock.jpg">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_us">
+<meta property="og:description" content="冯·诺依曼结构的缺陷  数学家冯·诺依曼提出了计算机制造的三个基本原则，即采用二进制逻辑、程序存储执行以及计算机由五个部分组成（运算器、控制器、存储器、输入设备、输出设备），这套理论被称为冯·诺依曼体系结构。
+ 计算程序发展到现在，基本的架构从来未曾改变。无非是
+ input --&amp;gt; process --&amp;gt; output
+ 也就是
+ 电脑输入--&amp;gt; 程序处理 --&amp;gt; 结果导出
+ 但这套体系一直都是有缺陷的。比如在这套体系里面，一直都无法解决精度缺失的问题，不管你怎么多线程，结果也是串行执行。
+这是一套相当落后的架构，但我们不得不使用他。并在他基础上逐渐改进，直至新的技术突破。
+下一代机器人架构 按照The-Seed架构设计的机器人，架构应当是这样的：
+Input
+手机输入，键盘输入，语音输入，意念输入
+Process
+程序的处理逻辑。
+Output
+程序的应答
+Influence
+程序的应答对我们的影响
+现行框架下的解 我们就只挑Process来讲吧。按照世界的定义，如果世界是不可解的，那么我们把分解为一个可解的系统就行。
+制造泛用性机器人是我们最终的目标，但我们可以先从解决特定可解问题入手。
+比如，我要造一个文档机器人，基于我的文档仓库问答。比如这个文档是这么定义的:
+文件名是kubernetes.md
+内容是
+# 六 集群故障管理 ## 6.">
+<meta name="description" content="冯·诺依曼结构的缺陷  数学家冯·诺依曼提出了计算机制造的三个基本原则，即采用二进制逻辑、程序存储执行以及计算机由五个部分组成（运算器、控制器、存储器、输入设备、输出设备），这套理论被称为冯·诺依曼体系结构。
+ 计算程序发展到现在，基本的架构从来未曾改变。无非是
+ input --&amp;gt; process --&amp;gt; output
+ 也就是
+ 电脑输入--&amp;gt; 程序处理 --&amp;gt; 结果导出
+ 但这套体系一直都是有缺陷的。比如在这套体系里面，一直都无法解决精度缺失的问题，不管你怎么多线程，结果也是串行执行。
+这是一套相当落后的架构，但我们不得不使用他。并在他基础上逐渐改进，直至新的技术突破。
+下一代机器人架构 按照The-Seed架构设计的机器人，架构应当是这样的：
+Input
+手机输入，键盘输入，语音输入，意念输入
+Process
+程序的处理逻辑。
+Output
+程序的应答
+Influence
+程序的应答对我们的影响
+现行框架下的解 我们就只挑Process来讲吧。按照世界的定义，如果世界是不可解的，那么我们把分解为一个可解的系统就行。
+制造泛用性机器人是我们最终的目标，但我们可以先从解决特定可解问题入手。
+比如，我要造一个文档机器人，基于我的文档仓库问答。比如这个文档是这么定义的:
+文件名是kubernetes.md
+内容是
+# 六 集群故障管理 ## 6.">
+<meta property="og:updated_time" content="2020-03-21T12:56:37Z">
+<meta property="fb:app_id" content="FB-DEV">
+<meta name="author" content="p-program">
+<meta property="article:author" content="https://github.com/p-program">
+<meta property="article:published_time" content="2020-03-21T12:56:37Z">
+<meta property="article:modified_time" content="2020-03-21T12:56:37Z">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Seed Of Robot —— Intelligent API Gateway",
+  "url": "https://p-program.github.io/the-seed-of-robot/",
+  "image": "https://p-program.github.io/clock.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://p-program.github.io/the-seed-of-robot/"
+  },
+  "description": "冯·诺依曼结构的缺陷  数学家冯·诺依曼提出了计算机制造的三个基本原则，即采用二进制逻辑、程序存储执行以及计算机由五个部分组成（运算器、控制器、存储器、输入设备、输出设备），这套理论被称为冯·诺依曼体系结构。\n 计算程序发展到现在，基本的架构从来未曾改变。无非是\n input --\u0026gt; process --\u0026gt; output\n 也就是\n 电脑输入--\u0026gt; 程序处理 --\u0026gt; 结果导出\n 但这套体系一直都是有缺陷的。比如在这套体系里面，一直都无法解决精度缺失的问题，不管你怎么多线程，结果也是串行执行。\n这是一套相当落后的架构，但我们不得不使用他。并在他基础上逐渐改进，直至新的技术突破。\n下一代机器人架构 按照The-Seed架构设计的机器人，架构应当是这样的：\nInput\n手机输入，键盘输入，语音输入，意念输入\nProcess\n程序的处理逻辑。\nOutput\n程序的应答\nInfluence\n程序的应答对我们的影响\n现行框架下的解 我们就只挑Process来讲吧。按照世界的定义，如果世界是不可解的，那么我们把分解为一个可解的系统就行。\n制造泛用性机器人是我们最终的目标，但我们可以先从解决特定可解问题入手。\n比如，我要造一个文档机器人，基于我的文档仓库问答。比如这个文档是这么定义的:\n文件名是kubernetes.md\n内容是\n# 六 集群故障管理 ## 6.",
+  "author": {
+    "@type": "Person",
+    "name": "p-program"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "P programming",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://p-program.github.io/image/brand/icon-1-1.png"
+    }
+  },
+  "datePublished": "2020-03-21T12:56:37Z",
+  "dateModified": "2020-03-21T12:56:37Z",
+  "articleBody": "\u003ch2\u003e冯·诺依曼结构的缺陷\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e数学家冯·诺依曼提出了计算机制造的三个基本原则，即采用二进制逻辑、程序存储执行以及计算机由五个部分组成（运算器、控制器、存储器、输入设备、输出设备），这套理论被称为冯·诺依曼体系结构。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e计算程序发展到现在，基本的架构从来未曾改变。无非是\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003einput --\u0026gt; process --\u0026gt; output\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e也就是\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e电脑输入--\u0026gt; 程序处理 --\u0026gt; 结果导出\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e但这套体系一直都是有缺陷的。比如在这套体系里面，一直都无法解决精度缺失的问题，不管你怎么多线程，结果也是串行执行。\u003c/p\u003e\n\u003cp\u003e这是一套相当落后的架构，但我们不得不使用他。并在他基础上逐渐改进，直至新的技术突破。\u003c/p\u003e\n\u003ch2\u003e下一代机器人架构\u003c/h2\u003e\n\u003cp\u003e按照\u003ca href=\"https://github.com/p-program/The-Seed\"\u003eThe-Seed\u003c/a\u003e架构设计的机器人，架构应当是这样的：\u003c/p\u003e\n\u003cp\u003eInput\u003c/p\u003e\n\u003cp\u003e手机输入，键盘输入，语音输入，意念输入\u003c/p\u003e\n\u003cp\u003eProcess\u003c/p\u003e\n\u003cp\u003e程序的处理逻辑。\u003c/p\u003e\n\u003cp\u003eOutput\u003c/p\u003e\n\u003cp\u003e程序的应答\u003c/p\u003e\n\u003cp\u003eInfluence\u003c/p\u003e\n\u003cp\u003e程序的应答对我们的影响\u003c/p\u003e\n\u003ch2\u003e现行框架下的解\u003c/h2\u003e\n\u003cp\u003e我们就只挑\u003ccode\u003eProcess\u003c/code\u003e来讲吧。按照\u003ca href=\"https://github.com/p-program/The-Seed/blob/master/world.md\"\u003e世界的定义\u003c/a\u003e，如果世界是不可解的，那么我们把分解为一个可解的系统就行。\u003c/p\u003e\n\u003cp\u003e制造泛用性机器人是我们最终的目标，但我们可以先从解决特定可解问题入手。\u003c/p\u003e\n\u003cp\u003e比如，我要造一个文档机器人，基于我的文档仓库问答。比如这个文档是这么定义的:\u003c/p\u003e\n\u003cp\u003e文件名是\u003ccode\u003ekubernetes.md\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e内容是\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-markdown\"\u003e# 六 集群故障管理\n## 6.1 节点问题\n### 6.1.3  ImageGCFailed\n\u0026gt; \n\u0026gt;   kubelet 可以清除未使用的容器和镜像。kubelet 在每分钟和每五分钟分别回收容器和镜像。\n\u0026gt; \n\u0026gt;   [配置 kubelet 垃圾收集](https://k8smeetup.github.io/docs/concepts/cluster-administration/kubelet-garbage-collection/)\n但是 kubelet 的垃圾回收有个问题,它只能回收那些未使用的镜像,有点像 `docker system prune`,然而观察发现,那些死掉的容器不是最大的问题,正在运行的容器才是更大的问题.如果ImageGCFailed一直发生,而容器使用的ephemeral-storage/hostpath(宿主目录)越发增多,最终将会导致更严重的DiskPressure问题,波及节点上所有容器.\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e在这个问题里面，\u0026quot;kubernetes.md\u0026quot; 就是\u0026quot;世界\u0026quot;。这个世界解决了故障处理的可解子问题。\u003c/p\u003e\n\u003cp\u003e那么当我向机器人提问\u003ccode\u003eImageGCFailed\u003c/code\u003e的时候，机器人认识到了这是 \u0026quot;kubernetes.md\u0026quot; 的问题，略微检索（elasticsearch），便能变成答案。\u003c/p\u003e\n\u003cp\u003e“ML科学家”就不服了，他说你怎么知道机器人知道答案呢？\u003c/p\u003e\n\u003cp\u003e其实这个也非常的简单。“继续分割这个世界，直至不能再分割”。问题不能解决，那就把它再分解，再特殊化一点。\u003c/p\u003e\n\u003cp\u003e举个例子。我们用浏览器访问\u003ca href=\"https://help.aliyun.com/product/85222.html\"\u003e阿里云的容器服务Kubernetes版\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e实际上我们已经进入了 \u003ccode\u003eKubernetes\u003c/code\u003e 这一个世界，我们所问的问题，只会跟 \u003ccode\u003eKubernetes\u003c/code\u003e 这个产品相关联。\u003c/p\u003e\n\u003cp\u003e最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机。\u003c/p\u003e\n\u003cp\u003e世界可大可小，关键在于你怎么定义。\u003c/p\u003e\n\u003cp\u003e所以，按照的现行技术框架下，这个问答机器人是这样的：\u003c/p\u003e\n\u003cp\u003e文档消费者：\u003c/p\u003e\n\u003cp\u003e文本输入 --\u0026gt; 机器人微服务 --\u0026gt; 检索已有数据（elasticsearch）\u003c/p\u003e\n\u003cp\u003e文档生产者：\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003egit clone\u003c/code\u003e文档仓库 --\u0026gt; 程序结构化文档，将死的数据转换为可被理解并检索的数据，比如导入 elasticsearch。\u003c/p\u003e\n\u003cp\u003e我们可以把所有阿里云产品的文档都丢到这个 elasticsearch 里面，一个产品一个 index。也可以分开做，世界的定义取决于产品经理的个人选择。\u003c/p\u003e\n\u003cp\u003e等我有心情了，再开发出来这个钉钉机器人吧，哈哈。\u003c/p\u003e\n\u003ch2\u003e理想架构\u003c/h2\u003e\n\u003cp\u003e手机输入，键盘输入，语音输入，意念输入\n--\u0026gt;\n微服务查找（计算资源即微服务，计算资源包括人和计算机）\n--\u0026gt;\n调用计算资源完成计算\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003e--\u0026gt;\u003c/code\u003e表示数据的流动，是一种世界通讯的协议\u003c/p\u003e\n\u003ch2\u003eTODO\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e面向世界的程序语言\u003c/li\u003e\n\u003cli\u003e新的世界级通讯协议\u003c/li\u003e\n\u003cli\u003eVR技术\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e参考链接\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003ehttp://www.yinwang.org/blog-cn/2018/04/13/computer-science\u003c/li\u003e\n\u003cli\u003ehttps://baike.baidu.com/item/%E5%86%AF%C2%B7%E8%AF%BA%E4%BE%9D%E6%9B%BC%E7%BB%93%E6%9E%84\u003c/li\u003e\n\u003c/ol\u003e"
+}
+</script>
+
+  
+<link rel="preload" as="script" href="/app.js?v=1584840227">
+<link rel="preload" as="script" href="/custom.js?v=1584840227">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://stats.g.doubleclick.net">
+<link rel="preconnect" href="https://www.googleadservices.com">
+<link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=UA-DEV">
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-DEV"></script>
+<script>
+  window.dataLayer=window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js',new Date());
+  gtag('config','UA-DEV');
+  gtag('config','AW-DEV');
+</script>
+
+</head>
+<body>
+  <header id="nav" class="relative shadow-b bg-white">
+  <div class="px-4 py-3">
+    <div class="flex items-center mx-auto max-w-6xl">
+      <div>
+        <a class="block p-1 h-9 w-9 text-white bg-raven-800 hover:bg-raven-900" href="/"><svg class="fill-current" viewBox="0 0 32 32"><path d="M16,25 L32,25 L32,7 L28,7 L28,21 L26,21 L26,13 L22,13 L22,21 L18,21 L18,7 L16,7 L7,7 L7,11 L14,11 L14,21 L0,21 L0,25 L16,25 Z"/></svg></a>
+      </div>
+      <div class="ml-auto flex items-center">
+        <a class="p-2 h-8 w-8 block text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" target="_blank" rel="noopener nofollow" href="https://www.google.com/search?q=site:example.com">
+          <svg class="fill-current" viewBox="0 0 512 512"><path d="M42.72 204.853c0-89.43 72.704-162.133 162.133-162.133s162.133 72.704 162.133 162.133-72.704 162.133-162.133 162.133S42.72 294.283 42.72 204.853h0zm463.087 270.78L363.915 333.74c68.598-84.65 58.908-208.192-22.05-281.113S137.03-17.06 59.985 59.985s-80.277 200.922-7.357 281.88 196.462 90.648 281.113 22.05l141.892 141.892c5.4 5.4 13.246 7.495 20.61 5.522s13.114-7.724 15.087-15.087-.132-15.22-5.522-20.61h0z"/></svg>
+        </a>
+        <a class="ml-3 block text-sm leading-none  text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" href="/posts/">
+          Posts
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main><div class="mt-8 mx-4 md:mx-8">
+    <div class="mx-auto w-full max-w-2xlp">
+      <article class="cdata">
+        <h1>The Seed Of Robot —— Intelligent API Gateway</h1>
+
+        <div class="mt-4 flex items-center">
+          <div class="w-full">
+            
+<div class="flex items-center">
+  <div class="flex-shrink-0">
+    <img
+    class="w-14 h-14 object-cover p-05 rounded-full border border-blue-300"
+    src="/image/author/p-program.jpg"
+    alt="p-program">
+  </div>
+  <div class="flex-shrink-0 ml-2 leading-tight font-content-sans">
+    <a class="block text-base text-raven-800 hover:text-raven-900 hover:underline focus:underline" target="_blank" rel="noopener nofollow" title="p-program" href="https://github.com/p-program">p-program</a>
+    <time class="text-base text-raven-500" datetime="2020-03-21T12:56:37Z">Mar 21, 2020</time>
+  </div>
+</div>
+
+          </div>
+          <div>
+            
+<div class="flex items-center">
+  <a class="flex-shrink-0 block text-raven-800 hover:text-raven-900" target="_blank" rel="noopener nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=The%20Seed%20Of%20Robot%20%e2%80%94%e2%80%94%20Intelligent%20API%20Gateway%20by%20%40example%20https%3a%2f%2fp-program.github.io%2fthe-seed-of-robot%2f"><svg class="w-6 h-6 fill-current" viewBox="0 0 512 512"><path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/></svg></a>
+
+  <a class="ml-3 flex-shrink-0 block text-raven-800 hover:text-raven-900" target="_blank" rel="noopener nofollow" title="Share on Facebook" href="https://www.facebook.com/dialog/share?app_id=FB-DEV&display=page&href=https%3a%2f%2fp-program.github.io%2fthe-seed-of-robot%2f"><svg class="w-6 h-6 fill-current" viewBox="-116 -58 628 628"><path d="M483.737501,5.79150981e-07 L28.2375006,5.79150981e-07 C12.6406254,0.00937561915 -0.00312442085,12.6593758 5.79150981e-07,28.2625006 L5.79150981e-07,483.762501 C0.00937561915,499.359376 12.6593758,512.003125 28.2625006,512.000001 L273.500001,512.000001 L273.500001,314.000001 L207.000001,314.000001 L207.000001,236.500001 L273.500001,236.500001 L273.500001,179.465625 C273.500001,113.325001 313.878125,77.3250006 372.878125,77.3250006 C401.137501,77.3250006 425.421876,79.4312502 432.500001,80.3718758 L432.500001,149.500001 L391.815625,149.500001 C359.715625,149.500001 353.500001,164.753125 353.500001,187.140625 L353.500001,236.500001 L430.250001,236.500001 L420.250001,314.000001 L353.500001,314.000001 L353.500001,512.000001 L483.737501,512.000001 C499.343751,512.003125 511.996876,499.35625 512.000001,483.750001 L512.000001,483.737501 L512.000001,28.2375006 C511.993751,12.6406254 499.340625,-0.00312442085 483.737501,5.79150981e-07 L483.737501,5.79150981e-07 Z"/></svg></a>
+</div>
+
+          </div>
+        </div>
+
+        <h2>冯·诺依曼结构的缺陷</h2>
+<blockquote>
+<p>数学家冯·诺依曼提出了计算机制造的三个基本原则，即采用二进制逻辑、程序存储执行以及计算机由五个部分组成（运算器、控制器、存储器、输入设备、输出设备），这套理论被称为冯·诺依曼体系结构。</p>
+</blockquote>
+<p>计算程序发展到现在，基本的架构从来未曾改变。无非是</p>
+<blockquote>
+<p>input --&gt; process --&gt; output</p>
+</blockquote>
+<p>也就是</p>
+<blockquote>
+<p>电脑输入--&gt; 程序处理 --&gt; 结果导出</p>
+</blockquote>
+<p>但这套体系一直都是有缺陷的。比如在这套体系里面，一直都无法解决精度缺失的问题，不管你怎么多线程，结果也是串行执行。</p>
+<p>这是一套相当落后的架构，但我们不得不使用他。并在他基础上逐渐改进，直至新的技术突破。</p>
+<h2>下一代机器人架构</h2>
+<p>按照<a href="https://github.com/p-program/The-Seed">The-Seed</a>架构设计的机器人，架构应当是这样的：</p>
+<p>Input</p>
+<p>手机输入，键盘输入，语音输入，意念输入</p>
+<p>Process</p>
+<p>程序的处理逻辑。</p>
+<p>Output</p>
+<p>程序的应答</p>
+<p>Influence</p>
+<p>程序的应答对我们的影响</p>
+<h2>现行框架下的解</h2>
+<p>我们就只挑<code>Process</code>来讲吧。按照<a href="https://github.com/p-program/The-Seed/blob/master/world.md">世界的定义</a>，如果世界是不可解的，那么我们把分解为一个可解的系统就行。</p>
+<p>制造泛用性机器人是我们最终的目标，但我们可以先从解决特定可解问题入手。</p>
+<p>比如，我要造一个文档机器人，基于我的文档仓库问答。比如这个文档是这么定义的:</p>
+<p>文件名是<code>kubernetes.md</code></p>
+<p>内容是</p>
+<pre><code class="language-markdown"># 六 集群故障管理
+## 6.1 节点问题
+### 6.1.3  ImageGCFailed
+&gt; 
+&gt;   kubelet 可以清除未使用的容器和镜像。kubelet 在每分钟和每五分钟分别回收容器和镜像。
+&gt; 
+&gt;   [配置 kubelet 垃圾收集](https://k8smeetup.github.io/docs/concepts/cluster-administration/kubelet-garbage-collection/)
+但是 kubelet 的垃圾回收有个问题,它只能回收那些未使用的镜像,有点像 `docker system prune`,然而观察发现,那些死掉的容器不是最大的问题,正在运行的容器才是更大的问题.如果ImageGCFailed一直发生,而容器使用的ephemeral-storage/hostpath(宿主目录)越发增多,最终将会导致更严重的DiskPressure问题,波及节点上所有容器.
+</code></pre>
+<p>在这个问题里面，&quot;kubernetes.md&quot; 就是&quot;世界&quot;。这个世界解决了故障处理的可解子问题。</p>
+<p>那么当我向机器人提问<code>ImageGCFailed</code>的时候，机器人认识到了这是 &quot;kubernetes.md&quot; 的问题，略微检索（elasticsearch），便能变成答案。</p>
+<p>“ML科学家”就不服了，他说你怎么知道机器人知道答案呢？</p>
+<p>其实这个也非常的简单。“继续分割这个世界，直至不能再分割”。问题不能解决，那就把它再分解，再特殊化一点。</p>
+<p>举个例子。我们用浏览器访问<a href="https://help.aliyun.com/product/85222.html">阿里云的容器服务Kubernetes版</a></p>
+<p>实际上我们已经进入了 <code>Kubernetes</code> 这一个世界，我们所问的问题，只会跟 <code>Kubernetes</code> 这个产品相关联。</p>
+<p>最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机。</p>
+<p>世界可大可小，关键在于你怎么定义。</p>
+<p>所以，按照的现行技术框架下，这个问答机器人是这样的：</p>
+<p>文档消费者：</p>
+<p>文本输入 --&gt; 机器人微服务 --&gt; 检索已有数据（elasticsearch）</p>
+<p>文档生产者：</p>
+<p><code>git clone</code>文档仓库 --&gt; 程序结构化文档，将死的数据转换为可被理解并检索的数据，比如导入 elasticsearch。</p>
+<p>我们可以把所有阿里云产品的文档都丢到这个 elasticsearch 里面，一个产品一个 index。也可以分开做，世界的定义取决于产品经理的个人选择。</p>
+<p>等我有心情了，再开发出来这个钉钉机器人吧，哈哈。</p>
+<h2>理想架构</h2>
+<p>手机输入，键盘输入，语音输入，意念输入
+--&gt;
+微服务查找（计算资源即微服务，计算资源包括人和计算机）
+--&gt;
+调用计算资源完成计算</p>
+<p><code>--&gt;</code>表示数据的流动，是一种世界通讯的协议</p>
+<h2>TODO</h2>
+<ol>
+<li>面向世界的程序语言</li>
+<li>新的世界级通讯协议</li>
+<li>VR技术</li>
+</ol>
+<p>参考链接</p>
+<ol>
+<li>http://www.yinwang.org/blog-cn/2018/04/13/computer-science</li>
+<li>https://baike.baidu.com/item/%E5%86%AF%C2%B7%E8%AF%BA%E4%BE%9D%E6%9B%BC%E7%BB%93%E6%9E%84</li>
+</ol>
+
+      </article>
+      
+<ins class="adsbygoogle mt-12" style="display:block" data-ad-client="CA-PUB-DEV" data-ad-slot="ID-DEV" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle || []).push({});</script>
+
+    </div>
+  </div>
+</main>
+
+<footer class="mx-4 mt-8 mb-6">
+  <hr class="mt-0 hr-fade">
+  <nav class="mt-4 flex items-center justify-center">
+  <a class="ml-3 first:ml-0 text-sm text-gray-600 hover:text-gray-800" href="/posts/">Posts</a>
+  <a class="ml-3 first:ml-0 text-sm text-gray-600 hover:text-gray-800" href="/about/">About</a>
+</nav>
+
+  <div class="mt-2 text-sm text-center text-gray-500">&#169; 2000-2020 Example Company</div>
+  <div class="mt-2 text-xs text-center text-gray-500">Powered by <a href="https://www.jhaurawachsman.com/axiom/">Axiom</a></div>
+
+</footer>
+
+<script src="/app.js?v=1584840227"></script>
+<script src="/custom.js?v=1584840227"></script>
+  <script defer src="/prism.js?v=1584840227"></script>
+  <script>
+  (function() {
+    window.setTimeout(function(){
+      var gAds = document.createElement("script");
+      gAds.setAttribute("defer", "defer");
+      gAds.setAttribute("data-ad-client", "CA-PUB-DEV");
+      gAds.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+      document.body.appendChild(gAds);
+    }, 2000);
+  })();
+  </script>
+<script>
+(function() {
+  window.setTimeout(function(){
+    var fbPixel = document.createElement("img");
+    fbPixel.setAttribute("width", "1");
+    fbPixel.setAttribute("height", "1");
+    fbPixel.setAttribute("style", "display:none");
+    fbPixel.src = "https://www.facebook.com/tr?id=FB-DEV&amp;ev=PageView";
+    document.body.appendChild(fbPixel);
+  }, 1750);
+})();
+</script>
+
+</body>
+</html>
