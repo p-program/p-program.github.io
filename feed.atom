@@ -9,7 +9,7 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-22T01:23:47Z</updated>
+  <updated>2020-03-22T01:30:03Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
   <entry>
@@ -36,19 +36,19 @@
 &lt;p&gt;但这套体系一直都是有缺陷的。比如在这套体系里面，一直都无法解决精度缺失的问题，不管你怎么多线程，结果也是串行执行。&lt;/p&gt;
 &lt;p&gt;这是一套相当落后的架构，但我们不得不使用他。并在他基础上逐渐改进，直至新的技术突破。&lt;/p&gt;
 &lt;h2&gt;下一代机器人架构&lt;/h2&gt;
-&lt;p&gt;按照&lt;a href=&#34;https://github.com/p-program/The-Seed&#34;&gt;The-Seed&lt;/a&gt;架构设计的机器人，架构应当是这样的：&lt;/p&gt;
-&lt;p&gt;Input&lt;/p&gt;
+&lt;p&gt;按照 &lt;a href=&#34;https://github.com/p-program/The-Seed&#34;&gt;The-Seed&lt;/a&gt; 理念设计的机器人，架构应当是这样的：&lt;/p&gt;
+&lt;p&gt;Input:&lt;/p&gt;
 &lt;p&gt;手机输入，键盘输入，语音输入，意念输入&lt;/p&gt;
-&lt;p&gt;Process&lt;/p&gt;
+&lt;p&gt;Process:&lt;/p&gt;
 &lt;p&gt;程序的处理逻辑。&lt;/p&gt;
-&lt;p&gt;Output&lt;/p&gt;
+&lt;p&gt;Output:&lt;/p&gt;
 &lt;p&gt;程序的应答&lt;/p&gt;
-&lt;p&gt;Influence&lt;/p&gt;
+&lt;p&gt;Influence:&lt;/p&gt;
 &lt;p&gt;程序的应答对我们的影响&lt;/p&gt;
 &lt;h2&gt;现行框架下的解&lt;/h2&gt;
-&lt;p&gt;我们就只挑&lt;code&gt;Process&lt;/code&gt;来讲吧。按照&lt;a href=&#34;https://github.com/p-program/The-Seed/blob/master/world.md&#34;&gt;世界的定义&lt;/a&gt;，如果世界是不可解的，那么我们把分解为一个可解的系统就行。&lt;/p&gt;
+&lt;p&gt;我们就只挑&lt;code&gt;Process&lt;/code&gt;来讲吧。按照&lt;a href=&#34;https://github.com/p-program/The-Seed/blob/master/world.md&#34;&gt;世界的定义&lt;/a&gt;，如果世界是不可解的，那么我们把分解为一个可解的世界就行。&lt;/p&gt;
 &lt;p&gt;制造泛用性机器人是我们最终的目标，但我们可以先从解决特定可解问题入手。&lt;/p&gt;
-&lt;p&gt;比如，我要造一个文档机器人，基于我的文档仓库问答。比如这个文档是这么定义的:&lt;/p&gt;
+&lt;p&gt;比如，我要造一个文档机器人，基于我的文档仓库问答。这个文档是这么定义的:&lt;/p&gt;
 &lt;p&gt;文件名是&lt;code&gt;kubernetes.md&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;内容是&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# 六 集群故障管理
@@ -63,17 +63,16 @@
 &lt;p&gt;在这个问题里面，&amp;quot;kubernetes.md&amp;quot; 就是&amp;quot;世界&amp;quot;。这个世界解决了故障处理的可解子问题。&lt;/p&gt;
 &lt;p&gt;那么当我向机器人提问&lt;code&gt;ImageGCFailed&lt;/code&gt;的时候，机器人认识到了这是 &amp;quot;kubernetes.md&amp;quot; 的问题，略微检索（elasticsearch），便能变成答案。&lt;/p&gt;
 &lt;p&gt;“ML科学家”就不服了，他说你怎么知道机器人知道答案呢？&lt;/p&gt;
-&lt;p&gt;其实这个也非常的简单。“继续分割这个世界，直至不能再分割”。问题不能解决，那就把它再分解，再特殊化一点。&lt;/p&gt;
+&lt;p&gt;其实答案也非常的简单。“继续分割这个世界，直至不能再分割”。问题不能解决，那就把它再分解，再特殊化一点。&lt;/p&gt;
 &lt;p&gt;举个例子。我们用浏览器访问&lt;a href=&#34;https://help.aliyun.com/product/85222.html&#34;&gt;阿里云的容器服务Kubernetes版&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;实际上我们已经进入了 &lt;code&gt;Kubernetes&lt;/code&gt; 这一个世界，我们所问的问题，只会跟 &lt;code&gt;Kubernetes&lt;/code&gt; 这个产品相关联。&lt;/p&gt;
-&lt;p&gt;最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机。&lt;/p&gt;
-&lt;p&gt;世界可大可小，关键在于你怎么定义。&lt;/p&gt;
 &lt;p&gt;所以，按照的现行技术框架下，这个问答机器人是这样的：&lt;/p&gt;
 &lt;p&gt;文档消费者：&lt;/p&gt;
 &lt;p&gt;文本输入 --&amp;gt; 机器人微服务 --&amp;gt; 检索已有数据（elasticsearch）&lt;/p&gt;
 &lt;p&gt;文档生产者：&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git clone&lt;/code&gt;文档仓库 --&amp;gt; 程序结构化文档，将死的数据转换为可被理解并检索的数据，比如导入 elasticsearch。&lt;/p&gt;
-&lt;p&gt;我们可以把所有阿里云产品的文档都丢到这个 elasticsearch 里面，一个产品一个 index。也可以分开做，世界的定义取决于产品经理的个人选择。&lt;/p&gt;
+&lt;p&gt;我们可以把所有阿里云产品的文档都丢到这个 elasticsearch 里面，一个产品一个 index。也可以分开做。世界可大可小，关键在于产品经理怎么定义。&lt;/p&gt;
+&lt;p&gt;最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机。&lt;/p&gt;
 &lt;p&gt;等我有心情了，再开发出来这个钉钉机器人吧，哈哈。&lt;/p&gt;
 &lt;h2&gt;理想架构&lt;/h2&gt;
 &lt;p&gt;手机输入，键盘输入，语音输入，意念输入
@@ -81,7 +80,7 @@
 微服务查找（计算资源即微服务，计算资源包括人和计算机）
 --&amp;gt;
 调用计算资源完成计算&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;--&amp;gt;&lt;/code&gt;表示数据的流动，是一种世界通讯的协议&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;--&amp;gt;&lt;/code&gt; 表示数据的流动，是一种世界通讯的协议&lt;/p&gt;
 &lt;h2&gt;TODO&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;面向世界的程序语言&lt;/li&gt;
