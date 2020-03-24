@@ -1,1 +1,4 @@
 /* Add custom CSS here, and it will be included on build */
+.mb-2 {
+    margin: 0 auto ;
+}

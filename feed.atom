@@ -9,9 +9,141 @@
   </author>
   <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
   <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-03-20T08:33:37Z</updated>
+  <updated>2020-03-24T05:08:12Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
+  <entry>
+    <title>皮之三重境界</title>
+    <author>
+      <name>p-program</name>
+      <uri>https://github.com/p-program</uri>
+    </author>
+    <id>https://p-program.github.io/p-programer/</id>
+    <updated>2020-03-24T04:03:42Z</updated>
+    <published>2020-03-24T04:03:42Z</published>
+    <content type="html">&lt;p&gt;古人曾经没有这么云过：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人之初，性本善，性相近，皮相远。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;也就是说，人的皮性各有不同。有的不皮，有的很皮，更有甚者，皮成了仙。&lt;/p&gt;
+&lt;p&gt;古今之成大事业、大皮学家(p-programer)，罔不经过三种之境界：&lt;/p&gt;
+&lt;h2&gt;昨夜西风凋碧树。独上高楼，皮尽天涯路&lt;/h2&gt;
+&lt;p&gt;皮于表象，俗称皮皮虾。
+皮皮虾经常出没于各大社群，常用句式有&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;21 天学会 C&#43;&#43;&lt;/li&gt;
+&lt;li&gt;PHP 是最好的语言&lt;/li&gt;
+&lt;li&gt;C 语言从入门到放弃&lt;/li&gt;
+&lt;li&gt;Java 是门啰嗦的语言&lt;/li&gt;
+&lt;li&gt;老子就是死也不优化JVM&lt;/li&gt;
+&lt;li&gt;机器学习真的不是统计学&lt;/li&gt;
+&lt;li&gt;go 是云原生开发第一语言&lt;/li&gt;
+&lt;li&gt;没过几年就要跟微软学新语言&lt;/li&gt;
+&lt;li&gt;学 Python 要先买一把游标卡尺&lt;/li&gt;
+&lt;li&gt;JavaScript 就是一把没有刀柄的剑&lt;/li&gt;
+&lt;li&gt;请不要把区块链当成收割韭菜的有效工具&lt;/li&gt;
+&lt;li&gt;swift 是那个跟男朋友分手后就写歌的女歌手吗&lt;/li&gt;
+&lt;li&gt;object-c 是被 Taylor Alison Swift 抛弃的备胎吗
+&lt;img src=&#34;/image/post/p-programer/p-army.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;衣带渐宽终不悔，为伊皮得人憔悴&lt;/h2&gt;
+&lt;p&gt;经过第一重境界的轮回以后，皮皮虾顿悟了编程的真谛在于认清了生活的真谛之后，依然要靠他们恰饭。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;上善若皮，皮善覆万物而不争，处众人之所恶（wù），故几于道。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以他化用了各家武功，形成了自己的独特武林绝学：&lt;strong&gt;医院挂号&lt;/strong&gt;。
+&lt;img src=&#34;/image/post/p-programer/p-immortal.jpg&#34; alt=&#34;&#34;&gt;
+终不得治，谥号皮成仙。&lt;/p&gt;
+&lt;h2&gt;众里寻他千百度，蓦然回首，那人皮在灯火阑珊处&lt;/h2&gt;
+&lt;p&gt;皮成神，简称皮神，皮卡丘。&lt;/p&gt;
+&lt;p&gt;皮神是不属于人类的存在。它不呆在精灵球里，所以是不被束缚的存在。无法被观测，更无法被捕捉。其存在是一种传说。&lt;/p&gt;
+&lt;p&gt;皮即可爱，皮即正义，皮即世界。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/p-programer/p-detective.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>The Seed Of Robot —— Intelligent API Gateway</title>
+    <author>
+      <name>p-program</name>
+      <uri>https://github.com/p-program</uri>
+    </author>
+    <id>https://p-program.github.io/the-seed-of-robot/</id>
+    <updated>2020-03-21T12:56:37Z</updated>
+    <published>2020-03-21T12:56:37Z</published>
+    <content type="html">&lt;h2&gt;冯·诺依曼结构的缺陷&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数学家冯·诺依曼提出了计算机制造的三个基本原则，即采用二进制逻辑、程序存储执行以及计算机由五个部分组成（运算器、控制器、存储器、输入设备、输出设备），这套理论被称为冯·诺依曼体系结构。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;计算程序发展到现在，基本的架构从来未曾改变。无非是&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;input --&amp;gt; process --&amp;gt; output&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;也就是&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;电脑输入--&amp;gt; 程序处理 --&amp;gt; 结果导出&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但这套体系一直都是有缺陷的。比如在这套体系里面，一直都无法解决精度缺失的问题，不管你怎么多线程，结果也是串行执行。&lt;/p&gt;
+&lt;p&gt;这是一套相当落后的架构，但我们不得不使用他。并在他基础上逐渐改进，直至新的技术突破。&lt;/p&gt;
+&lt;h2&gt;下一代机器人架构&lt;/h2&gt;
+&lt;p&gt;按照 &lt;a href=&#34;https://github.com/p-program/The-Seed&#34;&gt;The-Seed&lt;/a&gt; 理念设计的机器人，架构应当是这样的：&lt;/p&gt;
+&lt;p&gt;Input:&lt;/p&gt;
+&lt;p&gt;手机输入，键盘输入，语音输入，意念输入&lt;/p&gt;
+&lt;p&gt;Process:&lt;/p&gt;
+&lt;p&gt;程序的处理逻辑。&lt;/p&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;p&gt;程序的应答&lt;/p&gt;
+&lt;p&gt;Influence:&lt;/p&gt;
+&lt;p&gt;程序的应答对我们的影响&lt;/p&gt;
+&lt;h2&gt;现行框架下的解&lt;/h2&gt;
+&lt;p&gt;我们就只挑&lt;code&gt;Process&lt;/code&gt;来讲吧。按照&lt;a href=&#34;https://github.com/p-program/The-Seed/blob/master/world.md&#34;&gt;世界的定义&lt;/a&gt;，如果世界是不可解的，那么我们把分解为一个可解的世界就行。&lt;/p&gt;
+&lt;p&gt;制造泛用性机器人是我们最终的目标，但我们可以先从解决特定可解问题入手。&lt;/p&gt;
+&lt;p&gt;比如，我要造一个文档机器人，基于我的文档仓库问答。这个文档是这么定义的:&lt;/p&gt;
+&lt;p&gt;文件名是&lt;code&gt;kubernetes.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;内容是&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# 六 集群故障管理
+## 6.1 节点问题
+### 6.1.3  ImageGCFailed
+&amp;gt; 
+&amp;gt;   kubelet 可以清除未使用的容器和镜像。kubelet 在每分钟和每五分钟分别回收容器和镜像。
+&amp;gt; 
+&amp;gt;   [配置 kubelet 垃圾收集](https://k8smeetup.github.io/docs/concepts/cluster-administration/kubelet-garbage-collection/)
+但是 kubelet 的垃圾回收有个问题,它只能回收那些未使用的镜像,有点像 `docker system prune`,然而观察发现,那些死掉的容器不是最大的问题,正在运行的容器才是更大的问题.如果ImageGCFailed一直发生,而容器使用的ephemeral-storage/hostpath(宿主目录)越发增多,最终将会导致更严重的DiskPressure问题,波及节点上所有容器.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在这个问题里面，&amp;quot;kubernetes.md&amp;quot; 就是&amp;quot;世界&amp;quot;。这个世界解决了故障处理的可解子问题。&lt;/p&gt;
+&lt;p&gt;那么当我向机器人提问&lt;code&gt;ImageGCFailed&lt;/code&gt;的时候，机器人认识到了这是 &amp;quot;kubernetes.md&amp;quot; 的问题，略微检索（elasticsearch），便能变成答案。&lt;/p&gt;
+&lt;p&gt;“ML科学家”就不服了，他说你怎么知道机器人知道答案呢？&lt;/p&gt;
+&lt;p&gt;其实答案也非常的简单。“继续分割这个世界，直至不能再分割”。问题不能解决，那就把它再分解，再特殊化一点。&lt;/p&gt;
+&lt;p&gt;举个例子。我们用浏览器访问&lt;a href=&#34;https://help.aliyun.com/product/85222.html&#34;&gt;阿里云的容器服务Kubernetes版&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;实际上我们已经进入了 &lt;code&gt;Kubernetes&lt;/code&gt; 这一个世界，我们所问的问题，只会跟 &lt;code&gt;Kubernetes&lt;/code&gt; 这个产品相关联。&lt;/p&gt;
+&lt;p&gt;所以，按照的现行技术框架下，这个问答机器人是这样的：&lt;/p&gt;
+&lt;p&gt;文档消费者：&lt;/p&gt;
+&lt;p&gt;文本输入 --&amp;gt; 机器人微服务 --&amp;gt; 检索已有数据（elasticsearch）&lt;/p&gt;
+&lt;p&gt;文档生产者：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git clone&lt;/code&gt;文档仓库 --&amp;gt; 程序结构化文档，将死的数据转换为可被理解并检索的数据，比如导入 elasticsearch。&lt;/p&gt;
+&lt;p&gt;我们可以把所有阿里云产品的文档都丢到这个 elasticsearch 里面，一个产品一个 index。也可以分开做。世界可大可小，关键在于产品经理怎么定义。&lt;/p&gt;
+&lt;p&gt;最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机。&lt;/p&gt;
+&lt;p&gt;等我有心情了，再开发出来这个钉钉机器人吧，哈哈。&lt;/p&gt;
+&lt;h2&gt;理想架构&lt;/h2&gt;
+&lt;p&gt;手机输入，键盘输入，语音输入，意念输入
+--&amp;gt;
+微服务查找（计算资源即微服务，计算资源包括人和计算机）
+--&amp;gt;
+调用计算资源完成计算&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;--&amp;gt;&lt;/code&gt; 表示数据的流动，是一种世界通讯的协议。&lt;/p&gt;
+&lt;p&gt;微服务查找是一个拓展的概念，查找的结果基于搜索因子呈现，基于质量排序。比如，海贼王临死前留下了 &lt;code&gt;One Piece&lt;/code&gt;，只留给找到它的人。各路豪杰纷纷响应，世界由此进入大航海时代。&lt;/p&gt;
+&lt;p&gt;调用微服务不一定只调用一个，我们可以并发地调用多个微服务，&lt;code&gt;One Piece&lt;/code&gt; 只留给最快找到它的人。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/The-Seed-Of-Robot/one-piece.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;TODO&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;面向世界的程序语言&lt;/li&gt;
+&lt;li&gt;新的世界级通讯协议&lt;/li&gt;
+&lt;li&gt;VR技术&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;参考链接&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;http://www.yinwang.org/blog-cn/2018/04/13/computer-science&lt;/li&gt;
+&lt;li&gt;https://baike.baidu.com/item/%E5%86%AF%C2%B7%E8%AF%BA%E4%BE%9D%E6%9B%BC%E7%BB%93%E6%9E%84&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
   <entry>
     <title>How To Do In Java</title>
     <author>
@@ -22,7 +154,9 @@
     <updated>2020-03-20T05:53:29Z</updated>
     <published>2020-03-20T05:53:29Z</published>
     <content type="html">&lt;p&gt;The point is to break the rule everyday.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/java.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;Use Java 8 till the world ends&lt;/h2&gt;
+&lt;p&gt;2032：I still use Java 8.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/java-release.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;Write once,run nowwhere&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/write-once.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;Use maven rather than gradle, install tons of dependencies even you just wanna hello world&lt;/h2&gt;
@@ -220,9 +354,22 @@ Thread.sleep(30000)；
         return null;
     }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Use Java 8 till the world ends&lt;/h2&gt;
-&lt;p&gt;2032：I still use Java 8.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/HowToDoInJava/java-release.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;Love my wife like crazy&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;package com.zeusro;
+import java.util.Date;
+
+public interface Wife {
+
+    public void want(Float money);
+
+    public void want(Float money,Object love);
+
+    public void want(Object love,Float money);
+
+    public void want(Object love, Float money, Date time);
+
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;More code lines,more money&lt;/h2&gt;
 &lt;p&gt;The 40-year-old Kobe Bryant still wakes up before the sun to go to the gym at 4 a.m.&lt;/p&gt;
 &lt;p&gt;One day he asked IT engineers around him：&amp;quot;Have you ever seen LA at 4 a.m. ?&amp;quot;&lt;/p&gt;
