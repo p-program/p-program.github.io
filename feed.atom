@@ -2,21 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <title>P programming</title>
   <subtitle>Example Company Tagline</subtitle>
-  <id>https://p-program.github.io/</id>
+  <id>https://bullshitprogram.com/</id>
   <author>
     <name>P programming</name>
-    <uri>https://p-program.github.io/</uri>
+    <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-04-06T14:54:05Z</updated>
-  <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
-  <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
+  <updated>2020-04-06T15:16:57Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
+  <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
   <entry>
     <title>面向甩锅开发</title>
     <author>
       <name>p-program</name>
       <uri>https://github.com/p-program</uri>
     </author>
-    <id>https://p-program.github.io/g-oriented-programming/</id>
+    <id>https://bullshitprogram.com/g-oriented-programming/</id>
     <updated>2020-04-06T13:39:05Z</updated>
     <published>2020-04-06T13:39:05Z</published>
     <content type="html">&lt;h2&gt;把锅留给自己&lt;/h2&gt;
@@ -38,7 +38,7 @@
       <name>p-program</name>
       <uri>https://github.com/p-program</uri>
     </author>
-    <id>https://p-program.github.io/the-importance-of-timeseries-databases/</id>
+    <id>https://bullshitprogram.com/the-importance-of-timeseries-databases/</id>
     <updated>2020-04-01T02:23:18Z</updated>
     <published>2020-04-01T02:23:18Z</published>
     <content type="html">&lt;p&gt;首先，我们先理清一个概念：&lt;/p&gt;
@@ -101,7 +101,7 @@
       <name>p-program</name>
       <uri>https://github.com/p-program</uri>
     </author>
-    <id>https://p-program.github.io/bullshityang/</id>
+    <id>https://bullshitprogram.com/bullshityang/</id>
     <updated>2020-03-27T01:26:58Z</updated>
     <published>2020-03-27T01:26:58Z</published>
     <content type="html">&lt;blockquote&gt;
@@ -153,7 +153,7 @@
       <name>p-program</name>
       <uri>https://github.com/p-program</uri>
     </author>
-    <id>https://p-program.github.io/p-programer/</id>
+    <id>https://bullshitprogram.com/p-programer/</id>
     <updated>2020-03-24T04:03:42Z</updated>
     <published>2020-03-24T04:03:42Z</published>
     <content type="html">&lt;p&gt;古人曾经没有这么云过：&lt;/p&gt;
@@ -201,7 +201,7 @@
       <name>p-program</name>
       <uri>https://github.com/p-program</uri>
     </author>
-    <id>https://p-program.github.io/the-seed-of-robot/</id>
+    <id>https://bullshitprogram.com/the-seed-of-robot/</id>
     <updated>2020-03-21T12:56:37Z</updated>
     <published>2020-03-21T12:56:37Z</published>
     <content type="html">&lt;h2&gt;冯·诺依曼结构的缺陷&lt;/h2&gt;
@@ -287,7 +287,7 @@
       <name>p-program</name>
       <uri>https://github.com/p-program</uri>
     </author>
-    <id>https://p-program.github.io/howtodoinjava/</id>
+    <id>https://bullshitprogram.com/howtodoinjava/</id>
     <updated>2020-03-20T05:53:29Z</updated>
     <published>2020-03-20T05:53:29Z</published>
     <content type="html">&lt;p&gt;The point is to break the rule everyday.&lt;/p&gt;
@@ -656,7 +656,7 @@ s.add(4);
       <name>Zeusro</name>
       <uri>https://github.com/zeusro</uri>
     </author>
-    <id>https://p-program.github.io/fengqingyang/</id>
+    <id>https://bullshitprogram.com/fengqingyang/</id>
     <updated>2020-03-19T15:50:20Z</updated>
     <published>2020-03-19T15:50:20Z</published>
     <content type="html">&lt;p&gt;Hello,everyone,I am Zeusro who was born and live in China.&lt;/p&gt;
