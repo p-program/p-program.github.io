@@ -7,11 +7,31 @@
     <name>P programming</name>
     <uri>https://p-program.github.io/</uri>
   </author>
-  <icon>https://p-program.github.io/image/brand/icon-1-1.png</icon>
-  <logo>https://p-program.github.io/image/brand/icon-2-1.png</logo>
-  <updated>2020-04-01T02:58:57Z</updated>
+  <updated>2020-04-06T14:02:48Z</updated>
   <link rel="self" type="application/atom+xml" href="https://p-program.github.io/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://p-program.github.io/" hreflang="en-us"/>
+  <entry>
+    <title>面向甩锅开发</title>
+    <author>
+      <name>p-program</name>
+      <uri>https://github.com/p-program</uri>
+    </author>
+    <id>https://p-program.github.io/g-oriented-programming/</id>
+    <updated>2020-04-06T13:39:05Z</updated>
+    <published>2020-04-06T13:39:05Z</published>
+    <content type="html">&lt;h2&gt;把锅留给自己&lt;/h2&gt;
+&lt;p&gt;能够独立解决问题，是成为甩锅工程师的第一步。锅要先自己背，只有自己背过锅，才知道锅的沉重。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/G-Oriented-Programming/g-in-home.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;但是，一个人能背的锅总是有限的，要把有限精力放在更重要的事情上。&lt;/p&gt;
+&lt;h2&gt;把锅丢给别人&lt;/h2&gt;
+&lt;p&gt;当你背过锅，知道锅的沉重之后。决定把锅留给别人。或物色人员，培训萌新，成为他们眼中的导师；或删库跑路，怒交辞职信，愤而离职。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/G-Oriented-Programming/g-too-many.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这些其实都只是个人选择。无关乎对错。但，把锅留给别人，万一后继无人呢？&lt;/p&gt;
+&lt;h2&gt;把锅留给世界&lt;/h2&gt;
+&lt;p&gt;所以，当一个项目到了生死存亡之际，无人可托管。建议把他留给世界，原地开源。&lt;/p&gt;
+&lt;p&gt;虽然我已退出江湖，但江湖还流传着我的传说；虽然我已不写代码，但我审核你们的代码也很爽啊 ~&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/G-Oriented-Programming/g-in-world.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>The Importance Of Time Series Databases</title>
     <author>
