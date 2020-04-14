@@ -5,6 +5,5 @@ auto_commit: pull
 	git commit -am "$(now)"
 	git push origin HEAD:master
 
-
 pull:
 	git pull origin master
