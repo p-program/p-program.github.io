@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://p-program.github.io/sitemap.xml
+Sitemap: https://bullshitprogram.com/sitemap.xml
