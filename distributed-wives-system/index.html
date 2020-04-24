@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="robots" content="noodp,noydir">
+  <meta name="pinterest" content="nopin">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/">
+  <link rel="icon" type="image/x-icon" href="/">
+  <link rel="apple-touch-icon" href="/">
+  <link rel="canonical" href="https://bullshitprogram.com/distributed-wives-system/">
+  
+<link rel="preload" as="style" href="/bundle.css?v=1587721427" media="all">
+<link rel="stylesheet" href="/bundle.css?v=1587721427" media="all">
+
+<link rel="preload" as="image" href="/image/post/Distributed-Wives-System/school-days.png">
+
+<title>Distributed Wives System : P programming</title>
+
+<meta property="og:title" content="Distributed Wives System">
+<meta property="og:site_name" content="P programming">
+<meta property="og:url" content="https://bullshitprogram.com/distributed-wives-system/">
+<link rel="image_src" href="https://bullshitprogram.com/image/post/Distributed-Wives-System/school-days.png">
+<meta property="og:image" content="https://bullshitprogram.com/image/post/Distributed-Wives-System/school-days.png">
+<meta property="og:image:width" content="">
+<meta property="og:image:height" content="">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_us">
+<meta property="og:description" content="亚当一觉醒来，看到女人，说：“这是我骨中的骨，肉中的肉！” CAP 理论 可用性（Availability）：睡觉的时候旁边有老婆A或者B，老婆数量越多，可用性越高。可用性的终极形态是“1对N群体运动”（参考罗某人）。满足高可用性的前提是 N ≥ 2 。高可用性也是分布式系统的基础。
+分区容错性（Partition tolerance）：老婆A不知道老婆B，她们信息不完全互通。
+一致性（Consistency） ：老婆A 知道老婆B 的存在，或者孩子知道自己爹妈是谁。
+最终一致性：虽然有很多老婆，但最后她们都和谐共处。
+我们从历史的长河，来看各个时代的（分布式）老婆系统是怎么样的。
+只知其母，不知其父 这种母系社会，应该叫分布式老公系统才对。分布式老公系统，实现了高可用性和分区容错性。一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。
+老婆=1，所以不能叫分布式老婆系统。
+父有一个，三妻四妾 在中国的封建时期。曾经流行这样一套系统。不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。至于妾，则用“納”。妾的地位更低。
+   特性 是否实现     一致性 √   可用性 √   分区容错性 ×（她们各住自己房间）    一夫一妻，从一而终 这是近现代女权思潮的进步。目的除了尊重女性，还有尊重弱小男性的意思。因为按照中国“不下嫁”的传统，如果继续实行一夫多妻制度，将有更多底层男性娶不到老婆。这会造成严重的社会动乱。">
+<meta name="description" content="亚当一觉醒来，看到女人，说：“这是我骨中的骨，肉中的肉！” CAP 理论 可用性（Availability）：睡觉的时候旁边有老婆A或者B，老婆数量越多，可用性越高。可用性的终极形态是“1对N群体运动”（参考罗某人）。满足高可用性的前提是 N ≥ 2 。高可用性也是分布式系统的基础。
+分区容错性（Partition tolerance）：老婆A不知道老婆B，她们信息不完全互通。
+一致性（Consistency） ：老婆A 知道老婆B 的存在，或者孩子知道自己爹妈是谁。
+最终一致性：虽然有很多老婆，但最后她们都和谐共处。
+我们从历史的长河，来看各个时代的（分布式）老婆系统是怎么样的。
+只知其母，不知其父 这种母系社会，应该叫分布式老公系统才对。分布式老公系统，实现了高可用性和分区容错性。一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。
+老婆=1，所以不能叫分布式老婆系统。
+父有一个，三妻四妾 在中国的封建时期。曾经流行这样一套系统。不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。至于妾，则用“納”。妾的地位更低。
+   特性 是否实现     一致性 √   可用性 √   分区容错性 ×（她们各住自己房间）    一夫一妻，从一而终 这是近现代女权思潮的进步。目的除了尊重女性，还有尊重弱小男性的意思。因为按照中国“不下嫁”的传统，如果继续实行一夫多妻制度，将有更多底层男性娶不到老婆。这会造成严重的社会动乱。">
+<meta property="og:updated_time" content="2020-04-24T09:13:31Z">
+<meta property="fb:app_id" content="FB-DEV">
+<meta name="author" content="p-program">
+<meta property="article:author" content="https://github.com/p-program">
+<meta property="article:published_time" content="2020-04-24T09:13:31Z">
+<meta property="article:modified_time" content="2020-04-24T09:13:31Z">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Distributed Wives System",
+  "alternativeHeadline": "亚当一觉醒来，看到女人，说：“这是我骨中的骨，肉中的肉！”",
+  "url": "https://bullshitprogram.com/distributed-wives-system/",
+  "image": "https://bullshitprogram.com/image/post/Distributed-Wives-System/school-days.png",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bullshitprogram.com/distributed-wives-system/"
+  },
+  "description": "亚当一觉醒来，看到女人，说：“这是我骨中的骨，肉中的肉！” CAP 理论 可用性（Availability）：睡觉的时候旁边有老婆A或者B，老婆数量越多，可用性越高。可用性的终极形态是“1对N群体运动”（参考罗某人）。满足高可用性的前提是 N ≥ 2 。高可用性也是分布式系统的基础。\n分区容错性（Partition tolerance）：老婆A不知道老婆B，她们信息不完全互通。\n一致性（Consistency） ：老婆A 知道老婆B 的存在，或者孩子知道自己爹妈是谁。\n最终一致性：虽然有很多老婆，但最后她们都和谐共处。\n我们从历史的长河，来看各个时代的（分布式）老婆系统是怎么样的。\n只知其母，不知其父 这种母系社会，应该叫分布式老公系统才对。分布式老公系统，实现了高可用性和分区容错性。一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。\n老婆=1，所以不能叫分布式老婆系统。\n父有一个，三妻四妾 在中国的封建时期。曾经流行这样一套系统。不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。至于妾，则用“納”。妾的地位更低。\n   特性 是否实现     一致性 √   可用性 √   分区容错性 ×（她们各住自己房间）    一夫一妻，从一而终 这是近现代女权思潮的进步。目的除了尊重女性，还有尊重弱小男性的意思。因为按照中国“不下嫁”的传统，如果继续实行一夫多妻制度，将有更多底层男性娶不到老婆。这会造成严重的社会动乱。",
+  "author": {
+    "@type": "Person",
+    "name": "p-program"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "P programming",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bullshitprogram.com/"
+    }
+  },
+  "datePublished": "2020-04-24T09:13:31Z",
+  "dateModified": "2020-04-24T09:13:31Z",
+  "articleBody": "\u003ch2\u003eCAP 理论\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/Distributed-Wives-System/CAP.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e可用性（Availability）\u003c/strong\u003e：睡觉的时候旁边有老婆A或者B，老婆数量越多，可用性越高。可用性的终极形态是“1对N群体运动”（参考罗某人）。满足高可用性的前提是 N ≥ 2 。高可用性也是分布式系统的基础。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e分区容错性（Partition tolerance）\u003c/strong\u003e：老婆A不知道老婆B，她们信息不完全互通。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e一致性（Consistency）\u003c/strong\u003e ：老婆A 知道老婆B 的存在，或者孩子知道自己爹妈是谁。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e最终一致性\u003c/strong\u003e：虽然有很多老婆，但最后她们都和谐共处。\u003c/p\u003e\n\u003cp\u003e我们从历史的长河，来看各个时代的（分布式）老婆系统是怎么样的。\u003c/p\u003e\n\u003ch2\u003e只知其母，不知其父\u003c/h2\u003e\n\u003cp\u003e这种母系社会，应该叫分布式老公系统才对。分布式老公系统，实现了高可用性和分区容错性。一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。\u003c/p\u003e\n\u003cp\u003e老婆=1，所以不能叫分布式老婆系统。\u003c/p\u003e\n\u003ch2\u003e父有一个，三妻四妾\u003c/h2\u003e\n\u003cp\u003e在中国的封建时期。曾经流行这样一套系统。不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。至于妾，则用“納”。妾的地位更低。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e特性\u003c/th\u003e\n\u003cth\u003e是否实现\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e一致性\u003c/td\u003e\n\u003ctd\u003e√\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e可用性\u003c/td\u003e\n\u003ctd\u003e√\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e分区容错性\u003c/td\u003e\n\u003ctd\u003e×（她们各住自己房间）\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e一夫一妻，从一而终\u003c/h2\u003e\n\u003cp\u003e这是近现代女权思潮的进步。目的除了尊重女性，还有尊重弱小男性的意思。因为按照中国“不下嫁”的传统，如果继续实行一夫多妻制度，将有更多底层男性娶不到老婆。这会造成严重的社会动乱。\u003c/p\u003e\n\u003cp\u003e老婆=1，所以不能叫分布式老婆系统。\u003c/p\u003e\n\u003ch2\u003e构建现代分布式老婆系统\u003c/h2\u003e\n\u003cp\u003e策略是\u003cstrong\u003e欺骗与重建信任\u003c/strong\u003e。\u003c/p\u003e\n\u003ch3\u003e弱水三千，只取一瓢：\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003e亲爱的,我从你身上看到了整个世界。跟你在一起之后，我的生命变得完整。嫁给我吧，我会给你幸福的！\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3\u003e喜新厌旧，开始劈腿\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003e老婆，她们只是我的姐妹，我只是玩玩而已。大家都是人，有什么生理需求都很正常。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3\u003e老婆A 的态度\u003c/h3\u003e\n\u003cp\u003e第二个步骤过后，会有两条分支线。这取决于老婆A的态度。\u003c/p\u003e\n\u003ch3\u003e自戴绿帽\u003c/h3\u003e\n\u003cp\u003e自戴绿帽的合法方式是与他离婚，让他娶小三。但是事实上又在一起。或者做表面夫妻，假意原谅老公，让他继续在外面浪荡。\u003c/p\u003e\n\u003cp\u003e离婚后又事实上在一起，叫做\u003cstrong\u003e实现了最终一致性\u003c/strong\u003e。\u003c/p\u003e\n\u003cp\u003e在中国有不少人实现了这个方式。但名字我还是不说了，免得被抄家就不好了，哈哈哈。\u003c/p\u003e\n\u003ch3\u003e斩其祸根\u003c/h3\u003e\n\u003cp\u003e在《School Days》，诚哥上了天台，故事的结局，大家也都知道了。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/Distributed-Wives-System/school-days.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e来说一首诗祭奠一下诚哥吧：\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e诚哥笑我胆子小，我笑诚哥死得早。 \n你笑诚哥死得早，诚哥笑你日得少。 \n诚哥笑你日得少，我笑诚哥日不了。 \n你笑诚哥日不了，诚哥笑你胆子小。\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e对于老婆A 来说，防止戴绿帽的最佳策略是\u003cstrong\u003e不断提高自身价值，并查他手机\u003c/strong\u003e。\u003c/p\u003e\n\u003ch2\u003e结论\u003c/h2\u003e\n\u003cp\u003e只要你一心沉迷二次元，完美的分布式老婆系统还是可以实现的！\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/Distributed-Wives-System/wives.jpg\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003ePS: 现实世界里，我的女朋友已经不少了，请各位女施主自重 ~\u003c/p\u003e\n\u003ch2\u003e参考链接\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e\u003ca href=\"https://baike.baidu.com/item/%E4%B8%8A%E5%B8%9D%E9%80%A0%E4%BA%BA\"\u003e上帝造人\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://zh.moegirl.org/zh-hans/%E8%AF%9A%E5%93%A5%E6%AD%BB%E5%BE%97%E6%97%A9\"\u003e诚哥死得早\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.ctwant.com/article/47365\"\u003e羅志祥40歲搞多P！「30秒抖動126下」衝刺片瘋傳　網全看傻\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://kknews.cc/history/m46bxz.html\"\u003e揭秘：中國的妻妾制度，三妻四妾到底指的是哪三妻和哪四妾？\u003c/a\u003e\u003c/li\u003e\n\u003c/ol\u003e"
+}
+</script>
+
+<link rel="preload" as="script" href="/bundle.js?v=1587721427">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://stats.g.doubleclick.net">
+<link rel="preconnect" href="https://www.googleadservices.com">
+<link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=UA-DEV">
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-DEV"></script>
+<script>
+  window.dataLayer=window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js',new Date());
+  gtag('config','UA-DEV');
+  gtag('config','AW-DEV');
+</script>
+
+</head>
+<body>
+  <header id="nav" class="relative shadow-b bg-white">
+  <div class="px-4 py-3">
+    <div class="flex items-center mx-auto max-w-6xl">
+      <div class="logo">
+        <a class="block" href="/" title="P programming"><span class="font-semibold text-raven-900">P programming</span></a>
+      </div>
+      <div class="ml-auto flex items-center">
+        <a class="p-2 w-7 h-7 block text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" target="_blank" rel="noopener nofollow" href="https://www.google.com/search?q=site:example.com">
+          <svg class="fill-current" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2.67 12.804c0-5.6 4.544-10.134 10.133-10.134s10.134 4.544 10.134 10.134-4.544 10.133-10.134 10.133S2.67 18.393 2.67 12.804zm28.943 16.923l-8.868-8.868c4.287-5.3 3.68-13.012-1.378-17.57S8.564-1.066 3.75 3.75s-5.017 12.558-.46 17.618 12.28 5.665 17.57 1.378l8.868 8.868a1.33 1.33 0 0 0 2.231-.597c.123-.46-.008-.952-.345-1.29h0z"/></svg>
+        </a>
+        <a class="ml-3 block text-sm leading-none  text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" href="/posts/">
+          Posts
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="mt-8 mx-4 md:mx-8">
+    <div class="mx-auto w-full max-w-5xl">
+
+<figure>
+<img
+class="mb-2 mx-auto leading-none shadow-xl"
+src="/image/post/Distributed-Wives-System/school-days.png"
+alt="Distributed Wives System">
+</figure>
+
+    </div>
+  </div><div class="mt-8 mx-4 md:mx-8">
+    <div class="mx-auto w-full max-w-2xlp">
+      <article class="cdata">
+        <h1>Distributed Wives System</h1>
+
+        <div class="mt-4 flex items-center">
+          <div class="w-full">
+            
+<div class="flex items-center">
+  <div class="flex-shrink-0">
+    <img
+    class="w-14 h-14 object-cover p-05 rounded-full border border-blue-300"
+    src="/image/author/p-program.jpg"
+    alt="p-program">
+  </div>
+  <div class="flex-shrink-0 ml-2 leading-tight font-content-sans">
+    <a class="block text-base text-raven-800 hover:text-raven-900 hover:underline focus:underline" target="_blank" rel="noopener nofollow" title="p-program" href="https://github.com/p-program">p-program</a>
+    <time class="text-base text-raven-500" datetime="2020-04-24T09:13:31Z">Apr 24, 2020</time>
+  </div>
+</div>
+
+          </div>
+          <div>
+            
+<div class="flex items-center">
+  <a class="flex-shrink-0 block text-raven-800 hover:text-raven-900" target="_blank" rel="noopener nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Distributed%20Wives%20System%20by%20%40example%20https%3a%2f%2fbullshitprogram.com%2fdistributed-wives-system%2f"><svg class="w-6 h-6 fill-current" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M32 6.078c-1.2.522-2.458.868-3.78 1.036 1.36-.812 2.398-2.088 2.886-3.626a13.11 13.11 0 0 1-4.16 1.588C25.742 3.794 24.026 3 22.154 3a6.56 6.56 0 0 0-6.556 6.562c0 .52.044 1.02.152 1.496-5.454-.266-10.28-2.88-13.522-6.862-.566.982-.898 2.106-.898 3.316a6.57 6.57 0 0 0 2.914 5.452 6.48 6.48 0 0 1-2.964-.808v.072c0 3.188 2.274 5.836 5.256 6.446-.534.146-1.116.216-1.72.216-.42 0-.844-.024-1.242-.112.85 2.598 3.262 4.508 6.13 4.57a13.18 13.18 0 0 1-8.134 2.798c-.538 0-1.054-.024-1.57-.1C2.906 27.93 6.35 29 10.064 29c12.072 0 18.672-10 18.672-18.668 0-.3-.01-.57-.024-.848C30.014 8.56 31.108 7.406 32 6.078z"/></svg></a>
+
+  <a class="ml-3 flex-shrink-0 block text-raven-800 hover:text-raven-900" target="_blank" rel="noopener nofollow" title="Share on Facebook" href="https://www.facebook.com/dialog/share?app_id=FB-DEV&display=page&href=https%3a%2f%2fbullshitprogram.com%2fdistributed-wives-system%2f"><svg class="w-6 h-6 fill-current" viewBox="-7 -3.5 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M30.234 0H1.765C.8.001 0 .79 0 1.766v28.47C.001 31.2.79 32 1.766 32h15.328V19.625h-4.156V14.78h4.156v-3.564c0-4.134 2.523-6.384 6.21-6.384 1.766 0 3.284.13 3.726.2v4.32h-2.543c-2.006 0-2.394.953-2.394 2.352v3.085h4.797l-.625 4.844h-4.172V32h8.14C31.21 32 32 31.2 32 30.234V1.765C32 .8 31.21 0 30.234 0z"/></svg></a>
+</div>
+
+          </div>
+        </div>
+
+        <h2>CAP 理论</h2>
+<p><img src="/image/post/Distributed-Wives-System/CAP.png" alt="image"></p>
+<p><strong>可用性（Availability）</strong>：睡觉的时候旁边有老婆A或者B，老婆数量越多，可用性越高。可用性的终极形态是“1对N群体运动”（参考罗某人）。满足高可用性的前提是 N ≥ 2 。高可用性也是分布式系统的基础。</p>
+<p><strong>分区容错性（Partition tolerance）</strong>：老婆A不知道老婆B，她们信息不完全互通。</p>
+<p><strong>一致性（Consistency）</strong> ：老婆A 知道老婆B 的存在，或者孩子知道自己爹妈是谁。</p>
+<p><strong>最终一致性</strong>：虽然有很多老婆，但最后她们都和谐共处。</p>
+<p>我们从历史的长河，来看各个时代的（分布式）老婆系统是怎么样的。</p>
+<h2>只知其母，不知其父</h2>
+<p>这种母系社会，应该叫分布式老公系统才对。分布式老公系统，实现了高可用性和分区容错性。一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。</p>
+<p>老婆=1，所以不能叫分布式老婆系统。</p>
+<h2>父有一个，三妻四妾</h2>
+<p>在中国的封建时期。曾经流行这样一套系统。不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。至于妾，则用“納”。妾的地位更低。</p>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>是否实现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>一致性</td>
+<td>√</td>
+</tr>
+<tr>
+<td>可用性</td>
+<td>√</td>
+</tr>
+<tr>
+<td>分区容错性</td>
+<td>×（她们各住自己房间）</td>
+</tr>
+</tbody>
+</table>
+<h2>一夫一妻，从一而终</h2>
+<p>这是近现代女权思潮的进步。目的除了尊重女性，还有尊重弱小男性的意思。因为按照中国“不下嫁”的传统，如果继续实行一夫多妻制度，将有更多底层男性娶不到老婆。这会造成严重的社会动乱。</p>
+<p>老婆=1，所以不能叫分布式老婆系统。</p>
+<h2>构建现代分布式老婆系统</h2>
+<p>策略是<strong>欺骗与重建信任</strong>。</p>
+<h3>弱水三千，只取一瓢：</h3>
+<blockquote>
+<p>亲爱的,我从你身上看到了整个世界。跟你在一起之后，我的生命变得完整。嫁给我吧，我会给你幸福的！</p>
+</blockquote>
+<h3>喜新厌旧，开始劈腿</h3>
+<blockquote>
+<p>老婆，她们只是我的姐妹，我只是玩玩而已。大家都是人，有什么生理需求都很正常。</p>
+</blockquote>
+<h3>老婆A 的态度</h3>
+<p>第二个步骤过后，会有两条分支线。这取决于老婆A的态度。</p>
+<h3>自戴绿帽</h3>
+<p>自戴绿帽的合法方式是与他离婚，让他娶小三。但是事实上又在一起。或者做表面夫妻，假意原谅老公，让他继续在外面浪荡。</p>
+<p>离婚后又事实上在一起，叫做<strong>实现了最终一致性</strong>。</p>
+<p>在中国有不少人实现了这个方式。但名字我还是不说了，免得被抄家就不好了，哈哈哈。</p>
+<h3>斩其祸根</h3>
+<p>在《School Days》，诚哥上了天台，故事的结局，大家也都知道了。</p>
+<p><img src="/image/post/Distributed-Wives-System/school-days.png" alt="image"></p>
+<p>来说一首诗祭奠一下诚哥吧：</p>
+<pre><code>诚哥笑我胆子小，我笑诚哥死得早。 
+你笑诚哥死得早，诚哥笑你日得少。 
+诚哥笑你日得少，我笑诚哥日不了。 
+你笑诚哥日不了，诚哥笑你胆子小。
+</code></pre>
+<p>对于老婆A 来说，防止戴绿帽的最佳策略是<strong>不断提高自身价值，并查他手机</strong>。</p>
+<h2>结论</h2>
+<p>只要你一心沉迷二次元，完美的分布式老婆系统还是可以实现的！</p>
+<p><img src="/image/post/Distributed-Wives-System/wives.jpg" alt="image"></p>
+<p>PS: 现实世界里，我的女朋友已经不少了，请各位女施主自重 ~</p>
+<h2>参考链接</h2>
+<ol>
+<li><a href="https://baike.baidu.com/item/%E4%B8%8A%E5%B8%9D%E9%80%A0%E4%BA%BA">上帝造人</a></li>
+<li><a href="https://zh.moegirl.org/zh-hans/%E8%AF%9A%E5%93%A5%E6%AD%BB%E5%BE%97%E6%97%A9">诚哥死得早</a></li>
+<li><a href="https://www.ctwant.com/article/47365">羅志祥40歲搞多P！「30秒抖動126下」衝刺片瘋傳　網全看傻</a></li>
+<li><a href="https://kknews.cc/history/m46bxz.html">揭秘：中國的妻妾制度，三妻四妾到底指的是哪三妻和哪四妾？</a></li>
+</ol>
+
+      </article>
+      
+
+    </div>
+  </div>
+</main>
+
+<footer class="mx-4 mt-8 mb-6">
+  <hr class="mt-0 hr-fade">
+  <nav class="mt-4 flex items-center justify-center">
+  <a class="ml-3 first:ml-0 text-sm text-gray-600 hover:text-gray-800" href="/posts/">Posts</a>
+  <a class="ml-3 first:ml-0 text-sm text-gray-600 hover:text-gray-800" href="/about/">About</a>
+</nav>
+
+  
+
+  <div class="mt-4 text-sm text-center text-gray-500">&#169; 2000-2020 Example Company</div>
+  <div class="mt-2 text-xs text-center text-gray-500">Powered by <a href="https://www.jhaurawachsman.com/axiom/">Axiom</a></div>
+
+</footer>
+
+<script src="/bundle.js?v=1587721427"></script>
+<script defer src="/prism.js?v=1587721427"></script>
+<script>
+(function() {
+  window.setTimeout(function(){
+    var fbPixel = document.createElement("img");
+    fbPixel.setAttribute("width", "1");
+    fbPixel.setAttribute("height", "1");
+    fbPixel.setAttribute("style", "display:none");
+    fbPixel.src = "https://www.facebook.com/tr?id=FB-DEV&amp;ev=PageView";
+    document.body.appendChild(fbPixel);
+  }, 1750);
+})();
+</script>
+</body>
+</html>
