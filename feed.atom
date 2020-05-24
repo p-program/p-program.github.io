@@ -7,7 +7,7 @@
     <name>P programming</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-05-24T07:04:50Z</updated>
+  <updated>2020-05-24T10:50:21Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
   <entry>
@@ -39,9 +39,9 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;这些等式要同时成立，求t的集合SB。&lt;/p&gt;
 &lt;p&gt;这道题的关键在于理解题目。题目其实是求d1,d2,d3的公倍数，求得公倍数dn之后，代入公式，就能得到t的一个解。&lt;/p&gt;
-&lt;p&gt;d1,d2,d3的公倍数dn=6abc/600 。所以，dn是600的倍数，只要能让这个等式成立的，就是符合条件的目标解。&lt;/p&gt;
+&lt;p&gt;d1,d2,d3的公倍数dn=abct/100 。一圈是600m，dn是正整数，t只能是600的倍数。&lt;/p&gt;
 &lt;p&gt;假设时间t是有限的。定义dn为无限集合SB的其中一个解,那么集合SB的第一个元素是0，意思是大家都在同一个起点上。&lt;/p&gt;
-&lt;p&gt;我们用直觉直接推断集合SB的第二个元素是600。&lt;/p&gt;
+&lt;p&gt;集合SB的第二个元素是600。&lt;/p&gt;
 &lt;p&gt;对于我来说，&lt;code&gt;d1=1,a1=1&lt;/code&gt;, &lt;code&gt;t1=1*600/1=600s&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;假设大家都处于同一个静态牛顿参考系，这个时候，对于妹子而言，&lt;code&gt;d2=600s * 2 m/s /600m=2&lt;/code&gt;, &lt;code&gt;b1=2*300/600=1&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;对于富婆来说&lt;code&gt;d3=600s * 3 m/s /600m=3&lt;/code&gt;, &lt;code&gt;c1=1&lt;/code&gt;。&lt;/p&gt;
