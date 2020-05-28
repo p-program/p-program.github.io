@@ -7,9 +7,62 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-05-24T10:51:24Z</updated>
+  <updated>2020-05-28T06:16:26Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
+  <entry>
+    <title>藤原拓海教你怎么上下班</title>
+    <author>
+      <name>Zeusro</name>
+      <uri>https://github.com/zeusro</uri>
+    </author>
+    <id>https://bullshitprogram.com/initial-d/</id>
+    <updated>2020-05-28T05:26:27Z</updated>
+    <published>2020-05-28T05:26:27Z</published>
+    <content type="html">&lt;h2&gt;我是藤原拓海（Who）&lt;/h2&gt;
+&lt;p&gt;大家好，我是藤原拓海。2020年新冠肺炎，无奈之下只能自己做饭。之后我发现饭盒斜放进书包里面的话，会影响饭的口感。再加上我不是富二代，万般无奈下，我只能每天用手拎着饭盒跑秋名山。&lt;/p&gt;
+&lt;p&gt;但我逐渐发现了这其中有迹可循。&lt;/p&gt;
+&lt;h2&gt;场景分析（What）&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/1.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;分析这个问题，我们需要建立一个模型。对“现实”世界进行充分建模。&lt;/p&gt;
+&lt;p&gt;首先，人流量是一个可以预测的潮汐模型。广州地铁在这方面积累了大量的运营经验，在各个关卡都设置了“哨兵”（安保是上面的意思，不关地铁的事）。大型节假日之前会提前预演，比如周五下午五点左右会提前设置栅栏，为人流洪峰进行预备。中心城区8~9点是高峰期，我极少选这个时间段出门。&lt;/p&gt;
+&lt;p&gt;对用户而言，他们可以通过APP，微信公众号，微博实时了解各段线路的流量情况，错峰出行。可以说，广州地铁做的很好。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;搭地铁是重复的固定赛道跑酷游戏（Game）&lt;/strong&gt;。这个游戏的好玩之处在于，每一个人都有多个“对手（players）”。我需要在不与其他人接触的前提下，比每一个对手都快，这样才算获得了游戏的胜利（P均衡）。&lt;/p&gt;
+&lt;h2&gt;深入分析&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/2.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;继续使用5W1H（What,When,Where,Who,Why）分析这个问题。&lt;/p&gt;
+&lt;p&gt;When
+时间点的选择需要反复思考。&lt;code&gt;Best Timing&lt;/code&gt;是不存在的，只有&lt;code&gt;Better Timing&lt;/code&gt;。总的来说，需要一个&lt;code&gt;Scalable Timetable&lt;/code&gt;。只有时间表足够弹性，才能保证在雨天的时候不迟到，稍早一点出门，实现错峰出行。&lt;/p&gt;
+&lt;p&gt;Where
+这个问题用Where其实有点勉强。因为这个问题涉及到2个点。不过，我说过，“线缩成点”。也就是说，最理想的情况是根本就不搭地铁，走路实现上下班。&lt;/p&gt;
+&lt;p&gt;Why
+如果模型出错，导致自己出行不便，要多问自己为什么，是不是走路的步数慢了，还是没有预测到路人们的运动趋势。&lt;/p&gt;
+&lt;h2&gt;集体无意识&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/3.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;羊群效应&lt;/li&gt;
+&lt;li&gt;靠右行走（左边的人少）&lt;/li&gt;
+&lt;li&gt;规避黄线（靠黄线那一侧通常人比较少）&lt;/li&gt;
+&lt;li&gt;服从指挥（楼梯通常有两边，但相反方向的楼梯即便没人也很少人用）&lt;/li&gt;
+&lt;li&gt;临界时间（8：20/8：50通常是临界上班时间，这个点的人赶路像奔丧一样）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;方案落实（How）&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/4.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;综合以上所有信息，落实方案就相当简单了。地铁的营运班次都是非常有规律的，只要挑一个人流量少的时间错峰出行即可。&lt;/p&gt;
+&lt;p&gt;总诀式为&lt;/p&gt;
+&lt;p&gt;两点之间，线段最短；
+天下武功，唯快不破；
+邯郸学步，后发先至。&lt;/p&gt;
+&lt;h2&gt;日益优化&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/5.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;提高自己的反应能力，控制自身的动量，就能逐渐学会矢量运算。&lt;/p&gt;
+&lt;p&gt;下班是上班的逆运算。上班熟练了之后，自然知道怎么下班。&lt;/p&gt;
+&lt;h2&gt;结论&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/fan-che.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果你有钱并且会跳伞，建议直接开直升飞机；
+如果你有钱但不想开车，建议叫滴滴打车；
+如果你没钱也不想搭车，建议搭地铁。&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>如何让富婆和妹子同时注意到我帅气地玩滑板</title>
     <author>
