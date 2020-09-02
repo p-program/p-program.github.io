@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-09-02T04:28:45Z</updated>
+  <updated>2020-09-02T15:47:49Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
   <entry>
@@ -46,7 +46,7 @@
 &lt;p&gt;基本上广州地铁是偏向于人运，而不是货运。每次我要搬家的时候，搭广州地铁总是相对比较麻烦。因为一开始我也说了，广州地铁的设计理念就是一个排水系统。如果变成货运的话，运营效率会大幅度降低。&lt;/p&gt;
 &lt;p&gt;所以，我们在设计 &lt;code&gt;Serverless&lt;/code&gt; 后端微服务的时候，也要记住这一点。尽可能让后端微服务的职责尽可能小，小到甚至不需要微服务发现系统。举个例子，xx网盘通过 &lt;code&gt;Serverless&lt;/code&gt; 服务处理瞬时的视频转码请求。&lt;/p&gt;
 &lt;h2&gt;结论&lt;/h2&gt;
-&lt;p&gt;广州地铁其实是一个运营很高效的 &lt;code&gt;Serverless&lt;/code&gt; 系统。它总结了过万数十年的人流量数据，高效运营的同时保证乘客的安全（数据安全）。&lt;/p&gt;</content>
+&lt;p&gt;广州地铁其实是一个运营很高效的 &lt;code&gt;Serverless&lt;/code&gt; 系统。它总结了过往数十年的人流量数据，在高效运营的同时保证乘客的安全（数据安全）。&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Distributed Husband System</title>
