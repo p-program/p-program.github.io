@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-09-02T04:22:33Z</updated>
+  <updated>2020-09-02T04:28:45Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
   <entry>
@@ -32,19 +32,19 @@
 一致性(Consistency)是指妹子上车下车会按照她的期望值，如果她下错站了，说明了她没有实现一致性；
 隔离性(Isolation)是指妹子懒得理你；
 持久性(Durability)是指妹子上车这一行为有地铁系统作证（上下车买票的凭证）。&lt;/p&gt;
-&lt;p&gt;而从地铁角度，整个广州地铁其实是实现分布式事务的一套系统。&lt;/p&gt;
+&lt;p&gt;而从地铁角度，整个广州地铁其实是实现了分布式事务的一套实时数据流处理系统。&lt;/p&gt;
 &lt;h2&gt;广州地铁2020&lt;/h2&gt;
-&lt;h3&gt;前端常驻，后端动态伸缩容&lt;/h3&gt;
+&lt;h3&gt;前端常驻，后端动态高效伸缩容&lt;/h3&gt;
 &lt;p&gt;我们会发现，那些固定设施都固定在那里的。基础设施是一种“前端”。而地铁列车是一种“后端”。&lt;/p&gt;
-&lt;h3&gt;高效扩缩容&lt;/h3&gt;
 &lt;p&gt;因为广州地铁事关人命，所以在伸缩容方面采取的策略是根据过往数据预测未来。而伸缩容目前是用人工方式解决。&lt;/p&gt;
+&lt;p&gt;这一点也是一种提醒。我们在设计 web 系统的时候通常分前后端。如果按照 &lt;code&gt;Serverless&lt;/code&gt; 角度来重新思考这个问题。那么应该让前端资源常驻（前端只是一些简单的静态文件，占用服务器资源很少），而让后端动态伸缩。这样就不会影响用户体验。&lt;/p&gt;
 &lt;h3&gt;流量切分&lt;/h3&gt;
 &lt;p&gt;高峰期广州地铁的运营人员会设置各个栅栏。超高峰期会飞站或者拒绝乘客搭乘。从而实现数据的安全（乘客的安全）。&lt;/p&gt;
 &lt;h3&gt;计量能力&lt;/h3&gt;
 &lt;p&gt;根据乘客的搭乘距离计费。而站台距离本质上是时间。可以说使用时间越长，费用越高。&lt;/p&gt;
 &lt;h3&gt;后端的单一职责&lt;/h3&gt;
 &lt;p&gt;基本上广州地铁是偏向于人运，而不是货运。每次我要搬家的时候，搭广州地铁总是相对比较麻烦。因为一开始我也说了，广州地铁的设计理念就是一个排水系统。如果变成货运的话，运营效率会大幅度降低。&lt;/p&gt;
-&lt;p&gt;所以，我们在设计 serverless 后端微服务的时候，也要记住这一点。尽可能让后端微服务的职责尽可能小，小到甚至不需要微服务发现系统。举个例子，xx网盘通过 serverless 服务处理瞬时的视频转码请求。&lt;/p&gt;
+&lt;p&gt;所以，我们在设计 &lt;code&gt;Serverless&lt;/code&gt; 后端微服务的时候，也要记住这一点。尽可能让后端微服务的职责尽可能小，小到甚至不需要微服务发现系统。举个例子，xx网盘通过 &lt;code&gt;Serverless&lt;/code&gt; 服务处理瞬时的视频转码请求。&lt;/p&gt;
 &lt;h2&gt;结论&lt;/h2&gt;
 &lt;p&gt;广州地铁其实是一个运营很高效的 &lt;code&gt;Serverless&lt;/code&gt; 系统。它总结了过万数十年的人流量数据，高效运营的同时保证乘客的安全（数据安全）。&lt;/p&gt;</content>
   </entry>
