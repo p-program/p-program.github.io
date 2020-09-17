@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-09-02T15:47:49Z</updated>
+  <updated>2020-09-17T23:11:31Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
   <entry>
@@ -366,16 +366,19 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 &lt;p&gt;&lt;img src=&#34;/image/post/super-B/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;作为侦探社核心，我的能力是 「&lt;strong&gt;超装逼&lt;/strong&gt;」。&lt;/p&gt;
 &lt;p&gt;老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。&lt;/p&gt;
-&lt;p&gt;在侦探社里没人敢违逆我，我只听从那个没跟我说过一句话的人。&lt;/p&gt;
-&lt;p&gt;好了，不吹牛逼了。&lt;/p&gt;
+&lt;p&gt;好了，不吹牛逼了。让我们回到原来问题，用
+&lt;a href=&#34;https://baike.baidu.com/item/5W1H%E5%88%86%E6%9E%90%E6%B3%95/10091536?fromtitle=5W1H&amp;amp;fromid=6062002&#34;&gt;5W1H&lt;/a&gt;
+来重新分析这个问题。&lt;/p&gt;
 &lt;h2&gt;When,Where,What,Who&lt;/h2&gt;
 &lt;p&gt;最近一个月（2020-04至今），我发现阿里云CDN费用剧增。&lt;/p&gt;
 &lt;p&gt;按照二八法则分析，主要矛盾在于图片域名的流量非常高。&lt;/p&gt;
 &lt;p&gt;图片域名用的是多线路 &lt;code&gt;cname&lt;/code&gt; 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见
-&lt;a href=&#34;http://www.zeusro.com/2019/09/20/cdn-pickup/&#34;&gt;多公有云CDN最佳实践&lt;/a&gt;。&lt;/p&gt;
+《
+&lt;a href=&#34;http://www.zeusro.com/2019/09/20/cdn-pickup/&#34;&gt;多公有云CDN最佳实践&lt;/a&gt;
+》。&lt;/p&gt;
 &lt;h2&gt;Why&lt;/h2&gt;
-&lt;p&gt;直接说结论，那也太无聊了。我决定发动我的「&lt;strong&gt;超装逼&lt;/strong&gt;」技能来解决这个问题。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/super-B/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;直接说结论，那也太无聊了。我决定发动我的「&lt;strong&gt;超装逼&lt;/strong&gt;」技能来解决这个问题。&lt;/p&gt;
 &lt;p&gt;网站的解析用的是cname，主要面向国内用户&lt;/p&gt;
 &lt;p&gt;--&amp;gt; 正常用户的特征是国内的固定IP，且访问次数有限&lt;/p&gt;
 &lt;p&gt;--&amp;gt; 一部分异常用户用国外IP&lt;/p&gt;
@@ -383,33 +386,33 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 &lt;p&gt;对于国外IP，我用了以带宽计费的网宿。&lt;/p&gt;
 &lt;p&gt;对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。&lt;/p&gt;
 &lt;h3&gt;外部原因&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/super-B/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。&lt;/p&gt;
 &lt;p&gt;但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。&lt;/p&gt;
 &lt;p&gt;全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。
 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。&lt;/p&gt;
 &lt;p&gt;阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。&lt;/p&gt;
 &lt;p&gt;腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。&lt;/p&gt;
-&lt;p&gt;如果更倒霉，遇到challenge collapsar，那就准备给阿里云送钱吧。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/super-B/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果更倒霉，遇到 &lt;code&gt;challenge collapsar&lt;/code&gt;，那就准备给阿里云送钱吧。&lt;/p&gt;
 &lt;h3&gt;内部原因&lt;/h3&gt;
-&lt;p&gt;但是在排查问题过程中，我发现了一个本不该出现的IP。&lt;/p&gt;
+&lt;p&gt;在排查问题过程中，我发现了一个本不该出现的IP。&lt;/p&gt;
 &lt;p&gt;那个IP是阿里云VPC下的一个SNAT网关IP。这个IP的出现，只会说明一个问题：
 &lt;strong&gt;kubernetes 内部容器通过公网访问OSS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;2018年09月04日 03时02分24秒&lt;/code&gt; 我在公司内部文档是这么写的：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2018年09月04日 03时02分24秒&lt;/code&gt; ，我在公司内部文档是这么写的：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/super-B/4.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;So,怪我文档写的不仔细咯？&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/super-B/5.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;How&lt;/h2&gt;
-&lt;p&gt;不改代码的前提下&lt;/p&gt;
+&lt;p&gt;在不改代码的前提下，解决方案有：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;建一个中转的Nginx源站，回源OSS。对外返回 Brotli 编码的图片。&lt;/li&gt;
+&lt;li&gt;建一个中转的&lt;code&gt;Nginx&lt;/code&gt;源站，回源OSS。对外返回 Brotli 编码的图片。&lt;/li&gt;
 &lt;li&gt;使用&lt;strong&gt;内网域名&lt;/strong&gt;读写OSS。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;有条件改代码的话使用
-&lt;a href=&#34;https://help.aliyun.com/document_detail/85117.html&#34;&gt;URL鉴权&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://help.aliyun.com/document_detail/85117.html&#34;&gt;URL鉴权&lt;/a&gt;
+。&lt;/p&gt;
 &lt;h2&gt;其他费用&lt;/h2&gt;
-&lt;p&gt;CDN是边缘计算。如果某个CDN节点上没有资源的副本，那么该节点就会回源，
-从而产生回源流量。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;CDN&lt;/code&gt;是边缘计算。如果某个CDN节点上没有资源的副本，那么该节点就会回源，从而产生回源流量。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/super-B/6.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;也就是说，如果在阿里云内部用公网回源OSS,一次请求有可能产生三种费用。&lt;/p&gt;
 &lt;ol&gt;
@@ -417,19 +420,18 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 &lt;li&gt;OSS下行流量费用&lt;/li&gt;
 &lt;li&gt;CDN HTTPS请求数计费&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;结论&lt;/h2&gt;
+&lt;h2&gt;网宿，请你争气一点&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;好好的一家公司，不推进项目，不投入研发，大股东整天想着减持，管理层变着名目和花样想把几个亿理财资金弄到自己腰包里，不思进取，气死沉沉，让股价一跌再跌，就问网宿，你怎么对的起，一直支持你的股民！！！&lt;/p&gt;
+&lt;p&gt;好好的一家公司，不推进项目，不投入研发，大股东整天想着减持，管理层变着名目和花样想把几个亿理财资金弄到自己腰包里，不思进取，气死沉沉，让股价一跌再跌，就问网宿，你怎么对得起，一直支持你的股民！！！&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;引用网友的评论，结合自身的实际用户体验，我希望网宿别那么快倒闭。&lt;/li&gt;
-&lt;li&gt;中国商用带宽的流量费用过高。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://connect.console.aliyun.com/connect/detail/144802&#34;&gt;阿里云CDN费用过高&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;引用网友的评论，结合自身的实际用户体验，我希望网宿别那么快倒闭。&lt;/p&gt;
+&lt;h2&gt;结论&lt;/h2&gt;
+&lt;p&gt;中国商用带宽的流量费用过高。&lt;/p&gt;
 &lt;h2&gt;参考链接&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://help.aliyun.com/document_detail/59636.html&#34;&gt;计量项和计费项&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wiki.mbalib.com/zh-tw/5W1H%E5%88%86%E6%9E%90%E6%B3%95&#34;&gt;5W1H分析法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://connect.console.aliyun.com/connect/detail/144802&#34;&gt;阿里云CDN费用过高&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</content>
   </entry>
   <entry>
