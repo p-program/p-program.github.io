@@ -7,9 +7,101 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-10-20T02:44:53Z</updated>
+  <updated>2020-10-20T11:42:25Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
+  <entry>
+    <title>One Open Operating System</title>
+    <author>
+      <name>Zeusro</name>
+      <uri>https://github.com/zeusro</uri>
+    </author>
+    <id>https://bullshitprogram.com/one-open-operating-system/</id>
+    <updated>2020-10-20T11:24:49Z</updated>
+    <published>2020-10-20T11:24:49Z</published>
+    <content type="html">&lt;p&gt;Current operating system (IOS,Android,Windows,Mac) is not exactly what I want,so I decide to rebuild another operating system.&lt;/p&gt;
+&lt;p&gt;I call it &lt;strong&gt;One Open Operating System&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I split this final goal into some executable steps.&lt;/p&gt;
+&lt;h2&gt;App&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/1-Call-Taxi.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Current App is Offline front-end &#43; web service.&lt;/p&gt;
+&lt;p&gt;But I think an ideal App is a &lt;strong&gt;cloud function&lt;/strong&gt;. We don&#39;t need to download it,it always runs on the cloud as some kind of serverless service.&lt;/p&gt;
+&lt;p&gt;Wechat micro App is an example but I think it is not simple enough.&lt;/p&gt;
+&lt;p&gt;For example,calling Taxi is a cloud function like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func CallTaxi(myPosition,destination FourDimensionalVector){
+    return Taxi{}
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Calling Taxi is exactly a &lt;strong&gt;edge computing&lt;/strong&gt; behavior--After telling the cloud my position and my destination,the Taxi scheduler will let the nearest Taxi to me do the  other &amp;quot;computing&amp;quot;（Take me home）.&lt;/p&gt;
+&lt;h2&gt;Electronic Device&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/2-google-glass.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After putting &lt;strong&gt;edge computing&lt;/strong&gt; onto the cloud,we can work on the next generation of the electronic device(currently we call them cellphone/IPAD/computer/laptop).&lt;/p&gt;
+&lt;p&gt;In my option,the electronic device is just a &amp;quot;&lt;strong&gt;display layer&lt;/strong&gt;&amp;quot; and a collection of sensors.We use our mind or voice to control the electronic device.The CPU,RAM is useless.And I would call ROM as the &amp;quot;backup&amp;quot; of the cloud data.&lt;/p&gt;
+&lt;p&gt;I would like to say,the key of the electronic device is AI.And I think &lt;a href=&#34;http://www.bullshitprogram.com/the-seed-of-robot/&#34;&gt;AI is an open intelligent API gateway&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/3-Roman.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Finally,the electronic device will became a superb AI like Roman EXE.He will help us do some &amp;quot;&lt;strong&gt;daily computing jobs&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;The &amp;quot;云影&amp;quot; system is an example. By 5G,everything is possible.&lt;/p&gt;
+&lt;h2&gt;Kubernetes&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/4-kubernetes.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I think Kubernetes is just a &lt;strong&gt;middle distributed system&lt;/strong&gt;.There are so many ugly design and unsolved problems in Kubernetes.Such like volume(it is actually a distributed storage problem),network diagnosis,StatefulSet,CronJob and so on.&lt;/p&gt;
+&lt;p&gt;Just like &lt;a href=&#34;https://github.com/resouer&#34;&gt;Lei Zhang&lt;/a&gt; said,Kubernetes is just a database.What the most important is paradigms,I call them &lt;strong&gt;cloud native application paradigms&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Them include&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Observability&lt;/li&gt;
+&lt;li&gt;Self-healing&lt;/li&gt;
+&lt;li&gt;Fallibility&lt;/li&gt;
+&lt;li&gt;Debuggable&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Kubernetes&#39;s effect is to &lt;strong&gt;build up a cloud native application standard&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;IaaS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/5-IAAS.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;First of all,we need to declare one thing: &lt;strong&gt;IaaS is a super distributed system&lt;/strong&gt; which includes so many products.&lt;/p&gt;
+&lt;p&gt;I think in the near future,IaaS will become a super &lt;strong&gt;Cloud Native Application Store&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In developer&#39;s view,we may need database,redis,distributed message queue and so on.&lt;/p&gt;
+&lt;p&gt;Take Tencent Cloud as an example.A better DevOps pipeline would be like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tencent Cloud administrator creates a sub user(Currently we call it user access key);&lt;/li&gt;
+&lt;li&gt;The project manager
+sets up the &lt;a href=&#34;https://intl.cloud.tencent.com/document/product/598/17848&#34;&gt;CAM&lt;/a&gt; according to actual condition;&lt;/li&gt;
+&lt;li&gt;The R&amp;amp;D (Research and Development) engineer writes business code;&lt;/li&gt;
+&lt;li&gt;The DevOps engineer helps the R&amp;amp;D engineer to make the code running on the Tencent Cloud(Such as preparing the test/product environment,docker build,configuration,logging,monitor).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/6-sidecar-container-call-product.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Look at the picture above,then you will find that the business code would be simply like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;client := ServiceMeshClient{}
+iaas := client.UseTencentCloud()
+redis := iaas.Redis()
+setRedisResult := redis.Put(&amp;quot;Zeusro&amp;quot;,&amp;quot;是一个靓仔&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Just forget the configuration&lt;/strong&gt;,let the DevOps engineer do that job.That is not the R&amp;amp;D (Research and Development) engineer&#39;s business any more.&lt;/p&gt;
+&lt;p&gt;The configuration(region,access key and access secret) is &amp;quot;gone&amp;quot;.It is generated by the configuration controller,and hidden inside the sidecar container.&lt;/p&gt;
+&lt;p&gt;In R&amp;amp;D engineer&#39;s view,&lt;strong&gt;zero configuration&lt;/strong&gt; is so cool,don&#39;t you think so?&lt;/p&gt;
+&lt;h2&gt;Next Generation Digital Life&lt;/h2&gt;
+&lt;p&gt;Let&#39;s come back to the first question: Calling Taxi.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/7-Next-Generation-Digital-Life.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the next generation digital world,the process of taking Taxi would be like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Zeusro: Hi,Roman,take me home.&lt;/li&gt;
+&lt;li&gt;Roman: OK,wait for a second(get your position and home&#39;s position).&lt;/li&gt;
+&lt;li&gt;Roman: Here are some available service like Amap Taxi,DiDi Taxi,
+Meituan Taxi on the service discovery system（dubbo 3.0, social advertising system).Please make your choice.&lt;/li&gt;
+&lt;li&gt;Zeusro: Amap Taxi.&lt;/li&gt;
+&lt;li&gt;Roman: OK.&lt;/li&gt;
+&lt;li&gt;Taxi driver: Don&#39;t BB.Just get in the car.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/8-cat.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h2&gt;Link&lt;/h2&gt;
+&lt;p&gt;[1]
+阿里云正式发布第一台云电脑“无影”
+https://www.yicai.com/news/100775343.html&lt;/p&gt;
+&lt;p&gt;[2]
+Dubbo 3.0 – 开启下一代云原生微服务
+https://www.kubernetes.org.cn/8291.html&lt;/p&gt;
+&lt;p&gt;[3]
+The Seed Of Robot —— Intelligent API Gateway
+http://www.bullshitprogram.com/the-seed-of-robot/&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>广州地铁</title>
     <author>

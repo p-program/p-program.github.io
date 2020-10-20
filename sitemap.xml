@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bullshitprogram.com/one-open-operating-system/</loc>
+    <lastmod>2020-10-20T11:24:49Z</lastmod>
+  </url>
+  <url>
     <loc>https://bullshitprogram.com/post/</loc>
-    <lastmod>2020-09-02T02:04:04Z</lastmod>
+    <lastmod>2020-10-20T11:24:49Z</lastmod>
   </url>
   <url>
     <loc>https://bullshitprogram.com/guangzhou-metro/</loc>
