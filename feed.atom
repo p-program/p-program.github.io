@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-10-20T13:09:53Z</updated>
+  <updated>2020-10-21T02:04:29Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
   <entry>
@@ -45,8 +45,8 @@
 &lt;h2&gt;Kubernetes&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/4-kubernetes.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I think Kubernetes is just a &lt;strong&gt;middle distributed system&lt;/strong&gt;.There are so many ugly design and unsolved problems in Kubernetes.Such like volume(it is actually a distributed storage problem),network diagnosis,StatefulSet,CronJob and so on.&lt;/p&gt;
-&lt;p&gt;Just like &lt;a href=&#34;https://github.com/resouer&#34;&gt;Lei Zhang&lt;/a&gt; said,Kubernetes is just a database.What the most important is paradigms,I call them &lt;strong&gt;cloud native application paradigms&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Them include&lt;/p&gt;
+&lt;p&gt;Just like &lt;a href=&#34;https://github.com/resouer&#34;&gt;Lei Zhang&lt;/a&gt; said,Kubernetes is just a database.The most important things is paradigm,I call it &lt;strong&gt;cloud native application paradigm&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It includes&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Observability&lt;/li&gt;
 &lt;li&gt;Self-healing&lt;/li&gt;
@@ -56,14 +56,13 @@
 &lt;p&gt;Kubernetes&#39;s effect is to &lt;strong&gt;build up a cloud native application standard&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;IaaS&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/One-Open-Operating-System/5-IAAS.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;First of all,we need to declare one thing: &lt;strong&gt;IaaS is a super distributed system&lt;/strong&gt; which includes so many products.&lt;/p&gt;
+&lt;p&gt;First of all,we need to declare : &lt;strong&gt;IaaS is a super distributed system&lt;/strong&gt; which includes so many products.&lt;/p&gt;
 &lt;p&gt;I think in the near future,IaaS will become a super &lt;strong&gt;Cloud Native Application Store&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;In developer&#39;s view,we may need database,redis,distributed message queue and so on.&lt;/p&gt;
-&lt;p&gt;Take Tencent Cloud as an example.A better DevOps pipeline would be like this:&lt;/p&gt;
+&lt;p&gt;So take Tencent Cloud as an example.A better DevOps pipeline would be like this:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Tencent Cloud administrator creates a sub user(Currently we call it user access key);&lt;/li&gt;
-&lt;li&gt;The project manager
-sets up the &lt;a href=&#34;https://intl.cloud.tencent.com/document/product/598/17848&#34;&gt;CAM&lt;/a&gt; according to actual condition;&lt;/li&gt;
+&lt;li&gt;The project manager sets up the &lt;a href=&#34;https://intl.cloud.tencent.com/document/product/598/17848&#34;&gt;CAM&lt;/a&gt; according to actual condition;&lt;/li&gt;
 &lt;li&gt;The R&amp;amp;D (Research and Development) engineer writes business code;&lt;/li&gt;
 &lt;li&gt;The DevOps engineer helps the R&amp;amp;D engineer to make the code running on the Tencent Cloud(Such as preparing the test/product environment,docker build,configuration,logging,monitor).&lt;/li&gt;
 &lt;/ol&gt;
@@ -84,8 +83,7 @@ setRedisResult := redis.Put(&amp;quot;Zeusro&amp;quot;,&amp;quot;是一个靓仔
 &lt;ol&gt;
 &lt;li&gt;Zeusro: Hi,Roman,take me home.&lt;/li&gt;
 &lt;li&gt;Roman: OK,wait for a second(get your position and home&#39;s position).&lt;/li&gt;
-&lt;li&gt;Roman: Here are some available service like Amap Taxi,DiDi Taxi,
-Meituan Taxi on the service discovery system（dubbo 3.0, social advertising system).Please make your choice.&lt;/li&gt;
+&lt;li&gt;Roman: Here are some available service like Amap Taxi,DiDi Taxi,Meituan Taxi on the service discovery system（dubbo 3.0, social advertising system).Please make your choice.&lt;/li&gt;
 &lt;li&gt;Zeusro: Amap Taxi.&lt;/li&gt;
 &lt;li&gt;Roman: OK.&lt;/li&gt;
 &lt;li&gt;Taxi driver: Don&#39;t BB.Just get in the car.&lt;/li&gt;
