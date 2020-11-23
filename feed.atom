@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2020-10-21T02:04:29Z</updated>
+  <updated>2020-11-23T14:49:42Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="en-us"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="en-us"/>
   <entry>
@@ -118,7 +118,7 @@ http://www.bullshitprogram.com/the-seed-of-robot/&lt;/p&gt;</content>
 &lt;p&gt;按需使用、灵活弹性：业务可以根据配置的条件灵活调配资源，它会在夜间睡觉（运行实例为0），在低峰期低开（运行实例为3），在高峰期高开（运行实例50），在超高峰期限流，从而实现资源的最大化利用与运营成本的压缩。&lt;/p&gt;
 &lt;h2&gt;广州地铁其实是一种实时数据流处理&lt;/h2&gt;
 &lt;p&gt;从乘客角度，搭地铁本质上是一种数据库事务。
-持久性(Durability)是妹子要么上车，要么不决定搭地铁；
+原子性(Atomicity)是妹子要么上车，要么不决定搭地铁；
 一致性(Consistency)是指妹子上车下车会按照她的期望值，如果她下错站了，说明了她没有实现一致性；
 隔离性(Isolation)是指妹子懒得理你；
 持久性(Durability)是指妹子上车这一行为有地铁系统作证（上下车买票的凭证）。&lt;/p&gt;
