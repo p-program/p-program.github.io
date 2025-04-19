@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="robots" content="noodp,noydir">
+  <meta name="pinterest" content="nopin">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/">
+  <link rel="icon" type="image/x-icon" href="/">
+  <link rel="apple-touch-icon" href="/">
+  <link rel="canonical" href="https://bullshitprogram.com/ai-driven-design-shit-database/">
+  
+<link rel="preload" as="style" href="/bundle.css?v=1745023584" media="all">
+<link rel="stylesheet" href="/bundle.css?v=1745023584" media="all">
+
+<link rel="preload" as="image" href="/image/post/AI-Driven-Design-Shit-Database/image.png">
+
+<title>AI Driven Design Shit Database : Bullshit Program</title>
+
+<meta property="og:title" content="AI Driven Design Shit Database">
+<meta property="og:site_name" content="Bullshit Program">
+<meta property="og:url" content="https://bullshitprogram.com/ai-driven-design-shit-database/">
+<link rel="image_src" href="https://bullshitprogram.com/image/post/AI-Driven-Design-Shit-Database/image.png">
+<meta property="og:image" content="https://bullshitprogram.com/image/post/AI-Driven-Design-Shit-Database/image.png">
+<meta property="og:image:width" content="">
+<meta property="og:image:height" content="">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_us">
+<meta property="og:description" content="应用AI驱动开发记录个人拉屎数据 关注个人拉屎健康：
+原始需求文档 git config user.name &quot;oracle&quot; git config user.email &quot;trademar_us@oracle.com&quot; 以0到5天的间隔，生成数据，每一天的数据最多3条。 分析腹泻的时间（一天》=3次 或者2次的间隔少于60分钟） 拉屎困难的次数（3天拉一次） 拉屎时间， 拉屎顺畅程度 0 完全拉不出 1几乎拉不出来 2正常拉屎 3一泻千里 接口：散点图 每年拉屎报告 每周拉屎报告（4～7次算正常） docker run -d --name clickhouse-server \ -p 8123:8123 \ -p 9000:9000 \ -v /Users/zeusro/data:/var/lib/clickhouse \ -e CLICKHOUSE_PASSWORD=123456 \ clickhouse/clickhouse-server:latest 准备底层数据 准备提示词，蒸馏回答 mac 系统中创建备忘录，记录项目的背景信息 下载最新版 chatGPT 客户端，将备忘录作为背景信息，让AI创建数据库和表 改进提示词，微调数据表 将定制化需求作为新的提示词，让 chatGPT 导出相应sql 创建一个名为shit的数据库，用合适的字段描述场景 简化上述表格，去掉poop_times_today ，interval_minutes，notes，时间全部用 DateTime，用枚举表示 smoothness 周报和月报需要拓展一个需求， 将排便的频率和间隔做一个静态分析：如果一天拉大于等于3次，判定为腹泻；如果每周排便少于等于三次，判定为便秘，将这些定性作为周报，月报的结论体现出来 最终我们从ai的回答中提取关键信息
+">
+<meta name="description" content="应用AI驱动开发记录个人拉屎数据 关注个人拉屎健康：
+原始需求文档 git config user.name &quot;oracle&quot; git config user.email &quot;trademar_us@oracle.com&quot; 以0到5天的间隔，生成数据，每一天的数据最多3条。 分析腹泻的时间（一天》=3次 或者2次的间隔少于60分钟） 拉屎困难的次数（3天拉一次） 拉屎时间， 拉屎顺畅程度 0 完全拉不出 1几乎拉不出来 2正常拉屎 3一泻千里 接口：散点图 每年拉屎报告 每周拉屎报告（4～7次算正常） docker run -d --name clickhouse-server \ -p 8123:8123 \ -p 9000:9000 \ -v /Users/zeusro/data:/var/lib/clickhouse \ -e CLICKHOUSE_PASSWORD=123456 \ clickhouse/clickhouse-server:latest 准备底层数据 准备提示词，蒸馏回答 mac 系统中创建备忘录，记录项目的背景信息 下载最新版 chatGPT 客户端，将备忘录作为背景信息，让AI创建数据库和表 改进提示词，微调数据表 将定制化需求作为新的提示词，让 chatGPT 导出相应sql 创建一个名为shit的数据库，用合适的字段描述场景 简化上述表格，去掉poop_times_today ，interval_minutes，notes，时间全部用 DateTime，用枚举表示 smoothness 周报和月报需要拓展一个需求， 将排便的频率和间隔做一个静态分析：如果一天拉大于等于3次，判定为腹泻；如果每周排便少于等于三次，判定为便秘，将这些定性作为周报，月报的结论体现出来 最终我们从ai的回答中提取关键信息
+">
+<meta property="og:updated_time" content="2025-04-19T00:00:00Z">
+<meta property="fb:app_id" content="FB-DEV">
+<meta name="author" content="p-program">
+<meta property="article:author" content="https://github.com/p-program">
+<meta property="article:published_time" content="2025-04-19T00:00:00Z">
+<meta property="article:modified_time" content="2025-04-19T00:00:00Z">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "AI Driven Design Shit Database",
+  "alternativeHeadline": "应用AI驱动开发记录个人拉屎数据",
+  "url": "https://bullshitprogram.com/ai-driven-design-shit-database/",
+  "image": "https://bullshitprogram.com/image/post/AI-Driven-Design-Shit-Database/image.png",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bullshitprogram.com/ai-driven-design-shit-database/"
+  },
+  "description": "应用AI驱动开发记录个人拉屎数据 关注个人拉屎健康：\n原始需求文档 git config user.name \u0026quot;oracle\u0026quot; git config user.email \u0026quot;trademar_us@oracle.com\u0026quot; 以0到5天的间隔，生成数据，每一天的数据最多3条。 分析腹泻的时间（一天》=3次 或者2次的间隔少于60分钟） 拉屎困难的次数（3天拉一次） 拉屎时间， 拉屎顺畅程度 0 完全拉不出 1几乎拉不出来 2正常拉屎 3一泻千里 接口：散点图 每年拉屎报告 每周拉屎报告（4～7次算正常） docker run -d --name clickhouse-server \\ -p 8123:8123 \\ -p 9000:9000 \\ -v /Users/zeusro/data:/var/lib/clickhouse \\ -e CLICKHOUSE_PASSWORD=123456 \\ clickhouse/clickhouse-server:latest 准备底层数据 准备提示词，蒸馏回答 mac 系统中创建备忘录，记录项目的背景信息 下载最新版 chatGPT 客户端，将备忘录作为背景信息，让AI创建数据库和表 改进提示词，微调数据表 将定制化需求作为新的提示词，让 chatGPT 导出相应sql 创建一个名为shit的数据库，用合适的字段描述场景 简化上述表格，去掉poop_times_today ，interval_minutes，notes，时间全部用 DateTime，用枚举表示 smoothness 周报和月报需要拓展一个需求， 将排便的频率和间隔做一个静态分析：如果一天拉大于等于3次，判定为腹泻；如果每周排便少于等于三次，判定为便秘，将这些定性作为周报，月报的结论体现出来 最终我们从ai的回答中提取关键信息\n",
+  "author": {
+    "@type": "Person",
+    "name": "p-program"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bullshit Program",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bullshitprogram.com/"
+    }
+  },
+  "datePublished": "2025-04-19T00:00:00Z",
+  "dateModified": "2025-04-19T00:00:00Z",
+  "articleBody": "\u003cp\u003e关注个人拉屎健康：\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/AI-Driven-Design-Shit-Database/mac.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003ch2\u003e原始需求文档\u003c/h2\u003e\n\u003cpre\u003e\u003ccode\u003e\ngit config user.name \u0026quot;oracle\u0026quot;\ngit config user.email \u0026quot;trademar_us@oracle.com\u0026quot;\n\n以0到5天的间隔，生成数据，每一天的数据最多3条。\n\n分析腹泻的时间（一天》=3次 或者2次的间隔少于60分钟）\n拉屎困难的次数（3天拉一次）\n\n拉屎时间，\n拉屎顺畅程度\n0 完全拉不出\n1几乎拉不出来\n2正常拉屎\n3一泻千里\n\n接口：散点图\n每年拉屎报告\n每周拉屎报告（4～7次算正常）\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre\u003e\u003ccode class=\"language-bash\"\u003edocker run -d --name clickhouse-server \\\n  -p 8123:8123 \\\n  -p 9000:9000 \\\n  -v /Users/zeusro/data:/var/lib/clickhouse \\\n  -e CLICKHOUSE_PASSWORD=123456 \\\n  clickhouse/clickhouse-server:latest\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e准备底层数据\u003c/h2\u003e\n\u003ch3\u003e准备提示词，蒸馏回答\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003emac 系统中创建备忘录，记录项目的背景信息\u003c/li\u003e\n\u003cli\u003e下载最新版 chatGPT 客户端，将备忘录作为背景信息，让AI创建数据库和表\u003c/li\u003e\n\u003cli\u003e改进提示词，微调数据表\u003c/li\u003e\n\u003cli\u003e将定制化需求作为新的提示词，让 chatGPT 导出相应sql\u003c/li\u003e\n\u003c/ol\u003e\n\u003cpre\u003e\u003ccode class=\"language-prompt\"\u003e创建一个名为shit的数据库，用合适的字段描述场景\n简化上述表格，去掉poop_times_today ，interval_minutes，notes，时间全部用 DateTime，用枚举表示 smoothness\n周报和月报需要拓展一个需求， 将排便的频率和间隔做一个静态分析：如果一天拉大于等于3次，判定为腹泻；如果每周排便少于等于三次，判定为便秘，将这些定性作为周报，月报的结论体现出来\n\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e最终我们从ai的回答中提取关键信息\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-sql\"\u003eCREATE DATABASE IF NOT EXISTS shit\nCREATE TABLE IF NOT EXISTS shit.toilet_log\n(\n    id           UInt64,               -- 唯一ID\n    log_time     DateTime,             -- 拉屎时间，精确到秒\n    smoothness   Enum8(                -- 拉屎顺畅程度\n                    'blocked' = 0,     -- 完全拉不出\n                    'hardly'  = 1,     -- 几乎拉不出\n                    'normal'  = 2,     -- 正常拉屎\n                    'diarrhea'= 3      -- 一泻千里\n                  )\n)\nENGINE = MergeTree\nORDER BY log_time;\n\nINSERT INTO shit.toilet_log VALUES\n(1, '2025-04-17 08:30:00', 'normal'),\n(2, '2025-04-17 10:10:00', 'diarrhea'),\n(3, '2025-04-18 09:00:00', 'blocked');\n\n-- 查询一泻千里的次数：\nSELECT count() \nFROM shit.toilet_log \nWHERE smoothness = 'diarrhea';\n\n-- 查询每天拉屎次数：\nSELECT toDate(log_time) AS date, count() \nFROM shit.toilet_log \nGROUP BY date \nORDER BY date;\n\n-- 📊 腹泻日标记（先建个中间表/子查询）\nSELECT \n    toDate(log_time) AS day,\n    count() AS poop_count,\n    (count() \u0026gt;= 3) AS is_diarrhea_day\nFROM shit.toilet_log\nGROUP BY day\nORDER BY day;\n\n-- 📊 周报：腹泻、便秘、健康\nWITH \n-- 腹泻日统计\n(SELECT \n    toDate(log_time) AS day, \n    count() AS poop_count\n FROM shit.toilet_log\n GROUP BY day) AS daily_stats\n\nSELECT \n    toStartOfWeek(day) AS week_start,\n    count() AS total_days,\n    sum(poop_count) AS total_poop_count,\n    sum(poop_count \u0026gt;= 3) AS diarrhea_days,\n    (total_poop_count \u0026lt;= 3) AS is_constipation_week,\n    (diarrhea_days = 0 AND total_poop_count \u0026gt; 3) AS is_healthy_week\nFROM daily_stats\nGROUP BY week_start\nORDER BY week_start;\n\n/*\nis_constipation_week = 1 → 便秘周\nis_healthy_week = 1 → 健康周\n*/\n\n-- 📊 月报：腹泻、便秘、健康\nWITH \n-- 腹泻日统计\n(SELECT \n    toDate(log_time) AS day, \n    count() AS poop_count\n FROM shit.toilet_log\n GROUP BY day) AS daily_stats\n\nSELECT \n    toStartOfMonth(day) AS month_start,\n    count() AS total_days,\n    sum(poop_count) AS total_poop_count,\n    sum(poop_count \u0026gt;= 3) AS diarrhea_days,\n    (total_poop_count \u0026lt;= 12) AS is_constipation_month,\n    (diarrhea_days = 0 AND total_poop_count \u0026gt; 12) AS is_healthy_month\nFROM daily_stats\nGROUP BY month_start\nORDER BY month_start;\n\n/*\nis_constipation_month = 1 → 便秘月\nis_healthy_month = 1 → 健康月\n*/\n\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3\u003e导入数据\u003c/h3\u003e\n\u003cpre\u003e\u003ccode class=\"language-prompt\"\u003e根据这个表结构生成最起码400条测试数据，要求时间log_time，smoothness 随机分布。每一天产生的数据最少0条，最多3条.以csv形式导出。\n日期到上下界调整一下，调整为 2024-01-01 ～ 2025-04-17\n如何在mac系统中使用clickhouse client从本地文件csv中导入数据\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre\u003e\u003ccode\u003ebrew install clickhouse\n-- 隐私-安全性安全性 允许 clickhouse 命令执行\nclickhouse client --host=localhost --port=9000 --user=default --password=123456 --query=\u0026quot;INSERT INTO shit.toilet_log FORMAT CSV\u0026quot; \u0026lt; /Users/yourname/toilet_log_data.csv\n\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e之后我们打开 \u003ca href=\"http://dash.tabix.io/dashboard\"\u003etabix\u003c/a\u003e 验证结果即可。\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-sql\"\u003eSELECT \n    count() AS all\n FROM shit.toilet_log\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e设计应用层\u003c/h2\u003e\n\u003cpre\u003e\u003ccode class=\"language-prompt\"\u003e设计一个页面，中间是一个黄色的圆形，图片右边包含一个滚动条，滚动条往下滚动黄色会逐渐加深，一共有4种黄色。需要用原生html，不使用任何外部插件。\n需要支持window，mac，ios，Android客户端。并且点击图片会触发post调用，参数是{\u0026quot;smoothness\u0026quot;:1},smoothness是颜色深度，一共有1，2，3，4。4表示原色最深。\n\n使用gin作为web框架，配置简单够用的功能（比如日志记录，traceid），并在里面加一个index.html页面,另外在后端中加一个路由“/shit”,指向Shit方法委托\nshit方法实现对click house 数据库表shit.toilet_log 的写入\n写一个docker-compose.yml,把这个gin的web项目，联通 click house 一起启动\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e微调一下内容结果，启动就行了。完整项目见\u003ca href=\"\"\u003eshit\u003c/a\u003e\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-bash\"\u003edocker compose up --build\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003etodo\u003c/h2\u003e\n\u003cp\u003e可视化暂时用  \u003ca href=\"http://dash.tabix.io/dashboard\"\u003etabix\u003c/a\u003e 分析了，也可以写几个接口，把上面的sql 拿来用，导出一个周报/月报，但我懒得搞了。\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e集成周报，月报图表，提供相应的数据和接口\u003c/li\u003e\n\u003c/ol\u003e"
+}
+</script>
+
+<link rel="preload" as="script" href="/bundle.js?v=1745023584">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://stats.g.doubleclick.net">
+<link rel="preconnect" href="https://www.googleadservices.com">
+<link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=UA-DEV">
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-DEV"></script>
+<script>
+  window.dataLayer=window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js',new Date());
+  gtag('config','UA-DEV');
+  gtag('config','AW-DEV');
+</script>
+
+</head>
+<body>
+  <header id="nav" class="relative shadow-b bg-white">
+  <div class="px-4 py-3">
+    <div class="flex items-center mx-auto max-w-6xl">
+      <div class="logo">
+        <a class="block" href="/" title="Bullshit Program"><span class="font-semibold text-raven-900">Bullshit Program</span></a>
+      </div>
+      <div class="ml-auto flex items-center">
+        <a class="p-2 w-7 h-7 block text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" target="_blank" rel="noopener nofollow" href="https://www.google.com/search?q=site:example.com">
+          <svg class="fill-current" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2.67 12.804c0-5.6 4.544-10.134 10.133-10.134s10.134 4.544 10.134 10.134-4.544 10.133-10.134 10.133S2.67 18.393 2.67 12.804zm28.943 16.923l-8.868-8.868c4.287-5.3 3.68-13.012-1.378-17.57S8.564-1.066 3.75 3.75s-5.017 12.558-.46 17.618 12.28 5.665 17.57 1.378l8.868 8.868a1.33 1.33 0 0 0 2.231-.597c.123-.46-.008-.952-.345-1.29h0z"/></svg>
+        </a>
+        <a class="ml-3 block text-sm leading-none  text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" href="/posts/">
+          Posts
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="mt-8 mx-4 md:mx-8">
+    <div class="mx-auto w-full max-w-5xl">
+
+<figure>
+<img
+class="mb-2 mx-auto leading-none shadow-xl"
+src="/image/post/AI-Driven-Design-Shit-Database/image.png"
+alt="AI Driven Design Shit Database">
+</figure>
+
+    </div>
+  </div><div class="mt-8 mx-4 md:mx-8">
+    <div class="mx-auto w-full max-w-2xlp">
+      <article class="cdata">
+        <h1>AI Driven Design Shit Database</h1>
+
+        <div class="mt-4 flex items-center">
+          <div class="w-full">
+            
+<div class="flex items-center">
+  <div class="flex-shrink-0">
+    <img
+    class="w-14 h-14 object-cover p-05 rounded-full border border-blue-300"
+    src="/image/author/p-program.jpg"
+    alt="p-program">
+  </div>
+  <div class="flex-shrink-0 ml-2 leading-tight font-content-sans">
+    <a class="block text-base text-raven-800 hover:text-raven-900 hover:underline focus:underline" target="_blank" rel="noopener nofollow" title="p-program" href="https://github.com/p-program">p-program</a>
+    <time class="text-base text-raven-500" datetime="2025-04-19T00:00:00Z">Apr 19, 2025</time>
+  </div>
+</div>
+
+          </div>
+          <div>
+            
+<div class="flex items-center">
+  <a class="flex-shrink-0 block text-raven-800 hover:text-raven-900" target="_blank" rel="noopener nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=AI%20Driven%20Design%20Shit%20Database%20by%20%40example%20https%3a%2f%2fbullshitprogram.com%2fai-driven-design-shit-database%2f"><svg class="w-6 h-6 fill-current" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M32 6.078c-1.2.522-2.458.868-3.78 1.036 1.36-.812 2.398-2.088 2.886-3.626a13.11 13.11 0 0 1-4.16 1.588C25.742 3.794 24.026 3 22.154 3a6.56 6.56 0 0 0-6.556 6.562c0 .52.044 1.02.152 1.496-5.454-.266-10.28-2.88-13.522-6.862-.566.982-.898 2.106-.898 3.316a6.57 6.57 0 0 0 2.914 5.452 6.48 6.48 0 0 1-2.964-.808v.072c0 3.188 2.274 5.836 5.256 6.446-.534.146-1.116.216-1.72.216-.42 0-.844-.024-1.242-.112.85 2.598 3.262 4.508 6.13 4.57a13.18 13.18 0 0 1-8.134 2.798c-.538 0-1.054-.024-1.57-.1C2.906 27.93 6.35 29 10.064 29c12.072 0 18.672-10 18.672-18.668 0-.3-.01-.57-.024-.848C30.014 8.56 31.108 7.406 32 6.078z"/></svg></a>
+
+  <a class="ml-3 flex-shrink-0 block text-raven-800 hover:text-raven-900" target="_blank" rel="noopener nofollow" title="Share on Facebook" href="https://www.facebook.com/dialog/share?app_id=FB-DEV&display=page&href=https%3a%2f%2fbullshitprogram.com%2fai-driven-design-shit-database%2f"><svg class="w-6 h-6 fill-current" viewBox="-7 -3.5 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M30.234 0H1.765C.8.001 0 .79 0 1.766v28.47C.001 31.2.79 32 1.766 32h15.328V19.625h-4.156V14.78h4.156v-3.564c0-4.134 2.523-6.384 6.21-6.384 1.766 0 3.284.13 3.726.2v4.32h-2.543c-2.006 0-2.394.953-2.394 2.352v3.085h4.797l-.625 4.844h-4.172V32h8.14C31.21 32 32 31.2 32 30.234V1.765C32 .8 31.21 0 30.234 0z"/></svg></a>
+</div>
+
+          </div>
+        </div>
+
+        <p>关注个人拉屎健康：</p>
+<p><img src="/image/post/AI-Driven-Design-Shit-Database/mac.png" alt="image"></p>
+<h2>原始需求文档</h2>
+<pre><code>
+git config user.name &quot;oracle&quot;
+git config user.email &quot;trademar_us@oracle.com&quot;
+
+以0到5天的间隔，生成数据，每一天的数据最多3条。
+
+分析腹泻的时间（一天》=3次 或者2次的间隔少于60分钟）
+拉屎困难的次数（3天拉一次）
+
+拉屎时间，
+拉屎顺畅程度
+0 完全拉不出
+1几乎拉不出来
+2正常拉屎
+3一泻千里
+
+接口：散点图
+每年拉屎报告
+每周拉屎报告（4～7次算正常）
+</code></pre>
+<pre><code class="language-bash">docker run -d --name clickhouse-server \
+  -p 8123:8123 \
+  -p 9000:9000 \
+  -v /Users/zeusro/data:/var/lib/clickhouse \
+  -e CLICKHOUSE_PASSWORD=123456 \
+  clickhouse/clickhouse-server:latest
+</code></pre>
+<h2>准备底层数据</h2>
+<h3>准备提示词，蒸馏回答</h3>
+<ol>
+<li>mac 系统中创建备忘录，记录项目的背景信息</li>
+<li>下载最新版 chatGPT 客户端，将备忘录作为背景信息，让AI创建数据库和表</li>
+<li>改进提示词，微调数据表</li>
+<li>将定制化需求作为新的提示词，让 chatGPT 导出相应sql</li>
+</ol>
+<pre><code class="language-prompt">创建一个名为shit的数据库，用合适的字段描述场景
+简化上述表格，去掉poop_times_today ，interval_minutes，notes，时间全部用 DateTime，用枚举表示 smoothness
+周报和月报需要拓展一个需求， 将排便的频率和间隔做一个静态分析：如果一天拉大于等于3次，判定为腹泻；如果每周排便少于等于三次，判定为便秘，将这些定性作为周报，月报的结论体现出来
+
+</code></pre>
+<p>最终我们从ai的回答中提取关键信息</p>
+<pre><code class="language-sql">CREATE DATABASE IF NOT EXISTS shit
+CREATE TABLE IF NOT EXISTS shit.toilet_log
+(
+    id           UInt64,               -- 唯一ID
+    log_time     DateTime,             -- 拉屎时间，精确到秒
+    smoothness   Enum8(                -- 拉屎顺畅程度
+                    'blocked' = 0,     -- 完全拉不出
+                    'hardly'  = 1,     -- 几乎拉不出
+                    'normal'  = 2,     -- 正常拉屎
+                    'diarrhea'= 3      -- 一泻千里
+                  )
+)
+ENGINE = MergeTree
+ORDER BY log_time;
+
+INSERT INTO shit.toilet_log VALUES
+(1, '2025-04-17 08:30:00', 'normal'),
+(2, '2025-04-17 10:10:00', 'diarrhea'),
+(3, '2025-04-18 09:00:00', 'blocked');
+
+-- 查询一泻千里的次数：
+SELECT count() 
+FROM shit.toilet_log 
+WHERE smoothness = 'diarrhea';
+
+-- 查询每天拉屎次数：
+SELECT toDate(log_time) AS date, count() 
+FROM shit.toilet_log 
+GROUP BY date 
+ORDER BY date;
+
+-- 📊 腹泻日标记（先建个中间表/子查询）
+SELECT 
+    toDate(log_time) AS day,
+    count() AS poop_count,
+    (count() &gt;= 3) AS is_diarrhea_day
+FROM shit.toilet_log
+GROUP BY day
+ORDER BY day;
+
+-- 📊 周报：腹泻、便秘、健康
+WITH 
+-- 腹泻日统计
+(SELECT 
+    toDate(log_time) AS day, 
+    count() AS poop_count
+ FROM shit.toilet_log
+ GROUP BY day) AS daily_stats
+
+SELECT 
+    toStartOfWeek(day) AS week_start,
+    count() AS total_days,
+    sum(poop_count) AS total_poop_count,
+    sum(poop_count &gt;= 3) AS diarrhea_days,
+    (total_poop_count &lt;= 3) AS is_constipation_week,
+    (diarrhea_days = 0 AND total_poop_count &gt; 3) AS is_healthy_week
+FROM daily_stats
+GROUP BY week_start
+ORDER BY week_start;
+
+/*
+is_constipation_week = 1 → 便秘周
+is_healthy_week = 1 → 健康周
+*/
+
+-- 📊 月报：腹泻、便秘、健康
+WITH 
+-- 腹泻日统计
+(SELECT 
+    toDate(log_time) AS day, 
+    count() AS poop_count
+ FROM shit.toilet_log
+ GROUP BY day) AS daily_stats
+
+SELECT 
+    toStartOfMonth(day) AS month_start,
+    count() AS total_days,
+    sum(poop_count) AS total_poop_count,
+    sum(poop_count &gt;= 3) AS diarrhea_days,
+    (total_poop_count &lt;= 12) AS is_constipation_month,
+    (diarrhea_days = 0 AND total_poop_count &gt; 12) AS is_healthy_month
+FROM daily_stats
+GROUP BY month_start
+ORDER BY month_start;
+
+/*
+is_constipation_month = 1 → 便秘月
+is_healthy_month = 1 → 健康月
+*/
+
+</code></pre>
+<h3>导入数据</h3>
+<pre><code class="language-prompt">根据这个表结构生成最起码400条测试数据，要求时间log_time，smoothness 随机分布。每一天产生的数据最少0条，最多3条.以csv形式导出。
+日期到上下界调整一下，调整为 2024-01-01 ～ 2025-04-17
+如何在mac系统中使用clickhouse client从本地文件csv中导入数据
+</code></pre>
+<pre><code>brew install clickhouse
+-- 隐私-安全性安全性 允许 clickhouse 命令执行
+clickhouse client --host=localhost --port=9000 --user=default --password=123456 --query=&quot;INSERT INTO shit.toilet_log FORMAT CSV&quot; &lt; /Users/yourname/toilet_log_data.csv
+
+</code></pre>
+<p>之后我们打开 <a href="http://dash.tabix.io/dashboard">tabix</a> 验证结果即可。</p>
+<pre><code class="language-sql">SELECT 
+    count() AS all
+ FROM shit.toilet_log
+</code></pre>
+<h2>设计应用层</h2>
+<pre><code class="language-prompt">设计一个页面，中间是一个黄色的圆形，图片右边包含一个滚动条，滚动条往下滚动黄色会逐渐加深，一共有4种黄色。需要用原生html，不使用任何外部插件。
+需要支持window，mac，ios，Android客户端。并且点击图片会触发post调用，参数是{&quot;smoothness&quot;:1},smoothness是颜色深度，一共有1，2，3，4。4表示原色最深。
+
+使用gin作为web框架，配置简单够用的功能（比如日志记录，traceid），并在里面加一个index.html页面,另外在后端中加一个路由“/shit”,指向Shit方法委托
+shit方法实现对click house 数据库表shit.toilet_log 的写入
+写一个docker-compose.yml,把这个gin的web项目，联通 click house 一起启动
+</code></pre>
+<p>微调一下内容结果，启动就行了。完整项目见<a href="">shit</a></p>
+<pre><code class="language-bash">docker compose up --build
+</code></pre>
+<h2>todo</h2>
+<p>可视化暂时用  <a href="http://dash.tabix.io/dashboard">tabix</a> 分析了，也可以写几个接口，把上面的sql 拿来用，导出一个周报/月报，但我懒得搞了。</p>
+<ol>
+<li>集成周报，月报图表，提供相应的数据和接口</li>
+</ol>
+
+      </article>
+      
+
+    </div>
+  </div>
+</main>
+
+<footer class="mx-4 mt-8 mb-6">
+  <hr class="mt-0 hr-fade">
+  <nav class="mt-4 flex items-center justify-center">
+  <a class="ml-3 first:ml-0 text-sm text-gray-600 hover:text-gray-800" href="/posts/">Posts</a>
+  <a class="ml-3 first:ml-0 text-sm text-gray-600 hover:text-gray-800" href="/about/">About</a>
+</nav>
+
+  
+
+  <div class="mt-4 text-sm text-center text-gray-500">&#169; 2000-2025 https://github.com/p-program</div>
+  <div class="mt-2 text-xs text-center text-gray-500">Powered by <a href="https://www.jhaurawachsman.com/axiom/">Axiom</a></div>
+
+</footer>
+
+<script src="/bundle.js?v=1745023584"></script>
+<script defer src="/prism.js?v=1745023584"></script>
+<script>
+(function() {
+  window.setTimeout(function(){
+    var fbPixel = document.createElement("img");
+    fbPixel.setAttribute("width", "1");
+    fbPixel.setAttribute("height", "1");
+    fbPixel.setAttribute("style", "display:none");
+    fbPixel.src = "https://www.facebook.com/tr?id=FB-DEV&amp;ev=PageView";
+    document.body.appendChild(fbPixel);
+  }, 1750);
+})();
+</script>
+</body>
+</html>

@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="/">
   <link rel="canonical" href="https://bullshitprogram.com/super-b/">
   
-<link rel="preload" as="style" href="/bundle.css?v=1606142982" media="all">
-<link rel="stylesheet" href="/bundle.css?v=1606142982" media="all">
+<link rel="preload" as="style" href="/bundle.css?v=1745023584" media="all">
+<link rel="stylesheet" href="/bundle.css?v=1745023584" media="all">
 
 <link rel="preload" as="image" href="/image/post/super-B/0.jpg">
 
@@ -37,9 +37,9 @@ When,Where,What,Who 最近一个月（2020-04至今），我发现阿里云CDN�
 图片域名用的是多线路 cname 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见 《 多公有云CDN最佳实践 》。
 Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」技能来解决这个问题。
 网站的解析用的是cname，主要面向国内用户
---&amp;gt; 正常用户的特征是国内的固定IP，且访问次数有限
---&amp;gt; 一部分异常用户用国外IP
---&amp;gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大
+--&gt; 正常用户的特征是国内的固定IP，且访问次数有限
+--&gt; 一部分异常用户用国外IP
+--&gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大
 对于国外IP，我用了以带宽计费的网宿。
 对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。
 外部原因 在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。
@@ -47,7 +47,8 @@ Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」�
 全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。
 阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。
 腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。
-如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。">
+如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。
+">
 <meta name="description" content="“异能者之上的超越者，侦探社最强的男人” Background Information 我是江户川乱步，目前在侦探社担任调查员。
 我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「傻逼」 。
 作为侦探社核心，我的能力是 「超装逼」。
@@ -58,9 +59,9 @@ When,Where,What,Who 最近一个月（2020-04至今），我发现阿里云CDN�
 图片域名用的是多线路 cname 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见 《 多公有云CDN最佳实践 》。
 Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」技能来解决这个问题。
 网站的解析用的是cname，主要面向国内用户
---&amp;gt; 正常用户的特征是国内的固定IP，且访问次数有限
---&amp;gt; 一部分异常用户用国外IP
---&amp;gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大
+--&gt; 正常用户的特征是国内的固定IP，且访问次数有限
+--&gt; 一部分异常用户用国外IP
+--&gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大
 对于国外IP，我用了以带宽计费的网宿。
 对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。
 外部原因 在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。
@@ -68,7 +69,8 @@ Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」�
 全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。
 阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。
 腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。
-如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。">
+如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。
+">
 <meta property="og:updated_time" content="2020-05-19T01:31:00Z">
 <meta property="fb:app_id" content="FB-DEV">
 <meta name="author" content="Zeusro">
@@ -87,7 +89,7 @@ Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」�
     "@type": "WebPage",
     "@id": "https://bullshitprogram.com/super-b/"
   },
-  "description": "“异能者之上的超越者，侦探社最强的男人” Background Information 我是江户川乱步，目前在侦探社担任调查员。\n我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「傻逼」 。\n作为侦探社核心，我的能力是 「超装逼」。\n老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。\n好了，不吹牛逼了。让我们回到原来问题，用 5W1H 来重新分析这个问题。\nWhen,Where,What,Who 最近一个月（2020-04至今），我发现阿里云CDN费用剧增。\n按照二八法则分析，主要矛盾在于图片域名的流量非常高。\n图片域名用的是多线路 cname 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见 《 多公有云CDN最佳实践 》。\nWhy 直接说结论，那也太无聊了。我决定发动我的「超装逼」技能来解决这个问题。\n网站的解析用的是cname，主要面向国内用户\n--\u0026gt; 正常用户的特征是国内的固定IP，且访问次数有限\n--\u0026gt; 一部分异常用户用国外IP\n--\u0026gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大\n对于国外IP，我用了以带宽计费的网宿。\n对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。\n外部原因 在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。\n但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。\n全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。\n阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。\n腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。\n如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。",
+  "description": "“异能者之上的超越者，侦探社最强的男人” Background Information 我是江户川乱步，目前在侦探社担任调查员。\n我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「傻逼」 。\n作为侦探社核心，我的能力是 「超装逼」。\n老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。\n好了，不吹牛逼了。让我们回到原来问题，用 5W1H 来重新分析这个问题。\nWhen,Where,What,Who 最近一个月（2020-04至今），我发现阿里云CDN费用剧增。\n按照二八法则分析，主要矛盾在于图片域名的流量非常高。\n图片域名用的是多线路 cname 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见 《 多公有云CDN最佳实践 》。\nWhy 直接说结论，那也太无聊了。我决定发动我的「超装逼」技能来解决这个问题。\n网站的解析用的是cname，主要面向国内用户\n--\u0026gt; 正常用户的特征是国内的固定IP，且访问次数有限\n--\u0026gt; 一部分异常用户用国外IP\n--\u0026gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大\n对于国外IP，我用了以带宽计费的网宿。\n对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。\n外部原因 在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。\n但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。\n全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。\n阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。\n腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。\n如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。\n",
   "author": {
     "@type": "Person",
     "name": "Zeusro"
@@ -102,11 +104,11 @@ Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」�
   },
   "datePublished": "2020-05-19T01:31:00Z",
   "dateModified": "2020-05-19T01:31:00Z",
-  "articleBody": "\u003ch2\u003eBackground Information\u003c/h2\u003e\n\u003cp\u003e我是江户川乱步，目前在侦探社担任调查员。\u003c/p\u003e\n\u003cp\u003e我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「\u003cstrong\u003e傻逼\u003c/strong\u003e」 。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/1.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e作为侦探社核心，我的能力是 「\u003cstrong\u003e超装逼\u003c/strong\u003e」。\u003c/p\u003e\n\u003cp\u003e老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。\u003c/p\u003e\n\u003cp\u003e好了，不吹牛逼了。让我们回到原来问题，用\n\u003ca href=\"https://baike.baidu.com/item/5W1H%E5%88%86%E6%9E%90%E6%B3%95/10091536?fromtitle=5W1H\u0026amp;fromid=6062002\"\u003e5W1H\u003c/a\u003e\n来重新分析这个问题。\u003c/p\u003e\n\u003ch2\u003eWhen,Where,What,Who\u003c/h2\u003e\n\u003cp\u003e最近一个月（2020-04至今），我发现阿里云CDN费用剧增。\u003c/p\u003e\n\u003cp\u003e按照二八法则分析，主要矛盾在于图片域名的流量非常高。\u003c/p\u003e\n\u003cp\u003e图片域名用的是多线路 \u003ccode\u003ecname\u003c/code\u003e 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见\n《\n\u003ca href=\"http://www.zeusro.com/2019/09/20/cdn-pickup/\"\u003e多公有云CDN最佳实践\u003c/a\u003e\n》。\u003c/p\u003e\n\u003ch2\u003eWhy\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/2.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e直接说结论，那也太无聊了。我决定发动我的「\u003cstrong\u003e超装逼\u003c/strong\u003e」技能来解决这个问题。\u003c/p\u003e\n\u003cp\u003e网站的解析用的是cname，主要面向国内用户\u003c/p\u003e\n\u003cp\u003e--\u0026gt; 正常用户的特征是国内的固定IP，且访问次数有限\u003c/p\u003e\n\u003cp\u003e--\u0026gt; 一部分异常用户用国外IP\u003c/p\u003e\n\u003cp\u003e--\u0026gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大\u003c/p\u003e\n\u003cp\u003e对于国外IP，我用了以带宽计费的网宿。\u003c/p\u003e\n\u003cp\u003e对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。\u003c/p\u003e\n\u003ch3\u003e外部原因\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/3.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。\u003c/p\u003e\n\u003cp\u003e但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。\u003c/p\u003e\n\u003cp\u003e全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。\n假设循环50次，那么一个IPV4就能放大成50倍的请求次数。\u003c/p\u003e\n\u003cp\u003e阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。\u003c/p\u003e\n\u003cp\u003e腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。\u003c/p\u003e\n\u003cp\u003e如果更倒霉，遇到 \u003ccode\u003echallenge collapsar\u003c/code\u003e，那就准备给阿里云送钱吧。\u003c/p\u003e\n\u003ch3\u003e内部原因\u003c/h3\u003e\n\u003cp\u003e在排查问题过程中，我发现了一个本不该出现的IP。\u003c/p\u003e\n\u003cp\u003e那个IP是阿里云VPC下的一个SNAT网关IP。这个IP的出现，只会说明一个问题：\n\u003cstrong\u003ekubernetes 内部容器通过公网访问OSS\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003e2018年09月04日 03时02分24秒\u003c/code\u003e ，我在公司内部文档是这么写的：\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/4.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003eSo,怪我文档写的不仔细咯？\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/5.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003ch2\u003eHow\u003c/h2\u003e\n\u003cp\u003e在不改代码的前提下，解决方案有：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e建一个中转的\u003ccode\u003eNginx\u003c/code\u003e源站，回源OSS。对外返回 Brotli 编码的图片。\u003c/li\u003e\n\u003cli\u003e使用\u003cstrong\u003e内网域名\u003c/strong\u003e读写OSS。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e有条件改代码的话使用\n\u003ca href=\"https://help.aliyun.com/document_detail/85117.html\"\u003eURL鉴权\u003c/a\u003e\n。\u003c/p\u003e\n\u003ch2\u003e其他费用\u003c/h2\u003e\n\u003cp\u003e\u003ccode\u003eCDN\u003c/code\u003e是边缘计算。如果某个CDN节点上没有资源的副本，那么该节点就会回源，从而产生回源流量。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/6.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e也就是说，如果在阿里云内部用公网回源OSS,一次请求有可能产生三种费用。\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eCDN流量费用\u003c/li\u003e\n\u003cli\u003eOSS下行流量费用\u003c/li\u003e\n\u003cli\u003eCDN HTTPS请求数计费\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e网宿，请你争气一点\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e好好的一家公司，不推进项目，不投入研发，大股东整天想着减持，管理层变着名目和花样想把几个亿理财资金弄到自己腰包里，不思进取，气死沉沉，让股价一跌再跌，就问网宿，你怎么对得起，一直支持你的股民！！！\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e引用网友的评论，结合自身的实际用户体验，我希望网宿别那么快倒闭。\u003c/p\u003e\n\u003ch2\u003e结论\u003c/h2\u003e\n\u003cp\u003e中国商用带宽的流量费用过高。\u003c/p\u003e\n\u003ch2\u003e参考链接\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e\u003ca href=\"https://help.aliyun.com/document_detail/59636.html\"\u003e计量项和计费项\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://wiki.mbalib.com/zh-tw/5W1H%E5%88%86%E6%9E%90%E6%B3%95\"\u003e5W1H分析法\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://connect.console.aliyun.com/connect/detail/144802\"\u003e阿里云CDN费用过高\u003c/a\u003e\u003c/li\u003e\n\u003c/ol\u003e"
+  "articleBody": "\u003ch2\u003eBackground Information\u003c/h2\u003e\n\u003cp\u003e我是江户川乱步，目前在侦探社担任调查员。\u003c/p\u003e\n\u003cp\u003e我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「\u003cstrong\u003e傻逼\u003c/strong\u003e」 。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/1.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e作为侦探社核心，我的能力是 「\u003cstrong\u003e超装逼\u003c/strong\u003e」。\u003c/p\u003e\n\u003cp\u003e老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。\u003c/p\u003e\n\u003cp\u003e好了，不吹牛逼了。让我们回到原来问题，用\n\u003ca href=\"https://baike.baidu.com/item/5W1H%E5%88%86%E6%9E%90%E6%B3%95/10091536?fromtitle=5W1H\u0026amp;fromid=6062002\"\u003e5W1H\u003c/a\u003e\n来重新分析这个问题。\u003c/p\u003e\n\u003ch2\u003eWhen,Where,What,Who\u003c/h2\u003e\n\u003cp\u003e最近一个月（2020-04至今），我发现阿里云CDN费用剧增。\u003c/p\u003e\n\u003cp\u003e按照二八法则分析，主要矛盾在于图片域名的流量非常高。\u003c/p\u003e\n\u003cp\u003e图片域名用的是多线路 \u003ccode\u003ecname\u003c/code\u003e 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见\n《\n\u003ca href=\"http://www.zeusro.com/2019/09/20/cdn-pickup/\"\u003e多公有云CDN最佳实践\u003c/a\u003e\n》。\u003c/p\u003e\n\u003ch2\u003eWhy\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/2.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e直接说结论，那也太无聊了。我决定发动我的「\u003cstrong\u003e超装逼\u003c/strong\u003e」技能来解决这个问题。\u003c/p\u003e\n\u003cp\u003e网站的解析用的是cname，主要面向国内用户\u003c/p\u003e\n\u003cp\u003e--\u0026gt; 正常用户的特征是国内的固定IP，且访问次数有限\u003c/p\u003e\n\u003cp\u003e--\u0026gt; 一部分异常用户用国外IP\u003c/p\u003e\n\u003cp\u003e--\u0026gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大\u003c/p\u003e\n\u003cp\u003e对于国外IP，我用了以带宽计费的网宿。\u003c/p\u003e\n\u003cp\u003e对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。\u003c/p\u003e\n\u003ch3\u003e外部原因\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/3.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。\u003c/p\u003e\n\u003cp\u003e但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。\u003c/p\u003e\n\u003cp\u003e全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。\n假设循环50次，那么一个IPV4就能放大成50倍的请求次数。\u003c/p\u003e\n\u003cp\u003e阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。\u003c/p\u003e\n\u003cp\u003e腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。\u003c/p\u003e\n\u003cp\u003e如果更倒霉，遇到 \u003ccode\u003echallenge collapsar\u003c/code\u003e，那就准备给阿里云送钱吧。\u003c/p\u003e\n\u003ch3\u003e内部原因\u003c/h3\u003e\n\u003cp\u003e在排查问题过程中，我发现了一个本不该出现的IP。\u003c/p\u003e\n\u003cp\u003e那个IP是阿里云VPC下的一个SNAT网关IP。这个IP的出现，只会说明一个问题：\n\u003cstrong\u003ekubernetes 内部容器通过公网访问OSS\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003e2018年09月04日 03时02分24秒\u003c/code\u003e ，我在公司内部文档是这么写的：\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/4.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003eSo,怪我文档写的不仔细咯？\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/5.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003ch2\u003eHow\u003c/h2\u003e\n\u003cp\u003e在不改代码的前提下，解决方案有：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e建一个中转的\u003ccode\u003eNginx\u003c/code\u003e源站，回源OSS。对外返回 Brotli 编码的图片。\u003c/li\u003e\n\u003cli\u003e使用\u003cstrong\u003e内网域名\u003c/strong\u003e读写OSS。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e有条件改代码的话使用\n\u003ca href=\"https://help.aliyun.com/document_detail/85117.html\"\u003eURL鉴权\u003c/a\u003e\n。\u003c/p\u003e\n\u003ch2\u003e其他费用\u003c/h2\u003e\n\u003cp\u003e\u003ccode\u003eCDN\u003c/code\u003e是边缘计算。如果某个CDN节点上没有资源的副本，那么该节点就会回源，从而产生回源流量。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"/image/post/super-B/6.png\" alt=\"image\"\u003e\u003c/p\u003e\n\u003cp\u003e也就是说，如果在阿里云内部用公网回源OSS,一次请求有可能产生三种费用。\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eCDN流量费用\u003c/li\u003e\n\u003cli\u003eOSS下行流量费用\u003c/li\u003e\n\u003cli\u003eCDN HTTPS请求数计费\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e网宿，请你争气一点\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e好好的一家公司，不推进项目，不投入研发，大股东整天想着减持，管理层变着名目和花样想把几个亿理财资金弄到自己腰包里，不思进取，气死沉沉，让股价一跌再跌，就问网宿，你怎么对得起，一直支持你的股民！！！\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003e引用网友的评论，结合自身的实际用户体验，我希望网宿别那么快倒闭。\u003c/p\u003e\n\u003ch2\u003e结论\u003c/h2\u003e\n\u003cp\u003e中国商用带宽的流量费用过高。\u003c/p\u003e\n\u003ch2\u003e参考链接\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e\u003ca href=\"https://help.aliyun.com/document_detail/59636.html\"\u003e计量项和计费项\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://wiki.mbalib.com/zh-tw/5W1H%E5%88%86%E6%9E%90%E6%B3%95\"\u003e5W1H分析法\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://connect.console.aliyun.com/connect/detail/144802\"\u003e阿里云CDN费用过高\u003c/a\u003e\u003c/li\u003e\n\u003c/ol\u003e"
 }
 </script>
 
-<link rel="preload" as="script" href="/bundle.js?v=1606142982">
+<link rel="preload" as="script" href="/bundle.js?v=1745023584">
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://stats.g.doubleclick.net">
 <link rel="preconnect" href="https://www.googleadservices.com">
@@ -247,8 +249,7 @@ alt="用「超装逼」排查CDN流量剧增问题">
 </ol>
 <h2>网宿，请你争气一点</h2>
 <blockquote>
-<p>好好的一家公司，不推进项目，不投入研发，大股东整天想着减持，管理层变着名目和花样想把几个亿理财资金弄到自己腰包里，不思进取，气死沉沉，让股价一跌再跌，就问网宿，你怎么对得起，一直支持你的股民！！！</p>
-</blockquote>
+<p>好好的一家公司，不推进项目，不投入研发，大股东整天想着减持，管理层变着名目和花样想把几个亿理财资金弄到自己腰包里，不思进取，气死沉沉，让股价一跌再跌，就问网宿，你怎么对得起，一直支持你的股民！！！</p></blockquote>
 <p>引用网友的评论，结合自身的实际用户体验，我希望网宿别那么快倒闭。</p>
 <h2>结论</h2>
 <p>中国商用带宽的流量费用过高。</p>
@@ -275,13 +276,13 @@ alt="用「超装逼」排查CDN流量剧增问题">
 
   
 
-  <div class="mt-4 text-sm text-center text-gray-500">&#169; 2000-2020 https://github.com/p-program</div>
+  <div class="mt-4 text-sm text-center text-gray-500">&#169; 2000-2025 https://github.com/p-program</div>
   <div class="mt-2 text-xs text-center text-gray-500">Powered by <a href="https://www.jhaurawachsman.com/axiom/">Axiom</a></div>
 
 </footer>
 
-<script src="/bundle.js?v=1606142982"></script>
-<script defer src="/prism.js?v=1606142982"></script>
+<script src="/bundle.js?v=1745023584"></script>
+<script defer src="/prism.js?v=1745023584"></script>
 <script>
 (function() {
   window.setTimeout(function(){
