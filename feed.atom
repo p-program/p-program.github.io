@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2025-06-16T08:10:43Z</updated>
+  <updated>2025-06-16T08:40:33Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="zh"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="zh"/>
   <entry>
@@ -440,50 +440,6 @@ http://www.bullshitprogram.com/the-seed-of-robot/&lt;/p&gt;</content>
 &lt;p&gt;没有耕坏的田，只有累死的牛。&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>机动容器 GUNDAM SEED</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/mobile-suit-gundam-seed/</id>
-    <updated>2020-08-03T12:32:49Z</updated>
-    <published>2020-08-03T12:32:49Z</published>
-    <content type="html">&lt;p&gt;有个死人曾经这么说过：“&lt;strong&gt;If you can&#39;t explain it simply, you don&#39;t understand it well enough.&lt;/strong&gt;”&lt;/p&gt;
-&lt;h2&gt;docker company&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/docker-company.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;docker company 是大奸商万代公司。他们卖的模型很贵，而且最近 &lt;a href=&#34;https://segmentfault.com/a/1190000023645593&#34;&gt;不卖给中国一些实体名单企业&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&#34;https://opencontainers.org/&#34;&gt;OCI&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/TJTA.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;如果说 docker company 是万恶的大奸商，OCI则是一个由 docker company 的同业公司组建的一个日本玩具协会。这个协会存在的目的，主要是为了共同制定行业标准。&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&#34;https://github.com/opencontainers/image-spec&#34;&gt;OCIv1&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/OCIv1.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;自由高达1.0的黑白图纸。&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&#34;https://hackmd.io/@cyphar/ociv2-brainstorm&#34;&gt;OCIv2&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/OCIv2.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;自由高达2.0的彩色图纸。它是彩色的，主要是为了解决 OCIv1 的历史遗留问题。&lt;/p&gt;
-&lt;p&gt;关于OCIv1的问题，我在《&lt;a href=&#34;http://www.zeusro.com/2020/07/30/oci-v2/&#34;&gt;Dragonfly Nydus——下一代容器格式的一种实现&lt;/a&gt;》里面有说。&lt;/p&gt;
-&lt;h2&gt;docker image&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/docker-image.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;docker image 是一堆不会动的数据。&lt;/p&gt;
-&lt;h2&gt;docker container&lt;/h2&gt;
-&lt;p&gt;docker 容器其实是一个数据&#43;状态机。&lt;/p&gt;
-&lt;h3&gt;running container&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/running-container.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;当docker image 动起来之后，就是一只会动的高达模型。&lt;/p&gt;
-&lt;h3&gt;stopped container&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/stop-container.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;自由高达没电了，所以停住了。&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&#34;https://github.com/alibaba/pouch&#34;&gt;PouchContainer&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/liuxing.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;自由高达流星装。&lt;/p&gt;
-&lt;h2&gt;Kubernetes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/ANGEL.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Kubernetes 是一台负责管理调度容器（高达）的航空母舰——大天使号。&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&#34;https://github.com/p-program/oam&#34;&gt;OAM&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Mobile-Suit-Gundam-SEED/OAM.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/p-program/oam&#34;&gt;OAM&lt;/a&gt; Open AI Model 是自由高达的驾驶舱里面的语音控制模块。&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>藤原拓海教你怎么上下班</title>
     <author>
       <name>Zeusro</name>
@@ -545,11 +501,14 @@ http://www.bullshitprogram.com/the-seed-of-robot/&lt;/p&gt;</content>
     <id>https://bullshitprogram.com/rich-grandma-looks-at-me/</id>
     <updated>2020-05-24T02:03:42Z</updated>
     <published>2020-05-24T02:03:42Z</published>
-    <content type="html">&lt;p&gt;2020-05-23下午，处在失业边缘的本帅趁着邻居家小孩跑去补习，借了他的滑板，开始练习。我们的小区有一个圆形的小花坛，周围是人行道。每天早上都有妹子和富婆一起在这赛道上面爬。&lt;/p&gt;
-&lt;p&gt;被端端大魔王抛弃后，我突然就不想努力了。&lt;/p&gt;
+    <content type="html">&lt;p&gt;2020-05-23下午，处在失业边缘的本帅趁着邻居家小孩跑去补习，借了他的滑板，开始练习。
+我们的小区有一个圆形的小花坛，周围是人行道。每天早上都有妹子和富婆一起在这赛道上面爬。&lt;/p&gt;
+&lt;p&gt;自从我跟端端大魔王科普了一下“分布式老婆系统”之后，大家就分道扬镳了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/Rich-Grandma-Looks-At-Me/1.jpeg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;p&gt;按照《Distributed Wives System[1]》的理论，要构建现代分布式老婆系统，最起码需要2个老婆。于是，富婆和妹子都成为了我的目标。&lt;/p&gt;
-&lt;p&gt;假设我，妹子，富婆都是同时开始，同向沿着跑道匀速运动，并且都不需要喝水以及做任何停顿，圆形赛道总长度为600m，我的移动速度为1m/s，妹子的移动速度为2m/s，富婆的移动速度为3m/s。&lt;/p&gt;
+&lt;p&gt;假设我，妹子，富婆都是同时开始，
+同向沿着跑道匀速运动，并且都不需要喝水以及做任何停顿，圆形赛道总长度为600m，
+我的移动速度为1m/s，妹子的移动速度为2m/s，富婆的移动速度为3m/s。&lt;/p&gt;
 &lt;p&gt;那么问题来了，&lt;strong&gt;如何让富婆和妹子同时注意到我帅气地玩滑板&lt;/strong&gt;？&lt;/p&gt;
 &lt;h2&gt;高中生解释&lt;/h2&gt;
 &lt;p&gt;我的周期是 600/1=600s,也就是说，每600s跑完一圈；
@@ -649,12 +608,12 @@ func RichGrandma(limit int64) (timings []int64) {
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;结论&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Rich-Grandma-Looks-At-Me/2.jpg&#34; alt=&#34;img&#34;&gt;
-这是一个广义三维世界（我&#43;妹子&#43;富婆）模型,
+&lt;p&gt;&lt;img src=&#34;/image/post/Rich-Grandma-Looks-At-Me/2.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这是一个广义三维世界（我&#43;妹子&#43;富婆）模型,
 这个模型存在完美P均衡。
 每隔10分钟，我就能与妹子以及富婆完美相遇。&lt;/p&gt;
 &lt;h2&gt;吐槽&lt;/h2&gt;
-&lt;p&gt;邻居家孩子鬼精鬼精的，竟然让我玩他弟弟的滑板。他弟弟的滑板根本就不好滑好吗？！&lt;/p&gt;
+&lt;p&gt;邻居家孩子鬼精鬼精的，竟然让我玩他弟弟的废材滑板。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/Rich-Grandma-Looks-At-Me/IMG_20200524_071419.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;h2&gt;参考链接&lt;/h2&gt;
 &lt;p&gt;[1]
@@ -809,10 +768,15 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 &lt;p&gt;&lt;strong&gt;最终一致性&lt;/strong&gt;：虽然有很多老婆，但最后她们都和谐共处。&lt;/p&gt;
 &lt;p&gt;我们从历史的长河，来看各个时代的（分布式）老婆系统是怎么样的。&lt;/p&gt;
 &lt;h2&gt;只知其母，不知其父&lt;/h2&gt;
-&lt;p&gt;这种母系社会，应该叫分布式老公系统才对。分布式老公系统，实现了高可用性和分区容错性。一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。&lt;/p&gt;
+&lt;p&gt;这种母系社会，应该叫&lt;a href=&#34;https://www.bullshitprogram.com/distributed-husband-system/&#34;&gt;分布式老公系统&lt;/a&gt;才对。
+分布式老公系统，实现了高可用性和分区容错性。
+一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。&lt;/p&gt;
 &lt;p&gt;老婆=1，所以不能叫分布式老婆系统。&lt;/p&gt;
 &lt;h2&gt;父有一个，三妻四妾&lt;/h2&gt;
-&lt;p&gt;在中国的封建时期。曾经流行这样一套系统。不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。至于妾，则用“納”。妾的地位更低。&lt;/p&gt;
+&lt;p&gt;在中国的封建时期。曾经流行这样一套系统。
+不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。
+三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。
+至于妾，则用“納”。妾的地位更低。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -835,12 +799,8 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2&gt;一夫一妻，从一而终&lt;/h2&gt;
-&lt;p&gt;这是近现代女权思潮的进步。目的除了尊重女性，还有尊重弱小男性的意思。因为按照中国“不下嫁”的传统，如果继续实行一夫多妻制度，将有更多底层男性娶不到老婆。这会造成严重的社会动乱。&lt;/p&gt;
-&lt;p&gt;老婆=1，所以不能叫分布式老婆系统。&lt;/p&gt;
 &lt;h2&gt;构建现代分布式老婆系统&lt;/h2&gt;
-&lt;p&gt;策略是&lt;strong&gt;欺骗与重建信任&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3&gt;弱水三千，只取一瓢：&lt;/h3&gt;
+&lt;h3&gt;弱水三千，只取一瓢&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;亲爱的,我从你身上看到了整个世界。跟你在一起之后，我的生命变得完整。嫁给我吧，我会给你幸福的！&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3&gt;喜新厌旧，开始劈腿&lt;/h3&gt;
@@ -851,7 +811,9 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 &lt;h3&gt;自戴绿帽&lt;/h3&gt;
 &lt;p&gt;自戴绿帽的合法方式是与他离婚，让他娶小三。但是事实上又在一起。或者做表面夫妻，假意原谅老公，让他继续在外面浪荡。&lt;/p&gt;
 &lt;p&gt;离婚后又事实上在一起，叫做&lt;strong&gt;实现了最终一致性&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;在中国有不少人实现了这个方式。但名字我还是不说了，免得被抄家就不好了，哈哈哈。&lt;/p&gt;
+&lt;p&gt;马斯克是实现分布式老婆系统的大成者。
+他有一句名言：虽然我不知道那孩子爸爸是谁，但看在我这么有钱的份上，给她们母子一点钱吧。&lt;/p&gt;
+&lt;p&gt;不过我看最近（2025-06）马斯克的气色有点差，感觉也快去地府报道了。&lt;/p&gt;
 &lt;h3&gt;斩其祸根&lt;/h3&gt;
 &lt;p&gt;在《School Days》，诚哥上了天台，故事的结局，大家也都知道了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/Distributed-Wives-System/school-days.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
@@ -861,7 +823,6 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 诚哥笑你日得少，我笑诚哥日不了。 
 你笑诚哥日不了，诚哥笑你胆子小。
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;对于老婆A 来说，防止戴绿帽的最佳策略是&lt;strong&gt;不断提高自身价值，并查他手机&lt;/strong&gt;。&lt;/p&gt;
 &lt;h2&gt;结论&lt;/h2&gt;
 &lt;p&gt;只要你一心沉迷二次元，完美的分布式老婆系统还是可以实现的！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/Distributed-Wives-System/wives.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
@@ -872,121 +833,6 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 &lt;li&gt;&lt;a href=&#34;https://www.ctwant.com/article/47365&#34;&gt;羅志祥40歲搞多P！「30秒抖動126下」衝刺片瘋傳　網全看傻&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kknews.cc/history/m46bxz.html&#34;&gt;揭秘：中國的妻妾制度，三妻四妾到底指的是哪三妻和哪四妾？&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</content>
-  </entry>
-  <entry>
-    <title>面向甩锅开发</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/g-oriented-programming/</id>
-    <updated>2020-04-06T13:39:05Z</updated>
-    <published>2020-04-06T13:39:05Z</published>
-    <content type="html">&lt;h2&gt;把锅留给自己&lt;/h2&gt;
-&lt;p&gt;能够独立解决问题，是成为甩锅工程师的第一步。锅要先自己背，只有自己背过锅，才知道锅的沉重。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/G-Oriented-Programming/g-in-home.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;但是，一个人能背的锅总是有限的，要把有限精力放在更重要的事情上。&lt;/p&gt;
-&lt;h2&gt;把锅丢给别人&lt;/h2&gt;
-&lt;p&gt;当你背过锅，知道锅的沉重之后。决定把锅留给别人。或物色人员，培训萌新，成为他们眼中的导师；或删库跑路，怒交辞职信，愤而离职。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/G-Oriented-Programming/g-too-many.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这些都只是个人选择，无关乎对错。&lt;/p&gt;
-&lt;p&gt;更蛋疼的在于，公司倒闭，项目无人可接手。&lt;/p&gt;
-&lt;h2&gt;把锅留给世界&lt;/h2&gt;
-&lt;p&gt;所以，当一个项目到了生死存亡之际，无人可托管。建议把他留给世界，原地开源。&lt;/p&gt;
-&lt;p&gt;虽然我已退出江湖，但江湖还流传着我的传说；虽然我已不写代码，但我审核你们的代码也很爽啊 ~&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/G-Oriented-Programming/g-in-world.jpeg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>政治老师哪有这么可爱</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/bullshityang/</id>
-    <updated>2020-03-27T01:26:58Z</updated>
-    <published>2020-03-27T01:26:58Z</published>
-    <content type="html">&lt;blockquote&gt;
-&lt;p&gt;人从哪里来，我是谁，我要去哪？&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;今天突然想起我的高中政治老师，我觉得她讲课水平实在是不行。让我来讲讲什么是哲学吧。&lt;/p&gt;
-&lt;p&gt;我们通常认为，语言是一套符号系统。那他既然是符号系统，就必定存在缺陷。所以每一套系统都只能解决特定的问题。哲学依附于语言以上，所以哲学必定是一套有缺陷的系统。&lt;/p&gt;
-&lt;p&gt;OK，你觉得这样的推论很扯淡。那我们就来讲讲基本问题。&lt;/p&gt;
-&lt;h2&gt;基本问题&lt;/h2&gt;
-&lt;p&gt;唯物论：&lt;strong&gt;意识的第一性，物质的第二性。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;唯心论：&lt;strong&gt;物质的第一性，意识的第二性。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以物质为第一性发展的世界，就是目前这个近现代。这个世界的问题在于消费主义横行，大家明明都很有钱，很物质，但个个都过得不太开心，不太幸福。&lt;/p&gt;
-&lt;p&gt;我们第一代领袖说：“应该是一元论”。那么，我们把唯物主义辩证法简单理解为对立统一规律，那么这个规律，其实已经否定了唯物主义本身。你唯物论说了嘛，&lt;strong&gt;物质是第一性，意识是第二性&lt;/strong&gt;。但是你自己又统一不了物质和意识，粗暴地把他们割裂开来，排资论辈，把意识放在后面。当你认为物质占第一主导的时候，你早就已经违背了你自身的定义：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;一切存在的事物都由既相互对立、又相互统一的一对矛盾组合而成&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;唯物主义视万物为草芥，唯心主义强调唯吾独尊。他们的问题在于他们本身对问题的定义，就是一种有问题的描述。&lt;/p&gt;
-&lt;p&gt;在强调物质第一性的社会里，会看到这样一个有趣现象：大家都以有钱作为终极目标（可笑的是，钱永远是不够用的，不然社会就停摆了），各种刷卡消费买买买，结果夜深人静的时候，内心却空虚得要命，甚至连觉都睡不安稳；&lt;/p&gt;
-&lt;p&gt;在强调意识第一性的社会，又过于注重个人的表达。如果你在美国的学校读书，某天你心血来潮去学校艺术节唱歌，即便你唱得再跑调，你的同学也会拼命鼓掌。因为在他们的文化里面，强调的是个人的表达，自我，尊重他人，这些很虚的事情。这种心态的极致就是所谓的白左动物保护主义。&lt;/p&gt;
-&lt;h2&gt;结论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;《易传·系辞上传》:&lt;/p&gt;
-&lt;p&gt;“易有太极，是生两仪，两仪生四象，四象生八卦。”&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;我不知道自己从哪而来。我知道的是，在神的世界里，我就是人，所以我的时间有限；在我的世界里，我就是神，我有限的时间即为永恒。&lt;/p&gt;
-&lt;p&gt;人不能同时踏入同一条河流。说得这么无聊，不过就是，分手了，你不要去找你前任嘛。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;花开堪折直须折，莫待无花空折枝。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;为啥不要去找你前任呢？因为随着时间的推移，TA也不是你以前想象的那个人，而你自己也变了。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;多情自古空余恨，好梦由来最易醒。&lt;/p&gt;
-&lt;p&gt;岂是拈花难解脱，可怜飞絮太飘零。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;现实是最稳定的幻象，不必纠结于过去。毕竟，&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;人生一场虚空大梦,韶华白首,不过转瞬。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2&gt;参考链接&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;https://zh.wikipedia.org/wiki/%E5%94%AF%E5%BF%83%E4%B8%BB%E7%BE%A9&lt;/li&gt;
-&lt;li&gt;https://zh.wikipedia.org/wiki/%E5%94%AF%E7%89%A9%E8%BE%AF%E8%AD%89%E6%B3%95&lt;/li&gt;
-&lt;li&gt;https://zh.wikipedia.org/zh/%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89&lt;/li&gt;
-&lt;/ol&gt;</content>
-  </entry>
-  <entry>
-    <title>皮之三重境界</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/p-programer/</id>
-    <updated>2020-03-24T04:03:42Z</updated>
-    <published>2020-03-24T04:03:42Z</published>
-    <content type="html">&lt;p&gt;古人曾经没有这么云过：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;人之初，性本善，性相近，皮相远。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;也就是说，人的皮性各有不同。有的不皮，有的很皮，更有甚者，皮成了仙。&lt;/p&gt;
-&lt;p&gt;古今之成大事业、大皮学家(p-programer)，罔不经过三种之境界：&lt;/p&gt;
-&lt;h2&gt;昨夜西风凋碧树。独上高楼，皮尽天涯路&lt;/h2&gt;
-&lt;p&gt;皮于表象，俗称皮皮虾。
-皮皮虾经常出没于各大社群，常用句式有&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;21 天学会 C&#43;&#43;&lt;/li&gt;
-&lt;li&gt;PHP 是最好的语言&lt;/li&gt;
-&lt;li&gt;C 语言从入门到放弃&lt;/li&gt;
-&lt;li&gt;Java 是门啰嗦的语言&lt;/li&gt;
-&lt;li&gt;老子就是死也不优化JVM&lt;/li&gt;
-&lt;li&gt;机器学习真的不是统计学&lt;/li&gt;
-&lt;li&gt;go 是云原生开发第一语言&lt;/li&gt;
-&lt;li&gt;没过几年就要跟微软学新语言&lt;/li&gt;
-&lt;li&gt;学 Python 要先买一把游标卡尺&lt;/li&gt;
-&lt;li&gt;JavaScript 就是一把没有刀柄的剑&lt;/li&gt;
-&lt;li&gt;请不要把区块链当成收割韭菜的有效工具&lt;/li&gt;
-&lt;li&gt;swift 是那个跟男朋友分手后就写歌的女歌手吗&lt;/li&gt;
-&lt;li&gt;object-c 是被 Taylor Alison Swift 抛弃的备胎吗
-&lt;img src=&#34;/image/post/p-programer/p-army.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;衣带渐宽终不悔，为伊皮得人憔悴&lt;/h2&gt;
-&lt;p&gt;经过第一重境界的轮回以后，皮皮虾顿悟了编程的奥义在于认清了口袋里的银子之后，依然要靠他们恰饭。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;上善若皮，皮善覆万物而不争，处众人之所恶（wù），故几于道。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;所以他化用了各家武功，形成了自己的独特武林绝学：&lt;strong&gt;医院挂号&lt;/strong&gt;。
-&lt;img src=&#34;/image/post/p-programer/p-immortal.jpg&#34; alt=&#34;&#34;&gt;
-终不得治，谥号皮成仙。&lt;/p&gt;
-&lt;h2&gt;众里寻他千百度，蓦然回首，那人皮在灯火阑珊处&lt;/h2&gt;
-&lt;p&gt;皮成神，简称皮神，皮卡丘。&lt;/p&gt;
-&lt;p&gt;皮神是不属于人类的存在。它不呆在精灵球里，所以是不被束缚的存在。无法被观测，更无法被捕捉。其存在是一种传说。&lt;/p&gt;
-&lt;p&gt;皮即可爱，皮即正义，皮即世界。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/p-programer/p-detective.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>The Seed Of Robot —— Intelligent API Gateway</title>
