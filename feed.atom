@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2025-06-16T06:07:02Z</updated>
+  <updated>2025-06-16T06:21:59Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="zh"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="zh"/>
   <entry>
@@ -52,7 +52,7 @@
 &lt;p&gt;在传统的3维空间里面，由于时间被“忽视”（t=0）了，所以看起来不可解。&lt;/p&gt;
 &lt;p&gt;但&lt;strong&gt;在n维空间里面，度量线段的长度单位是“时间的长短”&lt;/strong&gt;。举个例子，从汕头高铁站到广州东，对于人来说，最快的方案是搭高铁；但如果你是闪电侠，你可以绕地球一圈之后再回来，再从汕头高铁站跑到广州东。&lt;/p&gt;
 &lt;p&gt;只要你花的时间比高铁少，虽然你的路程多了一个圈，你的解就是更优解。
-因此，解题的思路在于对”距离K“进行概念转换，以时间长短作为第一标准。&lt;/p&gt;
+因此，解题的思路在于对”距离K“进行概念转换，以时间长短作为第一标准。如果用这种角度去思考三维线段，就会发现，其实同样的速度下，就是”直“的线段最快。N维线段的时间度量同样适用。&lt;/p&gt;
 &lt;p&gt;从哪个城市出发并不重要。
 只要你到达当前城市后总是前往下一个最近的城市，这个问题就可以转化为贪婪搜索最短路径来解决。&lt;/p&gt;
 &lt;p&gt;在三维欧氏空间中，两点之间的最短路径是直线。&lt;/p&gt;
