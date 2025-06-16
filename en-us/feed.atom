@@ -7,61 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/en-us/</uri>
   </author>
-  <updated>2025-06-16T05:11:19Z</updated>
+  <updated>2025-06-16T05:37:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/en-us/feed.atom" hreflang="en"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/en-us/" hreflang="en"/>
-  <entry>
-    <title>我已证明P=NP</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/en-us/p-np/</id>
-    <updated>2025-06-16T00:00:00Z</updated>
-    <published>2025-06-15T00:00:00Z</published>
-    <content type="html">&lt;h2&gt;start&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;One is all,all in one.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;mathematical proof&lt;/h2&gt;
-&lt;p&gt;xyz is the special case in n universe.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1:t=0
-2:x=x &amp;amp;&amp;amp; y=y &amp;amp;&amp;amp; z=z &amp;amp;&amp;amp; 1=1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But we are actually living in the n universe.
-In the n universe:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1:t≠0
-2:1=n ⇔ n=1
-3:P=P ⇔ P=NP
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;1=n,n=1,P=NP reduces to P=P.So the P=NP problem could be solved.
-For example:
-1=n : I am one of the humans.
-n=1 : &amp;quot;Compress&amp;quot; all the data to 1.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-GO&#34;&gt;type N struct {
-    Sky            
-    Ground         
-    YoungAndBeautiful 
-    Others          
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Example: Traveling Salesman Problem (TSP)&lt;/h2&gt;
-&lt;p&gt;Problem: A salesman needs to visit multiple cities, each exactly once, and return to the starting point. Given the distances between each pair of cities, the question is: Is there a path whose total length does not exceed K?&lt;/p&gt;
-&lt;p&gt;Answer: In fact, the formulation of this problem is flawed.
-The actual problem should be framed as finding the fastest path.
-Since time is considered as the one-dimensional world,
-the problem can be transformed: it doesn&#39;t matter which city you start from.
-As long as you always go to the next nearest city after arriving at the current one, the problem becomes solvable as a greedy search for the shortest path.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;For the TSP problem, the length measurement standard should be time, not distance in the intuitive sense.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In 3-dimensional Euclidean space, the shortest path between two points is a straight line.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In n dimensions, a segment does not necessarily follow a 3D straight line.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In N-dimensional space, the length of a segment is measured based on time, not distance.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;An N-dimensional line segment is a special case at t = 0 in 3D space.
-Because it lacks the dimension of time, it becomes a 3D line segment - what we intuitively understand as &amp;quot;the shortest distance between two points is a straight line.&amp;quot;&lt;/p&gt;
-&lt;p&gt;In dimensions higher than three, the criterion for measuring the length of a line segment is time - the segment with the shortest duration is the shortest N-dimensional line segment.&lt;/p&gt;
-&lt;p&gt;I think I have proved P=NP problem from math.
-Other 20%,time will tell.&lt;/p&gt;
-&lt;h2&gt;end&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;宇宙内事乃己分内事，己分内事乃宇宙内事
-&lt;/code&gt;&lt;/pre&gt;</content>
-  </entry>
 </feed>
