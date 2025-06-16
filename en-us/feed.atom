@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Bullshit Program</title>
   <subtitle>Bullshit Program Website</subtitle>
-  <id>http://localhost:51673/zh/</id>
+  <id>https://bullshitprogram.com/en-us/</id>
   <author>
     <name>Bullshit Program</name>
-    <uri>http://localhost:51673/zh/</uri>
+    <uri>https://bullshitprogram.com/en-us/</uri>
   </author>
-  <updated>2025-06-16T03:40:27Z</updated>
-  <link rel="self" type="application/atom+xml" href="http://localhost:51673/zh/feed.atom" hreflang="zh"/>
-  <link rel="alternate" type="text/html" href="http://localhost:51673/zh/" hreflang="zh"/>
+  <updated>2025-06-16T04:55:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/en-us/feed.atom" hreflang="en"/>
+  <link rel="alternate" type="text/html" href="https://bullshitprogram.com/en-us/" hreflang="en"/>
   <entry>
-    <title>P=NP</title>
+    <title>我已证明P=NP</title>
     <author>
       <name>Zeusro</name>
       <uri>https://github.com/zeusro</uri>
     </author>
-    <id>http://localhost:51673/zh/p-np/</id>
-    <link rel="alternate" href="http://localhost:51673/p-np/" hreflang="en-us"/>
+    <id>https://bullshitprogram.com/en-us/p-np/</id>
     <updated>2025-06-16T00:00:00Z</updated>
     <published>2025-06-15T00:00:00Z</published>
-    <content type="html">&lt;h2&gt;缘起&lt;/h2&gt;
+    <content type="html">&lt;h2&gt;start&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;One is all,all in one.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;数学证明&lt;/h2&gt;
+&lt;h2&gt;mathematical proof&lt;/h2&gt;
 &lt;p&gt;xyz is the special case in n universe.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1:t=0
 2:x=x &amp;amp;&amp;amp; y=y &amp;amp;&amp;amp; z=z &amp;amp;&amp;amp; 1=1
@@ -61,7 +60,7 @@ Because it lacks the dimension of time, it becomes a 3D line segment - what 
 &lt;p&gt;In dimensions higher than three, the criterion for measuring the length of a line segment is time - the segment with the shortest duration is the shortest N-dimensional line segment.&lt;/p&gt;
 &lt;p&gt;I think I have proved P=NP problem from math.
 Other 20%,time will tell.&lt;/p&gt;
-&lt;h2&gt;缘灭&lt;/h2&gt;
+&lt;h2&gt;end&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;宇宙内事乃己分内事，己分内事乃宇宙内事
 &lt;/code&gt;&lt;/pre&gt;</content>
   </entry>
