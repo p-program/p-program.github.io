@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-us">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="/">
   <link rel="canonical" href="https://bullshitprogram.com/super-b/">
   
-<link rel="preload" as="style" href="/bundle.css?v=1745891303" media="all">
-<link rel="stylesheet" href="/bundle.css?v=1745891303" media="all">
+<link rel="preload" as="style" href="/bundle.css?v=1750041511" media="all">
+<link rel="stylesheet" href="/bundle.css?v=1750041511" media="all">
 
 <link rel="preload" as="image" href="/image/post/super-B/0.jpg">
 
@@ -26,50 +26,12 @@
 <meta property="og:image:width" content="">
 <meta property="og:image:height" content="">
 <meta property="og:type" content="article">
-<meta property="og:locale" content="en_us">
+<meta property="og:locale" content="en">
 <meta property="og:description" content="“异能者之上的超越者，侦探社最强的男人” Background Information 我是江户川乱步，目前在侦探社担任调查员。
 我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「傻逼」 。
-作为侦探社核心，我的能力是 「超装逼」。
-老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。
-好了，不吹牛逼了。让我们回到原来问题，用 5W1H 来重新分析这个问题。
-When,Where,What,Who 最近一个月（2020-04至今），我发现阿里云CDN费用剧增。
-按照二八法则分析，主要矛盾在于图片域名的流量非常高。
-图片域名用的是多线路 cname 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见 《 多公有云CDN最佳实践 》。
-Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」技能来解决这个问题。
-网站的解析用的是cname，主要面向国内用户
---&gt; 正常用户的特征是国内的固定IP，且访问次数有限
---&gt; 一部分异常用户用国外IP
---&gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大
-对于国外IP，我用了以带宽计费的网宿。
-对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。
-外部原因 在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。
-但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。
-全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。
-阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。
-腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。
-如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。
 ">
 <meta name="description" content="“异能者之上的超越者，侦探社最强的男人” Background Information 我是江户川乱步，目前在侦探社担任调查员。
 我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「傻逼」 。
-作为侦探社核心，我的能力是 「超装逼」。
-老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。
-好了，不吹牛逼了。让我们回到原来问题，用 5W1H 来重新分析这个问题。
-When,Where,What,Who 最近一个月（2020-04至今），我发现阿里云CDN费用剧增。
-按照二八法则分析，主要矛盾在于图片域名的流量非常高。
-图片域名用的是多线路 cname 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见 《 多公有云CDN最佳实践 》。
-Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」技能来解决这个问题。
-网站的解析用的是cname，主要面向国内用户
---&gt; 正常用户的特征是国内的固定IP，且访问次数有限
---&gt; 一部分异常用户用国外IP
---&gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大
-对于国外IP，我用了以带宽计费的网宿。
-对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。
-外部原因 在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。
-但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。
-全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。
-阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。
-腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。
-如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。
 ">
 <meta property="og:updated_time" content="2020-05-19T01:31:00Z">
 <meta property="fb:app_id" content="FB-DEV">
@@ -89,7 +51,7 @@ Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」�
     "@type": "WebPage",
     "@id": "https://bullshitprogram.com/super-b/"
   },
-  "description": "“异能者之上的超越者，侦探社最强的男人” Background Information 我是江户川乱步，目前在侦探社担任调查员。\n我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「傻逼」 。\n作为侦探社核心，我的能力是 「超装逼」。\n老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。\n好了，不吹牛逼了。让我们回到原来问题，用 5W1H 来重新分析这个问题。\nWhen,Where,What,Who 最近一个月（2020-04至今），我发现阿里云CDN费用剧增。\n按照二八法则分析，主要矛盾在于图片域名的流量非常高。\n图片域名用的是多线路 cname 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见 《 多公有云CDN最佳实践 》。\nWhy 直接说结论，那也太无聊了。我决定发动我的「超装逼」技能来解决这个问题。\n网站的解析用的是cname，主要面向国内用户\n--\u0026gt; 正常用户的特征是国内的固定IP，且访问次数有限\n--\u0026gt; 一部分异常用户用国外IP\n--\u0026gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大\n对于国外IP，我用了以带宽计费的网宿。\n对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。\n外部原因 在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。\n但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。\n全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。 假设循环50次，那么一个IPV4就能放大成50倍的请求次数。\n阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。\n腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。\n如果更倒霉，遇到 challenge collapsar，那就准备给阿里云送钱吧。\n",
+  "description": "“异能者之上的超越者，侦探社最强的男人” Background Information 我是江户川乱步，目前在侦探社担任调查员。\n我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「傻逼」 。\n",
   "author": {
     "@type": "Person",
     "name": "Zeusro"
@@ -108,7 +70,7 @@ Why 直接说结论，那也太无聊了。我决定发动我的「超装逼」�
 }
 </script>
 
-<link rel="preload" as="script" href="/bundle.js?v=1745891303">
+<link rel="preload" as="script" href="/bundle.js?v=1750041511">
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://stats.g.doubleclick.net">
 <link rel="preconnect" href="https://www.googleadservices.com">
@@ -281,8 +243,8 @@ alt="用「超装逼」排查CDN流量剧增问题">
 
 </footer>
 
-<script src="/bundle.js?v=1745891303"></script>
-<script defer src="/prism.js?v=1745891303"></script>
+<script src="/bundle.js?v=1750041511"></script>
+<script defer src="/prism.js?v=1750041511"></script>
 <script>
 (function() {
   window.setTimeout(function(){
