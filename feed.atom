@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2025-07-01T06:58:42Z</updated>
+  <updated>2025-07-01T07:04:24Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="zh"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="zh"/>
   <entry>
@@ -748,89 +748,6 @@ https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</conten
 &lt;li&gt;&lt;a href=&#34;https://help.aliyun.com/document_detail/59636.html&#34;&gt;计量项和计费项&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wiki.mbalib.com/zh-tw/5W1H%E5%88%86%E6%9E%90%E6%B3%95&#34;&gt;5W1H分析法&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://connect.console.aliyun.com/connect/detail/144802&#34;&gt;阿里云CDN费用过高&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content>
-  </entry>
-  <entry>
-    <title>Distributed Wives System</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/distributed-wives-system/</id>
-    <updated>2020-04-24T09:13:31Z</updated>
-    <published>2020-04-24T09:13:31Z</published>
-    <content type="html">&lt;h2&gt;CAP 理论&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Distributed-Wives-System/CAP.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;可用性（Availability）&lt;/strong&gt;：睡觉的时候旁边有老婆A或者B，老婆数量越多，可用性越高。可用性的终极形态是“1对N群体运动”（参考罗某人）。满足高可用性的前提是 N ≥ 2 。高可用性也是分布式系统的基础。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分区容错性（Partition tolerance）&lt;/strong&gt;：老婆A不知道老婆B，她们信息不完全互通。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一致性（Consistency）&lt;/strong&gt; ：老婆A 知道老婆B 的存在，或者孩子知道自己爹妈是谁。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最终一致性&lt;/strong&gt;：虽然有很多老婆，但最后她们都和谐共处。&lt;/p&gt;
-&lt;p&gt;我们从历史的长河，来看各个时代的（分布式）老婆系统是怎么样的。&lt;/p&gt;
-&lt;h2&gt;只知其母，不知其父&lt;/h2&gt;
-&lt;p&gt;这种母系社会，应该叫&lt;a href=&#34;https://www.bullshitprogram.com/distributed-husband-system/&#34;&gt;分布式老公系统&lt;/a&gt;才对。
-分布式老公系统，实现了高可用性和分区容错性。
-一致性无法保障，所以生下来的娃不知道谁是爹。因此也确立了母亲在族群中的统领地位。&lt;/p&gt;
-&lt;p&gt;老婆=1，所以不能叫分布式老婆系统。&lt;/p&gt;
-&lt;h2&gt;父有一个，三妻四妾&lt;/h2&gt;
-&lt;p&gt;在中国的封建时期。曾经流行这样一套系统。
-不过这套系统也是有讲究的。三妻四妾中的“妻”包括嫡妻、偏妻、下妻等。“三”在古代还有“多”的意思。
-三妻里面，正（髮）妻地位最高，所以叫做“娶”。其余平妻，专门辅佐髮妻。
-至于妾，则用“納”。妾的地位更低。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;特性&lt;/th&gt;
-          &lt;th&gt;是否实现&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;一致性&lt;/td&gt;
-          &lt;td&gt;√&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;可用性&lt;/td&gt;
-          &lt;td&gt;√&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;分区容错性&lt;/td&gt;
-          &lt;td&gt;×（她们各住自己房间）&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;构建现代分布式老婆系统&lt;/h2&gt;
-&lt;h3&gt;弱水三千，只取一瓢&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;亲爱的,我从你身上看到了整个世界。跟你在一起之后，我的生命变得完整。嫁给我吧，我会给你幸福的！&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3&gt;喜新厌旧，开始劈腿&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;老婆，她们只是我的姐妹，我只是玩玩而已。大家都是人，有什么生理需求都很正常。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3&gt;老婆A 的态度&lt;/h3&gt;
-&lt;p&gt;第二个步骤过后，会有两条分支线。这取决于老婆A的态度。&lt;/p&gt;
-&lt;h3&gt;自戴绿帽&lt;/h3&gt;
-&lt;p&gt;自戴绿帽的合法方式是与他离婚，让他娶小三。但是事实上又在一起。或者做表面夫妻，假意原谅老公，让他继续在外面浪荡。&lt;/p&gt;
-&lt;p&gt;离婚后又事实上在一起，叫做&lt;strong&gt;实现了最终一致性&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;马斯克是实现分布式老婆系统的大成者。
-他有一句名言：虽然我不知道那孩子爸爸是谁，但看在我这么有钱的份上，给她们母子一点钱吧。&lt;/p&gt;
-&lt;p&gt;不过我看最近（2025-06）马斯克的气色有点差，感觉也快去地府报道了。&lt;/p&gt;
-&lt;h3&gt;斩其祸根&lt;/h3&gt;
-&lt;p&gt;在《School Days》，诚哥上了天台，故事的结局，大家也都知道了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Distributed-Wives-System/school-days.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;来说一首诗祭奠一下诚哥吧：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;诚哥笑我胆子小，我笑诚哥死得早。 
-你笑诚哥死得早，诚哥笑你日得少。 
-诚哥笑你日得少，我笑诚哥日不了。 
-你笑诚哥日不了，诚哥笑你胆子小。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;结论&lt;/h2&gt;
-&lt;p&gt;只要你一心沉迷二次元，完美的分布式老婆系统还是可以实现的！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Distributed-Wives-System/wives.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;h2&gt;参考链接&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%8A%E5%B8%9D%E9%80%A0%E4%BA%BA&#34;&gt;上帝造人&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zh.moegirl.org/zh-hans/%E8%AF%9A%E5%93%A5%E6%AD%BB%E5%BE%97%E6%97%A9&#34;&gt;诚哥死得早&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ctwant.com/article/47365&#34;&gt;羅志祥40歲搞多P！「30秒抖動126下」衝刺片瘋傳　網全看傻&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kknews.cc/history/m46bxz.html&#34;&gt;揭秘：中國的妻妾制度，三妻四妾到底指的是哪三妻和哪四妾？&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</content>
   </entry>
   <entry>
