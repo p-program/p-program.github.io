@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2025-07-09T06:32:38Z</updated>
+  <updated>2025-07-09T06:35:51Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="zh"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="zh"/>
   <entry>
@@ -20,7 +20,7 @@
     <updated>2025-07-06T23:00:00Z</updated>
     <published>2025-07-06T23:00:00Z</published>
     <content type="html">&lt;h2&gt;摘要&lt;/h2&gt;
-&lt;p&gt;为了小黄鸭能尽快找到他的 &lt;code&gt;young and beautiful&lt;/code&gt; 富婆，需要优化一下这个鸭子入场预约程序。&lt;/p&gt;
+&lt;p&gt;为了小黄鸭能尽快找到他的 &lt;code&gt;young and beautiful&lt;/code&gt; 富婆，需要优化一下这个鸭子入鸭场的预约程序。&lt;/p&gt;
 &lt;h2&gt;引言&lt;/h2&gt;
 &lt;p&gt;孙中山先生在1924年改组国民党的时候说过：“&lt;strong&gt;联合世界上以平等待我之民族&lt;/strong&gt;。”我个人认为，对于没有啄鸭记录，并且喜欢吃五羊牌雪糕的无业游民Zeusro，也应该提供适当便利。&lt;/p&gt;
 &lt;h2&gt;方法&lt;/h2&gt;
@@ -39,9 +39,6 @@
   allowfullscreen&gt;
 &lt;/iframe&gt;
 &lt;h2&gt;结论&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/DuckDuckGo/for-everyone.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;“天下為公”。&lt;/p&gt;
-&lt;h2&gt;结论&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-poem&#34;&gt;在天愿作比翼鸟
 在地愿为连理枝
 
@@ -54,7 +51,8 @@ In America, we use tadpoles as betrothal gifts
 en-GB LGBT:
 On the Internet,we wish to use  DuckDuckGo Browser
 In England,we are gay
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/image/post/DuckDuckGo/for-everyone.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>我已证明P=NP</title>
