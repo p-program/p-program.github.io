@@ -7,7 +7,7 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2025-07-09T06:27:54Z</updated>
+  <updated>2025-07-09T06:31:05Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="zh"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="zh"/>
   <entry>
@@ -24,18 +24,17 @@
 &lt;h2&gt;引言&lt;/h2&gt;
 &lt;p&gt;孙中山先生在1924年改组国民党的时候说过：“&lt;strong&gt;联合世界上以平等待我之民族&lt;/strong&gt;。”我个人认为，对于没有啄鸭记录，并且喜欢吃五羊牌雪糕的无业游民Zeusro，也应该提供适当便利。&lt;/p&gt;
 &lt;h2&gt;方法&lt;/h2&gt;
-&lt;img src=&#34;/image/post/DuckDuckGo/duck.png&#34; alt=&#34;duck&#34; width=&#34;50%&#34; /&gt;
 &lt;p&gt;在小程序“鸭大一鸭通行”个人资料中追加一个&lt;strong&gt;Duck&lt;/strong&gt;和&lt;strong&gt;Double  Duck&lt;/strong&gt;字段，分别代表鸭子和鸭王身份。&lt;/p&gt;
 &lt;p&gt;当拥有这个身份时，整个小程序会变成黄色，并且头像变成可达鸭。只要不是夜闯男女生宿舍（当然，也要酌情考虑对方自愿的情况），日出到日落的时间段都可以进入。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/DuckDuckGo/meituan.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在符合规则的情况，向工作人员出示黄码，或者&lt;strong&gt;穿一件美团外卖的马甲&lt;/strong&gt;，都可随意出入任何鸭大校区。不用再另外预约。&lt;/p&gt;
 &lt;h2&gt;讨论&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;/image/post/DuckDuckGo/reject.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;方案2：可以预约周一到周日的8~18时间段。校方也可以拒绝，拒绝理由是丑拒。&lt;/p&gt;
+&lt;p&gt;方案2：可以预约周一到周日的8~18时间段。老鸨也可以丑拒。&lt;/p&gt;
 &lt;p&gt;字段定义&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Duck&lt;/strong&gt;：比如像我这种岭南第11111风流才子就属于这种范围&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Double  Duck&lt;/strong&gt;：羊城鸭王&lt;/p&gt;
-&lt;iframe width=&#34;720&#34; height=&#34;615&#34;
+&lt;iframe width=&#34;700&#34; height=&#34;615&#34;
   src=&#34;https://www.bilibili.com/video/BV19A4y1Z7Ba&#34;
   frameborder=&#34;0&#34;
   allowfullscreen&gt;
