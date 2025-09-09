@@ -7,11 +7,11 @@
     <name>Bullshit Program</name>
     <uri>https://bullshitprogram.com/</uri>
   </author>
-  <updated>2025-07-09T06:37:46Z</updated>
+  <updated>2025-09-09T00:52:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://bullshitprogram.com/feed.atom" hreflang="zh"/>
   <link rel="alternate" type="text/html" href="https://bullshitprogram.com/" hreflang="zh"/>
   <entry>
-    <title>鸭大一鸭通行游戏</title>
+    <title>一鸭通行</title>
     <author>
       <name>Zeusro</name>
       <uri>https://github.com/zeusro</uri>
@@ -483,59 +483,6 @@ http://www.bullshitprogram.com/the-seed-of-robot/&lt;/p&gt;</content>
 &lt;p&gt;没有耕坏的田，只有累死的牛。&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>藤原拓海教你怎么上下班</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/initial-d/</id>
-    <updated>2020-05-28T05:26:27Z</updated>
-    <published>2020-05-28T05:26:27Z</published>
-    <content type="html">&lt;h2&gt;我是藤原拓海（Who）&lt;/h2&gt;
-&lt;p&gt;大家好，我是藤原拓海。2020年新冠肺炎，无奈之下只能自己做饭。之后我发现饭盒斜放进书包里面的话，会影响饭的口感。再加上我不是富二代，万般无奈下，我只能每天用手拎着饭盒跑秋名山。&lt;/p&gt;
-&lt;p&gt;但我逐渐发现了这其中有迹可循。&lt;/p&gt;
-&lt;h2&gt;场景分析（What）&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/1.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;分析这个问题，我们需要建立一个模型。对“现实”世界进行充分建模。&lt;/p&gt;
-&lt;p&gt;首先，人流量是一个可以预测的潮汐模型。广州地铁在这方面积累了大量的运营经验，在各个关卡都设置了“哨兵”（安保是上面的意思，不关地铁的事）。大型节假日之前会提前预演，比如周五下午五点左右会提前设置栅栏，为人流洪峰进行预备。中心城区8~9点是高峰期，我极少选这个时间段出门。&lt;/p&gt;
-&lt;p&gt;对用户而言，他们可以通过APP，微信公众号，微博实时了解各段线路的流量情况，错峰出行。可以说，广州地铁做的很好。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;搭地铁是重复的固定赛道跑酷游戏（Game）&lt;/strong&gt;。这个游戏的好玩之处在于，每一个人都有多个“对手（players）”。我需要在不与其他人接触的前提下，比每一个对手都快，这样才算获得了游戏的胜利（P均衡）。&lt;/p&gt;
-&lt;h2&gt;深入分析&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/2.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;继续使用5W1H（What,When,Where,Who,Why）分析这个问题。&lt;/p&gt;
-&lt;p&gt;When
-时间点的选择需要反复思考。&lt;code&gt;Best Timing&lt;/code&gt;是不存在的，只有&lt;code&gt;Better Timing&lt;/code&gt;。总的来说，需要一个&lt;code&gt;Scalable Timetable&lt;/code&gt;。只有时间表足够弹性，才能保证在雨天的时候不迟到，稍早一点出门，实现错峰出行。&lt;/p&gt;
-&lt;p&gt;Where
-这个问题用Where其实有点勉强。因为这个问题涉及到2个点。不过，我说过，“线缩成点”。也就是说，最理想的情况是根本就不搭地铁，走路实现上下班。&lt;/p&gt;
-&lt;p&gt;Why
-如果模型出错，导致自己出行不便，要多问自己为什么，是不是走路的步数慢了，还是没有预测到路人们的运动趋势。&lt;/p&gt;
-&lt;h2&gt;集体无意识&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/3.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;羊群效应&lt;/li&gt;
-&lt;li&gt;靠右行走（左边的人少）&lt;/li&gt;
-&lt;li&gt;规避黄线（靠黄线那一侧通常人比较少）&lt;/li&gt;
-&lt;li&gt;服从指挥（楼梯通常有两边，但相反方向的楼梯即便没人也很少人用）&lt;/li&gt;
-&lt;li&gt;临界时间（8：20/8：50通常是临界上班时间，这个点的人赶路像奔丧一样）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;方案落实（How）&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/4.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;综合以上所有信息，落实方案就相当简单了。地铁的营运班次都是非常有规律的，只要挑一个人流量少的时间错峰出行即可。&lt;/p&gt;
-&lt;p&gt;总诀式为&lt;/p&gt;
-&lt;p&gt;两点之间，线段最短；
-天下武功，唯快不破；
-邯郸学步，后发先至。&lt;/p&gt;
-&lt;h2&gt;日益优化&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/5.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;提高自己的反应能力，控制自身的动量，就能逐渐学会矢量运算。&lt;/p&gt;
-&lt;p&gt;下班是上班的逆运算。上班熟练了之后，自然知道怎么下班。&lt;/p&gt;
-&lt;h2&gt;结论&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/Initial-D/fan-che.gif&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;如果你有钱并且会跳伞，建议直接开直升飞机；
-如果你有钱但不想开车，建议叫滴滴打车；
-如果你没钱也不想搭车，建议搭地铁。&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>漫无止境的八月</title>
     <author>
       <name>p-program</name>
@@ -583,88 +530,6 @@ http://www.5iops.com/html/2012/standard_0515/1.html&lt;/p&gt;
 &lt;p&gt;[3]
 麦当劳新总裁从扫厕所干起 希望厕所最干净
 https://business.sohu.com/2004/04/28/18/article219981873.shtml&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>用「超装逼」排查CDN流量剧增问题</title>
-    <author>
-      <name>Zeusro</name>
-      <uri>https://github.com/zeusro</uri>
-    </author>
-    <id>https://bullshitprogram.com/super-b/</id>
-    <updated>2020-05-19T01:31:00Z</updated>
-    <published>2020-05-19T01:31:00Z</published>
-    <content type="html">&lt;h2&gt;Background Information&lt;/h2&gt;
-&lt;p&gt;我是江户川乱步，目前在侦探社担任调查员。&lt;/p&gt;
-&lt;p&gt;我拥有侦探社首屈一指的头脑，是侦探中的侦探。虽然具备超群的观察能力和推理能力，不过个性比较难以捉摸，说话不会看气氛，喜欢更符合客观逻辑的做事。不讨好媚俗，第一次见面一般会称对方为 「&lt;strong&gt;傻逼&lt;/strong&gt;」 。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/super-B/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;作为侦探社核心，我的能力是 「&lt;strong&gt;超装逼&lt;/strong&gt;」。&lt;/p&gt;
-&lt;p&gt;老子是真正的天才，所以总是孤独的。正所谓天下地上，唯吾独尊。清华北大应该给我顺丰快递一张本科毕业证书，普林斯顿大学欠我一个博士学位，中科院应该聘请我去当个院士，诺贝尔更欠我一个经济学奖。&lt;/p&gt;
-&lt;p&gt;好了，不吹牛逼了。让我们回到原来问题，用
-&lt;a href=&#34;https://baike.baidu.com/item/5W1H%E5%88%86%E6%9E%90%E6%B3%95/10091536?fromtitle=5W1H&amp;amp;fromid=6062002&#34;&gt;5W1H&lt;/a&gt;
-来重新分析这个问题。&lt;/p&gt;
-&lt;h2&gt;When,Where,What,Who&lt;/h2&gt;
-&lt;p&gt;最近一个月（2020-04至今），我发现阿里云CDN费用剧增。&lt;/p&gt;
-&lt;p&gt;按照二八法则分析，主要矛盾在于图片域名的流量非常高。&lt;/p&gt;
-&lt;p&gt;图片域名用的是多线路 &lt;code&gt;cname&lt;/code&gt; 解析，国内按流量计费的阿里云CDN，国外用按带宽计费的网宿CDN。综合考虑之后，我发现混合策略才是最优解，具体见
-《
-&lt;a href=&#34;http://www.zeusro.com/2019/09/20/cdn-pickup/&#34;&gt;多公有云CDN最佳实践&lt;/a&gt;
-》。&lt;/p&gt;
-&lt;h2&gt;Why&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/super-B/2.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;直接说结论，那也太无聊了。我决定发动我的「&lt;strong&gt;超装逼&lt;/strong&gt;」技能来解决这个问题。&lt;/p&gt;
-&lt;p&gt;网站的解析用的是cname，主要面向国内用户&lt;/p&gt;
-&lt;p&gt;--&amp;gt; 正常用户的特征是国内的固定IP，且访问次数有限&lt;/p&gt;
-&lt;p&gt;--&amp;gt; 一部分异常用户用国外IP&lt;/p&gt;
-&lt;p&gt;--&amp;gt; 一部分异常用户的特征是国内变动IP，且每个IP访问流量巨大&lt;/p&gt;
-&lt;p&gt;对于国外IP，我用了以带宽计费的网宿。&lt;/p&gt;
-&lt;p&gt;对于国内的IP，我一开始觉得是爬虫的问题。刚好阿里云在公测CDN频次控制功能。就顺便加入了他们的群公（吐）测（槽）一把。&lt;/p&gt;
-&lt;h3&gt;外部原因&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/super-B/3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;在不改任何代码的情况下，治疗爬虫的办法就是封IP。于是我从网宿和阿里云那边找了那些比较贱的IP，然后加以封禁。&lt;/p&gt;
-&lt;p&gt;但这里面有个蛋疼的地方在于，即便开通了CDN频次控制以及封禁IPV4，这种做法也是治标不治本。&lt;/p&gt;
-&lt;p&gt;全国多地ping被攻击域名，得到一个阿里云CDN节点的IP列表，然后循环依次请求。
-假设循环50次，那么一个IPV4就能放大成50倍的请求次数。&lt;/p&gt;
-&lt;p&gt;阿里云CDN对每个域名，最多只能屏蔽100个IP。目前CDN频次控制单节点检测也不管用。如果用IP池，kubernetes僵尸网络，QPS可以控制到更低。&lt;/p&gt;
-&lt;p&gt;腾讯云是增加了一个全国范围的流量限制，超过了返回404。但是这个不是封ip，会让所有人都访问不了。&lt;/p&gt;
-&lt;p&gt;如果更倒霉，遇到 &lt;code&gt;challenge collapsar&lt;/code&gt;，那就准备给阿里云送钱吧。&lt;/p&gt;
-&lt;h3&gt;内部原因&lt;/h3&gt;
-&lt;p&gt;在排查问题过程中，我发现了一个本不该出现的IP。&lt;/p&gt;
-&lt;p&gt;那个IP是阿里云VPC下的一个SNAT网关IP。这个IP的出现，只会说明一个问题：
-&lt;strong&gt;kubernetes 内部容器通过公网访问OSS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;2018年09月04日 03时02分24秒&lt;/code&gt; ，我在公司内部文档是这么写的：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/super-B/4.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;So,怪我文档写的不仔细咯？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/super-B/5.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;h2&gt;How&lt;/h2&gt;
-&lt;p&gt;在不改代码的前提下，解决方案有：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;建一个中转的&lt;code&gt;Nginx&lt;/code&gt;源站，回源OSS。对外返回 Brotli 编码的图片。&lt;/li&gt;
-&lt;li&gt;使用&lt;strong&gt;内网域名&lt;/strong&gt;读写OSS。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;有条件改代码的话使用
-&lt;a href=&#34;https://help.aliyun.com/document_detail/85117.html&#34;&gt;URL鉴权&lt;/a&gt;
-。&lt;/p&gt;
-&lt;h2&gt;其他费用&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;CDN&lt;/code&gt;是边缘计算。如果某个CDN节点上没有资源的副本，那么该节点就会回源，从而产生回源流量。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/image/post/super-B/6.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;也就是说，如果在阿里云内部用公网回源OSS,一次请求有可能产生三种费用。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;CDN流量费用&lt;/li&gt;
-&lt;li&gt;OSS下行流量费用&lt;/li&gt;
-&lt;li&gt;CDN HTTPS请求数计费&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;网宿，请你争气一点&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;好好的一家公司，不推进项目，不投入研发，大股东整天想着减持，管理层变着名目和花样想把几个亿理财资金弄到自己腰包里，不思进取，气死沉沉，让股价一跌再跌，就问网宿，你怎么对得起，一直支持你的股民！！！&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;引用网友的评论，结合自身的实际用户体验，我希望网宿别那么快倒闭。&lt;/p&gt;
-&lt;h2&gt;结论&lt;/h2&gt;
-&lt;p&gt;中国商用带宽的流量费用过高。&lt;/p&gt;
-&lt;h2&gt;参考链接&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.aliyun.com/document_detail/59636.html&#34;&gt;计量项和计费项&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.mbalib.com/zh-tw/5W1H%E5%88%86%E6%9E%90%E6%B3%95&#34;&gt;5W1H分析法&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://connect.console.aliyun.com/connect/detail/144802&#34;&gt;阿里云CDN费用过高&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content>
   </entry>
   <entry>
     <title>The Seed Of Robot —— Intelligent API Gateway</title>
