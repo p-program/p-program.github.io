@@ -1,3 +1,3 @@
-# www.bullshitprogram.com
+# https://www.bullshitprogram.com
 
-Thanks to github action, this project can rest in peace.
+Thanks to [github action](https://github.com/p-program/readme/actions), this project can rest in peace.
