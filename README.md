@@ -1,3 +1,3 @@
-# p-program.github.io
+# www.bullshitprogram.com
 
-  All CODE guidelines are bullshit.
+Thanks to github action, this project can rest in peace.
